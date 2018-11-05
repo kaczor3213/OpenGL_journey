@@ -1,5 +1,4 @@
-﻿  glad.c
-  Source.cpp
+﻿  Source.cpp
 f:\studies\cpp\opengl_journey\opengl_triangles_object\opengl_triangles_object\vertex.hpp(23): warning C4244: 'argument': conversion from 'const double' to 'const float', possible loss of data
 f:\studies\cpp\opengl_journey\opengl_triangles_object\opengl_triangles_object\vertex.hpp(25): warning C4244: 'argument': conversion from 'const double' to 'const _Ty', possible loss of data
           with
@@ -59,8 +58,8 @@ f:\studies\cpp\opengl_journey\opengl_triangles_object\opengl_triangles_object\co
               _Ty=float
           ]
   Generating code
-  272 of 279 functions (97.5%) were compiled, the rest were copied from previous compilation.
-    10 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  141 of 262 functions (53.8%) were compiled, the rest were copied from previous compilation.
+    73 functions were new in current compilation
+    23 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   OPENGL_triangles_object.vcxproj -> F:\STUDIES\CPP\OpenGL_journey\OPENGL_triangles_object\Release\OPENGL_triangles_object.exe

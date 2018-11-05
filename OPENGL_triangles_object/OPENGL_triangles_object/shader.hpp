@@ -3,7 +3,7 @@
 
 #include <fstream>
 #include <string>
-#include "color.hpp"
+#include <sstream>
 
 //file streaming
 
@@ -19,7 +19,7 @@ private:
 public:
 	void run();
 	shader() {}
-	shader(color _color);
+	shader(const std::string vertexpath, const std::string fragmentpath);
 	shader(const shader &other);
 	shader& operator=(const shader &other);
 	shader(shader &&other) noexcept;

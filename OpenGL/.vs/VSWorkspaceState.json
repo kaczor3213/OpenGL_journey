@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\common",
+    "\\common\\headers",
+    "\\common\\src",
+    "\\external",
+    "\\OpenGL"
+  ],
+  "SelectedNode": "\\OpenGL\\OpenGL.cpp",
+  "PreviewInSolutionExplorer": false
+}

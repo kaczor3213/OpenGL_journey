@@ -7,11 +7,16 @@ cmake_minimum_required (VERSION 3.8)
 add_executable(OpenGL
 	OpenGL.cpp
 	OpenGL.hpp
-	../common/shader.hpp
-	../common/point.hpp
-	../common/color.hpp
-	../common/vertex.hpp
-	../common/vertices.hpp
+	../common/headers/shader.hpp
+	../common/headers/point.hpp
+	../common/headers/color.hpp
+	../common/headers/vertex.hpp
+	../common/headers/vertices.hpp
+	../common/src/shader.cpp
+	../common/src/point.cpp
+	../common/src/color.cpp
+	../common/src/vertex.cpp
+	../common/src/vertices.cpp
 )
 
 # TODO: Add tests and install targets if needed.

@@ -12,9 +12,6 @@ float **parse_to_glsl(std::vector<point> &vertices)
 
 	for (int i = 0; i < vertices.size() + 1; i++)
 	{
-
-		if (true) std::cout << "test";
-		else std::cout << "not";
 		for (int j = 0; j < 7; j++)
 		{
 			if (j < 4)

@@ -1,0 +1,25 @@
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\STUDIES\CPP\OpenGL_journey
+CMake Error at OpenGL_triangle/CMakeLists.txt:27 (target_include_directories):
+  Cannot specify include directories for target "OpenGL_triangle" which is
+  not built by this project.
+
+
+CMake Error at OpenGL_triangle/CMakeLists.txt:31 (add_executable):
+  add_executable cannot create target "OpenGL_triangle" because another
+  target with the same name already exists.  The existing target is a shared
+  library created in source directory
+  "F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle".  See documentation for
+  policy CMP0002 for more details.
+
+
+CMake Error at OpenGL_triangle/CMakeLists.txt:54 (target_include_directories):
+  target_include_directories called with incorrect number of arguments
+
+
+CMake Error at OpenGL_triangle/CMakeLists.txt:56 (target_link_libraries):
+  Cannot specify link libraries for target "opengl32" which is not built by
+  this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeOutput.log".

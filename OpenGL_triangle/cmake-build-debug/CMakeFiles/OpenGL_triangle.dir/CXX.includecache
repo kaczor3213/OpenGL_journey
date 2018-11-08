@@ -16,11 +16,19 @@ string
 algorithm
 -
 
+../../common/include/opengl.hpp
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+glm.hpp
+-
+
 ../../common/include/point.hpp
 vertex.hpp
-../../common/include/vertex.hpp
+-
 color.hpp
-../../common/include/color.hpp
+-
 
 ../../common/include/shader.hpp
 fstream
@@ -31,9 +39,7 @@ sstream
 -
 algorithm
 -
-GLFW/glfw3.h
--
-glm.hpp
+opengl.hpp
 -
 
 ../../common/include/vertex.hpp
@@ -47,14 +53,8 @@ point.hpp
 F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/main.cpp
 iostream
 -
-glad/glad.h
--
-GLFW/glfw3.h
--
-glm.hpp
--
 vertices.hpp
-F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/vertices.hpp
+-
 shader.hpp
-F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/shader.hpp
+-
 

@@ -10,6 +10,7 @@ set(SRC
         include/color.hpp
         include/vertex.hpp
         include/vertices.hpp
+        include/opengl.hpp
         src/color.cpp
         src/point.cpp
         src/shader.cpp

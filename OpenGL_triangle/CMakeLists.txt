@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SRC main.cpp glad.c)
+set(SRC main.cpp ../common/include/opengl.hpp)
 set(COMMON_LIB "OpenGLCommon")
 
 include_directories(

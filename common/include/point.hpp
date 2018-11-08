@@ -1,8 +1,8 @@
 #ifndef POINT_HPP
 #define POINT_HPP
 
-#include "vertex.hpp"
-#include "color.hpp"
+#include <vertex.hpp>
+#include <color.hpp>
 
 class point : public vertex
 {

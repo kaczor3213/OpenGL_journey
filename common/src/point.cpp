@@ -1,4 +1,4 @@
-#include "../include/point.hpp"
+#include <point.hpp>
 
 point::point() : _color(COLOR_WHITE) {}
 

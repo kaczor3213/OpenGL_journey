@@ -1,4 +1,4 @@
-#include "../include/color.hpp"
+#include <color.hpp>
 
 color::color(const unsigned &RED,
 	const unsigned &GREEN,

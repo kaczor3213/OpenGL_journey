@@ -5,8 +5,7 @@
 #include <string>
 #include <sstream>
 #include <algorithm>
-#include <GLFW/glfw3.h>
-#include <glm.hpp>
+#include <opengl.hpp>
 
 class shader
 {

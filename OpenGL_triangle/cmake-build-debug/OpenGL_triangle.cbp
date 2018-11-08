@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/glad.c">
+		<Unit filename="F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/main.cpp">
 			<Option target="OpenGL_triangle"/>
 		</Unit>
-		<Unit filename="F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/main.cpp">
+		<Unit filename="F:/STUDIES/CPP/OpenGL_journey/common/include/opengl.hpp">
 			<Option target="OpenGL_triangle"/>
 		</Unit>
 		<Unit filename="F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/CMakeLists.txt">

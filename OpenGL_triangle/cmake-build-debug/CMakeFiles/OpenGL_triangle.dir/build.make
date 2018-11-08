@@ -56,81 +56,49 @@ include CMakeFiles/OpenGL_triangle.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGL_triangle.dir/flags.make
 
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj: CMakeFiles/OpenGL_triangle.dir/flags.make
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj: CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj: F:/STUDIES/CPP/OpenGL_journey/common/src/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\color.cpp.obj -c F:\STUDIES\CPP\OpenGL_journey\common\src\color.cpp
+CMakeFiles/OpenGL_triangle.dir/main.cpp.obj: CMakeFiles/OpenGL_triangle.dir/flags.make
+CMakeFiles/OpenGL_triangle.dir/main.cpp.obj: CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp
+CMakeFiles/OpenGL_triangle.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL_triangle.dir/main.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGL_triangle.dir\main.cpp.obj -c F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\main.cpp
 
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\common\src\color.cpp > CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\color.cpp.i
+CMakeFiles/OpenGL_triangle.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_triangle.dir/main.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\main.cpp > CMakeFiles\OpenGL_triangle.dir\main.cpp.i
 
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\STUDIES\CPP\OpenGL_journey\common\src\color.cpp -o CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\color.cpp.s
+CMakeFiles/OpenGL_triangle.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_triangle.dir/main.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\main.cpp -o CMakeFiles\OpenGL_triangle.dir\main.cpp.s
 
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj: CMakeFiles/OpenGL_triangle.dir/flags.make
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj: CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj: F:/STUDIES/CPP/OpenGL_journey/common/src/point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\point.cpp.obj -c F:\STUDIES\CPP\OpenGL_journey\common\src\point.cpp
+CMakeFiles/OpenGL_triangle.dir/glad.c.obj: CMakeFiles/OpenGL_triangle.dir/flags.make
+CMakeFiles/OpenGL_triangle.dir/glad.c.obj: CMakeFiles/OpenGL_triangle.dir/includes_C.rsp
+CMakeFiles/OpenGL_triangle.dir/glad.c.obj: ../glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenGL_triangle.dir/glad.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OpenGL_triangle.dir\glad.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\glad.c
 
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\common\src\point.cpp > CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\point.cpp.i
+CMakeFiles/OpenGL_triangle.dir/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenGL_triangle.dir/glad.c.i"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\glad.c > CMakeFiles\OpenGL_triangle.dir\glad.c.i
 
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\STUDIES\CPP\OpenGL_journey\common\src\point.cpp -o CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\point.cpp.s
-
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj: CMakeFiles/OpenGL_triangle.dir/flags.make
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj: CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj: F:/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp.obj -c F:\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp
-
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp > CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp.i
-
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp -o CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp.s
-
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj: CMakeFiles/OpenGL_triangle.dir/flags.make
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj: CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj: F:/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp.obj -c F:\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp
-
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp > CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp.i
-
-CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp -o CMakeFiles\OpenGL_triangle.dir\F_\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp.s
+CMakeFiles/OpenGL_triangle.dir/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenGL_triangle.dir/glad.c.s"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\glad.c -o CMakeFiles\OpenGL_triangle.dir\glad.c.s
 
 # Object files for target OpenGL_triangle
 OpenGL_triangle_OBJECTS = \
-"CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj" \
-"CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj" \
-"CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj" \
-"CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj"
+"CMakeFiles/OpenGL_triangle.dir/main.cpp.obj" \
+"CMakeFiles/OpenGL_triangle.dir/glad.c.obj"
 
 # External object files for target OpenGL_triangle
 OpenGL_triangle_EXTERNAL_OBJECTS =
 
-OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj
-OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj
-OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj
-OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj
+OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/main.cpp.obj
+OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/glad.c.obj
 OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/build.make
 OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/linklibs.rsp
 OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/objects1.rsp
 OpenGL_triangle.exe: CMakeFiles/OpenGL_triangle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable OpenGL_triangle.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGL_triangle.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenGL_triangle.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -122,113 +122,59 @@ OpenGL_triangle/fast:
 	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/build
 .PHONY : OpenGL_triangle/fast
 
-F_/STUDIES/CPP/OpenGL_journey/common/src/color.obj: F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj
+glad.obj: glad.c.obj
 
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/color.obj
-
-# target to build an object file
-F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj
-
-F_/STUDIES/CPP/OpenGL_journey/common/src/color.i: F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.i
-
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/color.i
-
-# target to preprocess a source file
-F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.i:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.i
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.i
-
-F_/STUDIES/CPP/OpenGL_journey/common/src/color.s: F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.s
-
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/color.s
-
-# target to generate assembly for a file
-F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.s:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.s
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.s
-
-F_/STUDIES/CPP/OpenGL_journey/common/src/point.obj: F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj
-
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/point.obj
+.PHONY : glad.obj
 
 # target to build an object file
-F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj
+glad.c.obj:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/glad.c.obj
+.PHONY : glad.c.obj
 
-F_/STUDIES/CPP/OpenGL_journey/common/src/point.i: F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.i
+glad.i: glad.c.i
 
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/point.i
+.PHONY : glad.i
 
 # target to preprocess a source file
-F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.i:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.i
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.i
+glad.c.i:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/glad.c.i
+.PHONY : glad.c.i
 
-F_/STUDIES/CPP/OpenGL_journey/common/src/point.s: F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.s
+glad.s: glad.c.s
 
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/point.s
+.PHONY : glad.s
 
 # target to generate assembly for a file
-F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.s:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.s
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.s
+glad.c.s:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/glad.c.s
+.PHONY : glad.c.s
 
-F_/STUDIES/CPP/OpenGL_journey/common/src/shader.obj: F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/shader.obj
+.PHONY : main.obj
 
 # target to build an object file
-F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.obj
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-F_/STUDIES/CPP/OpenGL_journey/common/src/shader.i: F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.i
+main.i: main.cpp.i
 
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/shader.i
-
-# target to preprocess a source file
-F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.i:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.i
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.i
-
-F_/STUDIES/CPP/OpenGL_journey/common/src/shader.s: F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.s
-
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/shader.s
-
-# target to generate assembly for a file
-F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.s:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.s
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/shader.cpp.s
-
-F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.obj: F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj
-
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.obj
-
-# target to build an object file
-F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj
-
-F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.i: F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.i
-
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.i
+.PHONY : main.i
 
 # target to preprocess a source file
-F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.i:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.i
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.s: F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.s
+main.s: main.cpp.s
 
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.s:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.s
-.PHONY : F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -239,18 +185,12 @@ help:
 	@echo ... OpenGL_triangle
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/color.obj
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/color.i
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/color.s
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/point.obj
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/point.i
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/point.s
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/shader.obj
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/shader.i
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/shader.s
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.obj
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.i
-	@echo ... F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.s
+	@echo ... glad.obj
+	@echo ... glad.i
+	@echo ... glad.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

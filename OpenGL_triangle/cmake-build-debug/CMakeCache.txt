@@ -152,6 +152,21 @@ CMAKE_OBJDUMP:FILEPATH=C:/TDM-GCC-64/bin/objdump.exe
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=OpenGL_triangle
 
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=1.0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
+
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/TDM-GCC-64/bin/ranlib.exe
 

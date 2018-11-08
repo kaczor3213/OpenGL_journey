@@ -1,5 +1,6 @@
 #include "../include/shader.hpp"
 
+
 shader::shader(const std::string &vertexpath, const std::string &fragmentpath)
 {
 	std::fstream vertexfile(vertexpath, std::fstream::in);

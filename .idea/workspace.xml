@@ -2,167 +2,167 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="OpenGL_journey" targetName="OpenGL_common" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_integer" />
-      <config projectName="OpenGL_journey" targetName="test-core_cpp_defaulted_ctor" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_spline" />
-      <config projectName="OpenGL_journey" targetName="test-gtx" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_easing" />
-      <config projectName="OpenGL_journey" targetName="glm_static" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_fast_exponential" />
-      <config projectName="OpenGL_journey" targetName="test-ext_matrix_transform" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_fast_trigonometry" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_integer_bit_count" />
-      <config projectName="OpenGL_journey" targetName="test-perf_matrix_mul_vector" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_operation" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat3x2" />
-      <config projectName="OpenGL_journey" targetName="test-ext_scalar_uint_sized" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_round" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_type_trait" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat3x3" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat3x4" />
-      <config projectName="OpenGL_journey" targetName="test-core_setup_platform_unknown" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_texture" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_extended_min_max" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_color_encoding" />
-      <config projectName="OpenGL_journey" targetName="libglewmx_shared" />
-      <config projectName="OpenGL_journey" targetName="test-core_force_xyzw_only" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_packing" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_swizzle" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_vec_swizzle" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_type_precision" />
-      <config projectName="OpenGL_journey" targetName="test-perf_vector_mul_matrix" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_rotate_vector" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_closest_point" />
-      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_relational" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_load" />
-      <config projectName="OpenGL_journey" targetName="test-ext_scalar_relational" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_factorisation" />
-      <config projectName="OpenGL_journey" targetName="test-core_setup_message" />
-      <config projectName="OpenGL_journey" targetName="test-ext_vector_iec559" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_exponential" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_query" />
-      <config projectName="OpenGL_journey" targetName="test-ext_vec1" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_integer_find_msb" />
-      <config projectName="OpenGL_journey" targetName="test-core_setup_force_cxx98" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_cross_product" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_matrix_access" />
-      <config projectName="OpenGL_journey" targetName="test-core_force_unrestricted_gentype" />
-      <config projectName="OpenGL_journey" targetName="test-perf_matrix_transpose" />
-      <config projectName="OpenGL_journey" targetName="test-core_force_pure" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_color_space_YCoCg" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_matrix_transform" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_packing" />
-      <config projectName="OpenGL_journey" targetName="test-perf_matrix_inverse" />
-      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_exponential" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_transform_2d" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_wrap" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_associated_min_max" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_vec1" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat4x2" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat4x3" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_string_cast" />
-      <config projectName="OpenGL_journey" targetName="test-core_cpp_constexpr" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_normalize_dot" />
-      <config projectName="OpenGL_journey" targetName="test-ext_vector_bool1" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_bitfield" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_reciprocal" />
-      <config projectName="OpenGL_journey" targetName="test-core_force_explicit_ctor" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat4x4" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_color_space" />
-      <config projectName="OpenGL_journey" targetName="OpenGL_triangle" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_scalar_relational" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_dual_quaternion" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_handed_coordinate_space" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_scalar_multiplication" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_epsilon" />
-      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_geometric" />
-      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_transform" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_range" />
-      <config projectName="OpenGL_journey" targetName="glm_shared" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_constants" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_integer_find_lsb" />
-      <config projectName="OpenGL_journey" targetName="test-ext_scalar_common" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_interpolation" />
-      <config projectName="OpenGL_journey" targetName="libglew_shared" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_optimum_pow" />
-      <config projectName="OpenGL_journey" targetName="test-ext_scalar_constants" />
-      <config projectName="OpenGL_journey" targetName="test-ext_vector_relational" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_integer" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_exterior_product" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_intersect" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_projection" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_noise" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_vec1" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_vec2" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_extend" />
       <config projectName="OpenGL_journey" targetName="test-core_setup_force_size_t_length" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_orthonormalize" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_aligned" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_log_base" />
-      <config projectName="OpenGL_journey" targetName="test-ext_scalar_float_sized" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_matrix_inverse" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_common" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_quaternion" />
-      <config projectName="OpenGL_journey" targetName="test-ext_matrix_relational" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_ulp" />
-      <config projectName="OpenGL_journey" targetName="test-ext_scalar_int_sized" />
-      <config projectName="OpenGL_journey" targetName="test-bug_ms_vec_static" />
-      <config projectName="OpenGL_journey" targetName="test-core_force_ctor_init" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_cast" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_major_storage" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_decompose" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_polar_coordinates" />
-      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_common" />
+      <config projectName="OpenGL_journey" targetName="test-ext_vector_common" />
+      <config projectName="OpenGL_journey" targetName="test-gtx" />
+      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_trigonometric" />
+      <config projectName="OpenGL_journey" targetName="glm_static" />
+      <config projectName="OpenGL_journey" targetName="test-core_setup_platform_unknown" />
       <config projectName="OpenGL_journey" targetName="test-perf_matrix_mul" />
-      <config projectName="OpenGL_journey" targetName="libglewmx_static" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_interpolation" />
+      <config projectName="OpenGL_journey" targetName="test-ext_scalar_constants" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_type_trait" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_int" />
+      <config projectName="OpenGL_journey" targetName="test-core_setup_precision" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_packing" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_matrix_inverse" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_vec1" />
+      <config projectName="OpenGL_journey" targetName="test-ext_matrix_transform" />
+      <config projectName="OpenGL_journey" targetName="test-ext_vector_iec559" />
+      <config projectName="OpenGL_journey" targetName="test-core_force_pure" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_texture" />
+      <config projectName="OpenGL_journey" targetName="test-ext_scalar_relational" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_matrix_access" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_functions" />
+      <config projectName="OpenGL_journey" targetName="libglewmx_shared" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_intersect" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_load" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_decompose" />
+      <config projectName="OpenGL_journey" targetName="uninstall" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_ctor" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_length" />
+      <config projectName="OpenGL_journey" targetName="test-perf_matrix_inverse" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_integer" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_orthonormalize" />
       <config projectName="OpenGL_journey" targetName="libglew_static" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_geometric" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_color_space" />
+      <config projectName="OpenGL_journey" targetName="test-core_cpp_defaulted_ctor" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_cast" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_quaternion" />
+      <config projectName="OpenGL_journey" targetName="test-core_cpp_constexpr" />
+      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_exponential" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_factorisation" />
+      <config projectName="OpenGL_journey" targetName="OpenGL_common" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_round" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_integer" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_cross_product" />
+      <config projectName="OpenGL_journey" targetName="test-core_setup_force_cxx98" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat2x4" />
+      <config projectName="OpenGL_journey" targetName="test-core_force_xyzw_only" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_component_wise" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_exterior_product" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat2x3" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat2x2" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_scalar_relational" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_color_encoding" />
+      <config projectName="OpenGL_journey" targetName="glfw" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_log_base" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_common" />
+      <config projectName="OpenGL_journey" targetName="glm_shared" />
+      <config projectName="OpenGL_journey" targetName="test-ext_matrix_relational" />
+      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_transform" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_transform_2d" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_polar_coordinates" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_ulp" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_wrap" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat3x3" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat3x2" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_matrix" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_vec_swizzle" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_vector_relational" />
+      <config projectName="OpenGL_journey" targetName="test-ext_scalar_float_sized" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_handed_coordinate_space" />
+      <config projectName="OpenGL_journey" targetName="test-core_force_unrestricted_gentype" />
+      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_geometric" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_common" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_reciprocal" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_swizzle" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_projection" />
+      <config projectName="OpenGL_journey" targetName="test-ext_scalar_common" />
+      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_type" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_constants" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_color_space" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_integer_find_lsb" />
+      <config projectName="OpenGL_journey" targetName="test-bug_ms_vec_static" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat4x3" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat4x2" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_vector_query" />
+      <config projectName="OpenGL_journey" targetName="test-ext_vector_bool1" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_vec4" />
+      <config projectName="OpenGL_journey" targetName="libglew_shared" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_type_aligned" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_packing" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_euler_angle" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_fast_square_root" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_trigonometric" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_norm" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_perpendicular" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_easing" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat3x4" />
+      <config projectName="OpenGL_journey" targetName="test-core_force_explicit_ctor" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_random" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_mat4x4" />
+      <config projectName="OpenGL_journey" targetName="test-core_force_aligned_gentypes" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_integer_find_msb" />
+      <config projectName="OpenGL_journey" targetName="test-ext_scalar_uint_sized" />
+      <config projectName="OpenGL_journey" targetName="OpenGL_triangle" />
+      <config projectName="OpenGL_journey" targetName="test-core_force_ctor_init" />
+      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_relational" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_associated_min_max" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_rotate_normalized_axis" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_quaternion" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_closest_point" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_exponential" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_integer_bit_count" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_type_ptr" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_epsilon" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_string_cast" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_rotate_vector" />
+      <config projectName="OpenGL_journey" targetName="test-perf_matrix_div" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_dual_quaternion" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_normal" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_operation" />
+      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_common" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_optimum_pow" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_extended_min_max" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_number_precision" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_range" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_compatibility" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_major_storage" />
+      <config projectName="OpenGL_journey" targetName="test-ext_vec1" />
+      <config projectName="OpenGL_journey" targetName="test-perf_matrix_transpose" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_scalar_multiplication" />
+      <config projectName="OpenGL_journey" targetName="test-core_setup_message" />
+      <config projectName="OpenGL_journey" targetName="test-ext_scalar_int_sized" />
+      <config projectName="OpenGL_journey" targetName="test-perf_vector_mul_matrix" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_type_precision" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_io" />
       <config projectName="OpenGL_journey" targetName="test-ext_vector_integer" />
       <config projectName="OpenGL_journey" targetName="test-gtx_vector_angle" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_type_ptr" />
-      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_trigonometric" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_common" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_noise" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_length" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_extend" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_trigonometric" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_rotate_normalized_axis" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_vector_query" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_vec4" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_gradient_paint" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_integer" />
+      <config projectName="OpenGL_journey" targetName="test-perf_matrix_mul_vector" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_normalize_dot" />
+      <config projectName="OpenGL_journey" targetName="libglewmx_static" />
       <config projectName="OpenGL_journey" targetName="test-gtx_type_aligned" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_quaternion" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_io" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_euler_angle" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_ctor" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_matrix" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_functions" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat2x2" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat2x3" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_fast_square_root" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_mat2x4" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_color_space" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_vec3" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_vec2" />
-      <config projectName="OpenGL_journey" targetName="uninstall" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_vec1" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_perpendicular" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_matrix_integer" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_random" />
-      <config projectName="OpenGL_journey" targetName="glfw" />
-      <config projectName="OpenGL_journey" targetName="test-perf_matrix_div" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_normal" />
+      <config projectName="OpenGL_journey" targetName="test-ext_vector_relational" />
       <config projectName="OpenGL_journey" targetName="test-core_force_inline" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_integer" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_compatibility" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_number_precision" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_norm" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_noise" />
-      <config projectName="OpenGL_journey" targetName="test-core_setup_precision" />
-      <config projectName="OpenGL_journey" targetName="test-gtx_component_wise" />
-      <config projectName="OpenGL_journey" targetName="test-core_force_aligned_gentypes" />
-      <config projectName="OpenGL_journey" targetName="test-core_func_vector_relational" />
-      <config projectName="OpenGL_journey" targetName="test-ext_vector_common" />
-      <config projectName="OpenGL_journey" targetName="test-gtc_type_aligned" />
-      <config projectName="OpenGL_journey" targetName="test-core_type_int" />
-      <config projectName="OpenGL_journey" targetName="test-ext_quaternion_type" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_spline" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_color_space_YCoCg" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_noise" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_aligned" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_bitfield" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_fast_trigonometry" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_matrix_transform" />
+      <config projectName="OpenGL_journey" targetName="test-core_func_geometric" />
+      <config projectName="OpenGL_journey" targetName="test-gtc_matrix_integer" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_matrix_query" />
+      <config projectName="OpenGL_journey" targetName="test-core_type_vec3" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_fast_exponential" />
+      <config projectName="OpenGL_journey" targetName="test-gtx_gradient_paint" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -172,356 +172,325 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3035a338-02a8-49a7-96a9-7371e6011461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenGL_triangle/glad.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/filter_gl_ext.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/filter_gles_ext.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/filter_spec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_def_fun.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_def_var.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_enable_index.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_header.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_html.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_index.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_info.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_info_list.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_init.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_initd.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_list.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_list2.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_str.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_struct_fun.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_struct_var.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/parse_spec.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/parse_xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/update_ext.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/blacklist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_EXT_device_base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_KHR_fence_sync" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_KHR_image_base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_KHR_lock_surface3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_AMD_gpu_association" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_ARB_context_flush_control" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_ARB_get_proc_address" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_ATI_pixel_format_float" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_ATI_render_texture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_EXT_create_context_es2_profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_EXT_create_context_es_profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_EXT_fbconfig_packed_float" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_EXT_framebuffer_sRGB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_MESA_swap_control" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_NV_float_buffer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_NV_vertex_array_range" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGIS_shared_multisample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGIX_hyperpipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGIX_swap_barrier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGIX_swap_group" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGI_video_sync" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SUN_video_resize" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_VERSION_1_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_VERSION_1_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_VERSION_1_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_APPLE_float_pixels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_APPLE_pixel_buffer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_APPLE_texture_range" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_draw_instanced" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_imaging" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_instanced_arrays" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_internalformat_query2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_matrix_palette" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_multitexture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_robustness" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_separate_shader_objects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_vertex_attrib_64bit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_vertex_blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATIX_point_sprites" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATIX_texture_env_combine3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATIX_texture_env_route" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATIX_vertex_shader_output_point_size" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_envmap_bumpmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_map_object_buffer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_pn_triangles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_separate_stencil" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_shader_texture_lod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_texture_compression_3dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_vertex_streams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_Cg_shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_bindable_uniform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_debug_marker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_depth_bounds_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_draw_instanced" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_draw_range_elements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_external_buffer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_fog_coord" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_framebuffer_sRGB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_geometry_shader4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_gpu_program_parameters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_gpu_shader4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_memory_object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_memory_object_fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_memory_object_win32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_packed_float" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_pixel_buffer_object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_secondary_color" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_semaphore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_semaphore_fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_semaphore_win32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_array" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_buffer_object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_compression_latc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_compression_rgtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_cube_map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_edge_clamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_integer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_rectangle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_shared_exponent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_timer_query" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_vertex_shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_KHR_context_flush_control" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_KTX_buffer_region" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NVX_gpu_memory_info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_depth_buffer_float" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_depth_range_unclamped" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_fragment_program2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_fragment_program4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_fragment_program_option" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_framebuffer_multisample_coverage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_geometry_program4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_geometry_shader4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_gpu_program4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_gpu_program5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_parameter_buffer_object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_present_video" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_sample_locations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_tessellation_program5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_transform_feedback" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_vdpau_interop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_vertex_program2_option" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_vertex_program3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_vertex_program4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_SGIX_shadow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_SUN_read_video_pixels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_2_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_2_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_2_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_3_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_3_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_3_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_3_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_WIN_swap_hint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_ARB_context_flush_control" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_ARB_create_context" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_ATI_render_texture_rectangle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_EXT_create_context_es2_profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_EXT_create_context_es_profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_EXT_framebuffer_sRGB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_EXT_pixel_format_packed_float" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_NV_gpu_affinity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_NV_vertex_array_range" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/custom.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/credits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/install.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/eglew_head.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/eglew_mid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/eglew_tail.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_head.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_head.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_egl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_gl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_glx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_tail.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_wgl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_license.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_egl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_glx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_head.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_tail.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_wgl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_tail.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_egl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_gl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_glx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_head.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_tail.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_wgl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glxew_head.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glxew_mid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glxew_tail.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/khronos_license.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/mesa_license.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/visualinfo.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/wglew_head.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/wglew_mid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/wglew_tail.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/CopyImportedTargetProperties.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/cmake_uninstall.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/glew-config.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/testbuild/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/testbuild/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/common.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/glew.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/glew_shared.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/glew_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/glewinfo.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/visualinfo.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/common.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/glew.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/glew_shared.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/glew_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/glewinfo.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/visualinfo.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/common.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/glew.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/glew_shared.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/glew_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/glewinfo.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/visualinfo.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/common.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/glew.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/glew_shared.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/glew_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/glewinfo.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/visualinfo.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/glew.dsw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/glew_shared.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/glew_static.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/glewinfo.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/visualinfo.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/cmake-testbuild.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.cygming" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.cygwin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.cygwin-x11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin-gcc6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin-ppc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin-universal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin-x86_64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.fedora-mingw32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.freebsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.gnu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.haiku" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.irix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.kfreebsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-clang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-clang-egl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-egl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-mingw32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-mingw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-osmesa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.mingw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.mingw-win32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.msys" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.msys-win32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.msys-win64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.nacl-32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.nacl-64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.netbsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.openbsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.solaris" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.solaris-gcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/config.guess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/glew.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/maintain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/.appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/cmake_uninstall.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/cocoa_init.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/cocoa_joystick.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/cocoa_joystick.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/cocoa_monitor.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/context.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/glfw_config.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/glx_context.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/glx_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/monitor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/null_init.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/null_platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/posix_thread.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/posix_time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/vulkan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/win32_joystick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/win32_joystick.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/win32_window.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/wl_init.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/wl_monitor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/x11_monitor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/x11_window.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/xkb_unicode.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/xkb_unicode.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/includes_C.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/includes_C.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/linklibs.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/OpenGL_triangle.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/OpenGL_triangle.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/OpenGL_triangle.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/include/color.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/include/color.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/include/opengl.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/include/opengl.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/point.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/shader.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/bin/Release/Win32/glew32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/bin/Release/Win32/glewinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/bin/Release/Win32/visualinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/bin/Release/x64/glew32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/bin/Release/x64/glewinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/bin/Release/x64/visualinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/advanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/build.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/credits.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/glew.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/glew.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/glew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/glew.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/glxew.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/gpl.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/install.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/khronos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/mesa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/ogl_sm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/travis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/doc/wglew.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/include/GL/eglew.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/include/GL/glew.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/include/GL/glxew.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/include/GL/wglew.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/lib/Release/Win32/glew32.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/lib/Release/Win32/glew32s.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/lib/Release/x64/glew32.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glew-2.1.0/lib/Release/x64/glew32s.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/COPYING.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/annotated.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/arrowdown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/arrowright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/bc_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/bdwn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/bug.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/build_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/build_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/closed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/compat_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/compat_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/compile_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/compile_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/context_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/context_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/dir_1f12d41534b9d9c99a183e145b58d6f3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/dir_351f617146de9499414a6c099ebbe0ca.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/dir_4bcf8e981abe5adb811ce4f57d70c9af.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/doxygen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/doxygen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/dynsections.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/extra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/files.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/folderclosed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/folderopen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/functions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/functions_vars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/glfw3_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/glfw3_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/glfw3native_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/glfw3native_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_g.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_i.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_j.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_k.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_l.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_m.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_n.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_o.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_p.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_r.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_s.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_t.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_defs_v.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_func.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_g.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_i.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_j.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_k.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_l.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_m.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_n.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_o.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_p.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_r.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_s.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_t.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_type.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_v.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/globals_w.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__context.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__errors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__init.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__input.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__joysticks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__keys.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__mods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__monitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__native.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__shapes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__vulkan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/group__window.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/input_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/input_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/intro_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/intro_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/main_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/modules.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/monitor_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/monitor_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/moving_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/moving_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/nav_f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/nav_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/nav_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/news_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/pages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/quick_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/quick_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/all_f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/classes_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/classes_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/defines_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/defines_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/files_8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/functions_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/functions_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/groups_9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/mag_sel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/nomatches.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/pages_8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/search_l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/search_m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/search_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/searchdata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/typedefs_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/typedefs_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/search/variables_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/spaces.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/splitbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/structGLFWgammaramp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/structGLFWimage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/structGLFWvidmode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/sync_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/sync_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/tab_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/tab_b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/tab_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/tab_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/vulkan_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/vulkan_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/window_8dox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/docs/html/window_guide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/include/GLFW/glfw3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/include/GLFW/glfw3native.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-mingw-w64/glfw3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-mingw-w64/libglfw3.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-mingw-w64/libglfw3dll.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-mingw/glfw3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-mingw/libglfw3.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-mingw/libglfw3dll.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2010/glfw3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2010/glfw3.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2010/glfw3dll.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2012/glfw3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2012/glfw3.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2012/glfw3dll.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2013/glfw3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2013/glfw3.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2013/glfw3dll.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2015/glfw3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2015/glfw3.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/glfw-3.2.1.bin.WIN32/lib-vc2015/glfw3dll.lib" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -534,17 +503,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
     <session id="-579887205">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -589,7 +559,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OpenGL_triangle/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
@@ -598,11 +568,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OpenGL_triangle/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+                <state relative-caret-position="119">
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
                   </folding>
@@ -610,33 +580,15 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/external/glfw-master/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/common/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -705,6 +657,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OpenGL_triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenGL_journey" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -744,17 +707,6 @@
               <item name="OpenGL_journey" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="OpenGL_triangle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OpenGL_triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenGL_journey" type="47feb1d3:ProjectViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -1781,6 +1733,7 @@
       <workItem from="1541664283790" duration="7003000" />
       <workItem from="1541781141185" duration="3641000" />
       <workItem from="1541785733324" duration="7638000" />
+      <workItem from="1541795038795" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="fixed library include">
       <created>1541669903386</created>
@@ -1793,7 +1746,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30652000" />
+    <option name="totallyTimeSpent" value="31045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1809,13 +1762,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1881663" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19029851" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.2962578" />
+      <window_info active="true" anchor="bottom" id="Messages" order="4" sideWeight="0.49946696" visible="true" weight="0.2962578" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Run" order="7" />
@@ -1879,7 +1832,6 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenGL_triangle/glad.c" />
     <entry file="file://$PROJECT_DIR$/common/src/vertex.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1903,9 +1855,7 @@
     <entry file="file://$PROJECT_DIR$/external/glew-2.1.0/glew.pc.in">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/external/glfw-3.2.1/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/external/glfw-3.2.1/src/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/external/glm/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1954,16 +1904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#39#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/shader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1981,20 +1921,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/external/glfw-3.2.1/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/external/glfw-3.2.1/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/common/include/opengl.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#42#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2019,16 +1950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenGL_triangle/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -2036,17 +1957,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenGL_triangle/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL_triangle/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/shader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
         </state>
       </provider>
     </entry>

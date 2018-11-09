@@ -172,324 +172,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3035a338-02a8-49a7-96a9-7371e6011461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/filter_gl_ext.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/filter_gles_ext.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/filter_spec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_def_fun.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_def_var.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_enable_index.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_header.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_html.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_index.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_info.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_info_list.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_init.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_initd.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_list.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_list2.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_str.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_struct_fun.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/make_struct_var.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/parse_spec.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/parse_xml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/bin/update_ext.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/blacklist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_EXT_device_base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_KHR_fence_sync" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_KHR_image_base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_KHR_lock_surface3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/EGL_VERSION_1_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_AMD_gpu_association" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_ARB_context_flush_control" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_ARB_get_proc_address" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_ATI_pixel_format_float" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_ATI_render_texture" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_EXT_create_context_es2_profile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_EXT_create_context_es_profile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_EXT_fbconfig_packed_float" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_EXT_framebuffer_sRGB" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_MESA_swap_control" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_NV_float_buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_NV_vertex_array_range" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGIS_shared_multisample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGIX_hyperpipe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGIX_swap_barrier" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGIX_swap_group" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SGI_video_sync" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_SUN_video_resize" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_VERSION_1_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_VERSION_1_3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GLX_VERSION_1_4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_APPLE_float_pixels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_APPLE_pixel_buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_APPLE_texture_range" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_draw_instanced" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_imaging" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_instanced_arrays" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_internalformat_query2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_matrix_palette" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_multitexture" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_robustness" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_separate_shader_objects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_vertex_attrib_64bit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ARB_vertex_blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATIX_point_sprites" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATIX_texture_env_combine3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATIX_texture_env_route" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATIX_vertex_shader_output_point_size" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_envmap_bumpmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_map_object_buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_pn_triangles" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_separate_stencil" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_shader_texture_lod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_texture_compression_3dc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_ATI_vertex_streams" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_Cg_shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_bindable_uniform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_debug_marker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_depth_bounds_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_draw_instanced" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_draw_range_elements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_external_buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_fog_coord" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_framebuffer_sRGB" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_geometry_shader4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_gpu_program_parameters" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_gpu_shader4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_memory_object" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_memory_object_fd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_memory_object_win32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_packed_float" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_pixel_buffer_object" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_secondary_color" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_semaphore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_semaphore_fd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_semaphore_win32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_array" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_buffer_object" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_compression_latc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_compression_rgtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_cube_map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_edge_clamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_integer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_rectangle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_texture_shared_exponent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_timer_query" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_EXT_vertex_shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_KHR_context_flush_control" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_KTX_buffer_region" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NVX_gpu_memory_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_depth_buffer_float" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_depth_range_unclamped" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_fragment_program2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_fragment_program4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_fragment_program_option" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_framebuffer_multisample_coverage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_geometry_program4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_geometry_shader4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_gpu_program4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_gpu_program5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_parameter_buffer_object" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_present_video" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_sample_locations" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_tessellation_program5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_transform_feedback" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_vdpau_interop" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_vertex_program2_option" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_vertex_program3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_NV_vertex_program4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_SGIX_shadow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_SUN_read_video_pixels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_2_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_1_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_2_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_2_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_3_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_3_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_3_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_3_3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_VERSION_4_6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/GL_WIN_swap_hint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_ARB_context_flush_control" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_ARB_create_context" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_ATI_render_texture_rectangle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_EXT_create_context_es2_profile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_EXT_create_context_es_profile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_EXT_framebuffer_sRGB" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_EXT_pixel_format_packed_float" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_NV_gpu_affinity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/core/gl/WGL_NV_vertex_array_range" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/custom.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/advanced.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/credits.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/install.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/doc/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/eglew_head.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/eglew_mid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/eglew_tail.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_head.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_head.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_egl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_gl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_glx.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_tail.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_init_wgl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_license.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_egl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_glx.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_head.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_tail.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_str_wgl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glew_tail.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_egl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_gl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_glx.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_head.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_tail.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glewinfo_wgl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glxew_head.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glxew_mid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/glxew_tail.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/khronos_license.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/mesa_license.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/visualinfo.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/wglew_head.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/wglew_mid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/auto/src/wglew_tail.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/CopyImportedTargetProperties.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/cmake_uninstall.cmake.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/glew-config.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/testbuild/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/cmake/testbuild/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/common.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/glew.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/glew_shared.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/glew_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/glewinfo.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc10/visualinfo.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/common.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/glew.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/glew_shared.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/glew_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/glewinfo.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc12/visualinfo.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/common.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/glew.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/glew_shared.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/glew_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/glewinfo.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc14/visualinfo.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/common.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/glew.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/glew_shared.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/glew_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/glewinfo.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc15/visualinfo.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/glew.dsw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/glew_shared.dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/glew_static.dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/glewinfo.dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/build/vc6/visualinfo.dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/cmake-testbuild.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.cygming" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.cygwin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.cygwin-x11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin-gcc6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin-ppc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin-universal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.darwin-x86_64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.fedora-mingw32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.freebsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.gnu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.haiku" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.irix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.kfreebsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-clang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-clang-egl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-egl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-mingw32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-mingw64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.linux-osmesa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.mingw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.mingw-win32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.msys" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.msys-win32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.msys-win64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.nacl-32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.nacl-64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.netbsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.openbsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.solaris" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/Makefile.solaris-gcc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/config.guess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/config/version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/glew.pc.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glew-2.1.0/maintain.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/.appveyor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/cmake_uninstall.cmake.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/cocoa_init.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/cocoa_joystick.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/cocoa_joystick.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/cocoa_monitor.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/context.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/glfw_config.h.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/glx_context.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/glx_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/monitor.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/null_init.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/null_platform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/posix_thread.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/posix_time.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/vulkan.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/win32_joystick.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/win32_joystick.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/win32_window.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/wl_init.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/wl_monitor.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/x11_monitor.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/x11_window.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/xkb_unicode.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glfw-master/src/xkb_unicode.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/" />
@@ -543,14 +225,14 @@
           <entry key="cpp" value="553" />
           <entry key="gitignore" value="15" />
           <entry key="hpp" value="180" />
-          <entry key="txt" value="2186" />
+          <entry key="txt" value="2279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2160" />
           <entry key="ObjectiveC" value="750" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="PLAIN_TEXT" value="134" />
         </counts>
       </usages-collector>
     </session>
@@ -571,8 +253,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OpenGL_triangle/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
+                <state relative-caret-position="136">
+                  <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
                   </folding>
@@ -1733,7 +1415,7 @@
       <workItem from="1541664283790" duration="7003000" />
       <workItem from="1541781141185" duration="3641000" />
       <workItem from="1541785733324" duration="7638000" />
-      <workItem from="1541795038795" duration="252000" />
+      <workItem from="1541795038795" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="fixed library include">
       <created>1541669903386</created>
@@ -1742,11 +1424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541669903386</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed some cmake bugs, external libraries exchanged from ready binaries to cmake sources">
+      <created>1541795578493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541795578493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31045000" />
+    <option name="totallyTimeSpent" value="32536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1791,7 +1480,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed library include" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed library include" />
+    <MESSAGE value="fixed some cmake bugs, external libraries exchanged from ready binaries to cmake sources" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some cmake bugs, external libraries exchanged from ready binaries to cmake sources" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/TDM-GCC-64/x86_64-w64-mingw32/include/imm.h">
@@ -1964,16 +1654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenGL_triangle/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1985,6 +1665,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL_triangle/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

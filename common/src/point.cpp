@@ -33,14 +33,12 @@ point& point::operator=(const point &other)
 
 point::point(point &&other) noexcept
 {
-	coordinates = other.coordinates;
-	other.coordinates.clear();
+	coordinates = std::move(other.coordinates);
 }
 
 point& point::operator=(point &&other) noexcept
 {
-	std::swap(coordinates, other.coordinates);
-	other.coordinates.clear();
+	coordinates = std::move(other.coordinates);
 	return *this;
 }
 

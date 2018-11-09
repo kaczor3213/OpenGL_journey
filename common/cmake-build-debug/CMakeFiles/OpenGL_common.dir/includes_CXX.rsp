@@ -1,0 +1,1 @@
+-IF:/STUDIES/CPP/OpenGL_journey/common/../common/include -IF:/STUDIES/CPP/OpenGL_journey/common/../external/glad/include -IF:/STUDIES/CPP/OpenGL_journey/common/../external/glfw-3.2.1/include -IF:/STUDIES/CPP/OpenGL_journey/common/../external/glew-2.1.0/include -IF:/STUDIES/CPP/OpenGL_journey/common/../external/glm 

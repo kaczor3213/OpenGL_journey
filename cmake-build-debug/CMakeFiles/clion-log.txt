@@ -1,7 +1,0 @@
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\STUDIES\CPP\OpenGL_journey
--- Could NOT find Vulkan (missing: VULKAN_INCLUDE_DIR) 
--- Using Win32 for window creation
-GLM: GCC - GNU compiler
--- Configuring done
--- Generating done
--- Build files have been written to: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug

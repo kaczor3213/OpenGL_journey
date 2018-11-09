@@ -51,7 +51,6 @@ shader::~shader()
 
 void shader::compile(const char *c_vertexcode, const char *c_fragmentcode)
 {
-	glfwInit();
 	glVertexAttribPointer(0, 7, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
 	vertexShader = glCreateShader(GL_VERTEX_SHADER);

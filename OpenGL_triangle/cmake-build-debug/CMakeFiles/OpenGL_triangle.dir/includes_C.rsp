@@ -1,1 +1,1 @@
--IF:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/../common/include 
+-IF:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/../common/include -IF:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/../external/glad/include -IF:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/../external/glfw-master/include -IF:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/../external/glew-2.1.0/include -IF:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/../external/glm 

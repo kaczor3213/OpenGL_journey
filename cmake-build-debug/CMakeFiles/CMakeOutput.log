@@ -28,32 +28,32 @@ The CXX compiler identification is GNU, found in "F:/STUDIES/CPP/OpenGL_journey/
 Determining if the C compiler works passed with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_c23bb/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_c23bb.dir\build.make CMakeFiles/cmTC_c23bb.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_18e28/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_18e28.dir\build.make CMakeFiles/cmTC_18e28.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c23bb.dir/testCCompiler.c.obj
-C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_c23bb.dir\testCCompiler.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_c23bb.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c23bb.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c23bb.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_c23bb.dir/objects.a @CMakeFiles\cmTC_c23bb.dir\objects1.rsp
-C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_c23bb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c23bb.exe -Wl,--out-implib,libcmTC_c23bb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c23bb.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_18e28.dir/testCCompiler.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_18e28.dir\testCCompiler.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_18e28.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_18e28.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_18e28.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_18e28.dir/objects.a @CMakeFiles\cmTC_18e28.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_18e28.dir/objects.a -Wl,--no-whole-archive  -o cmTC_18e28.exe -Wl,--out-implib,libcmTC_18e28.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_18e28.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_73087/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_73087.dir\build.make CMakeFiles/cmTC_73087.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_7914a/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_7914a.dir\build.make CMakeFiles/cmTC_7914a.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_73087.dir/CMakeCCompilerABI.c.obj
-C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_73087.dir\CMakeCCompilerABI.c.obj   -c "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_73087.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_73087.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_73087.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_73087.dir/objects.a @CMakeFiles\cmTC_73087.dir\objects1.rsp
-C:\TDM-GCC-64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_73087.dir/objects.a -Wl,--no-whole-archive  -o cmTC_73087.exe -Wl,--out-implib,libcmTC_73087.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building C object CMakeFiles/cmTC_7914a.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_7914a.dir\CMakeCCompilerABI.c.obj   -c "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_7914a.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7914a.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7914a.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_7914a.dir/objects.a @CMakeFiles\cmTC_7914a.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_7914a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7914a.exe -Wl,--out-implib,libcmTC_7914a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\TDM-GCC-64\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe
@@ -63,8 +63,8 @@ Thread model: posix
 gcc version 5.1.0 (tdm64-1) 
 COMPILER_PATH=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/;C:/TDM-GCC-64/bin/../libexec/gcc/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/;C:/TDM-GCC-64/bin/../lib/gcc/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_73087.exe' '-mtune=generic' '-march=x86-64'
- C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccL6W9Gc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_73087.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_73087.dir/objects.a --no-whole-archive --out-implib libcmTC_73087.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7914a.exe' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccWFK4kb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_7914a.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_7914a.dir/objects.a --no-whole-archive --out-implib libcmTC_7914a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -72,16 +72,16 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_73087/fast"]
-  ignore line: [C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_73087.dir\build.make CMakeFiles/cmTC_73087.dir/build]
+  ignore line: [Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_7914a/fast"]
+  ignore line: [C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_7914a.dir\build.make CMakeFiles/cmTC_7914a.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_73087.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_73087.dir\CMakeCCompilerABI.c.obj   -c "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_73087.exe]
-  ignore line: ["F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_73087.dir\link.txt --verbose=1]
-  ignore line: ["F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_73087.dir/objects.a]
-  ignore line: [C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_73087.dir/objects.a @CMakeFiles\cmTC_73087.dir\objects1.rsp]
-  ignore line: [C:\TDM-GCC-64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_73087.dir/objects.a -Wl,--no-whole-archive  -o cmTC_73087.exe -Wl,--out-implib,libcmTC_73087.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Building C object CMakeFiles/cmTC_7914a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_7914a.dir\CMakeCCompilerABI.c.obj   -c "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_7914a.exe]
+  ignore line: ["F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7914a.dir\link.txt --verbose=1]
+  ignore line: ["F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7914a.dir/objects.a]
+  ignore line: [C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_7914a.dir/objects.a @CMakeFiles\cmTC_7914a.dir\objects1.rsp]
+  ignore line: [C:\TDM-GCC-64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_7914a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7914a.exe -Wl,--out-implib,libcmTC_7914a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\TDM-GCC-64\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe]
@@ -98,13 +98,13 @@ Parsed C implicit link information from above output:
   ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib/]
   ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_73087.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccL6W9Gc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_73087.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_73087.dir/objects.a --no-whole-archive --out-implib libcmTC_73087.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7914a.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccWFK4kb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_7914a.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_7914a.dir/objects.a --no-whole-archive --out-implib libcmTC_7914a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o]
     arg [C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccL6W9Gc.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccWFK4kb.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -125,7 +125,7 @@ Parsed C implicit link information from above output:
     arg [--exclude-libs=libpthread.a] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_73087.exe] ==> ignore
+    arg [cmTC_7914a.exe] ==> ignore
     arg [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o] ==> ignore
     arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0]
@@ -135,10 +135,10 @@ Parsed C implicit link information from above output:
     arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../..] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_73087.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_7914a.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_73087.dll.a] ==> ignore
+    arg [libcmTC_7914a.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -177,16 +177,16 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_9e230/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_9e230.dir\build.make CMakeFiles/cmTC_9e230.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_25304/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_25304.dir\build.make CMakeFiles/cmTC_25304.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9e230.dir/feature_tests.c.obj
-C:\TDM-GCC-64\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_9e230.dir\feature_tests.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_9e230.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9e230.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9e230.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_9e230.dir/objects.a @CMakeFiles\cmTC_9e230.dir\objects1.rsp
-C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_9e230.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9e230.exe -Wl,--out-implib,libcmTC_9e230.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9e230.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_25304.dir/feature_tests.c.obj
+C:\TDM-GCC-64\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_25304.dir\feature_tests.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_25304.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_25304.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_25304.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_25304.dir/objects.a @CMakeFiles\cmTC_25304.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_25304.dir/objects.a -Wl,--no-whole-archive  -o cmTC_25304.exe -Wl,--out-implib,libcmTC_25304.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_25304.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -199,16 +199,16 @@ mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-buil
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_6aa7d/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_6aa7d.dir\build.make CMakeFiles/cmTC_6aa7d.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_99857/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_99857.dir\build.make CMakeFiles/cmTC_99857.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6aa7d.dir/feature_tests.c.obj
-C:\TDM-GCC-64\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_6aa7d.dir\feature_tests.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_6aa7d.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6aa7d.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6aa7d.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_6aa7d.dir/objects.a @CMakeFiles\cmTC_6aa7d.dir\objects1.rsp
-C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_6aa7d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6aa7d.exe -Wl,--out-implib,libcmTC_6aa7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6aa7d.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_99857.dir/feature_tests.c.obj
+C:\TDM-GCC-64\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_99857.dir\feature_tests.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_99857.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_99857.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_99857.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_99857.dir/objects.a @CMakeFiles\cmTC_99857.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_99857.dir/objects.a -Wl,--no-whole-archive  -o cmTC_99857.exe -Wl,--out-implib,libcmTC_99857.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_99857.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -221,16 +221,16 @@ mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-buil
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_6c65b/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_6c65b.dir\build.make CMakeFiles/cmTC_6c65b.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_ad4e8/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ad4e8.dir\build.make CMakeFiles/cmTC_ad4e8.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6c65b.dir/feature_tests.c.obj
-C:\TDM-GCC-64\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_6c65b.dir\feature_tests.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_6c65b.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6c65b.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6c65b.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_6c65b.dir/objects.a @CMakeFiles\cmTC_6c65b.dir\objects1.rsp
-C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_6c65b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6c65b.exe -Wl,--out-implib,libcmTC_6c65b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6c65b.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_ad4e8.dir/feature_tests.c.obj
+C:\TDM-GCC-64\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_ad4e8.dir\feature_tests.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_ad4e8.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ad4e8.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ad4e8.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_ad4e8.dir/objects.a @CMakeFiles\cmTC_ad4e8.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_ad4e8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ad4e8.exe -Wl,--out-implib,libcmTC_ad4e8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ad4e8.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -241,32 +241,32 @@ mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-buil
 Determining if the CXX compiler works passed with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_440eb/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_440eb.dir\build.make CMakeFiles/cmTC_440eb.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_b6933/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_b6933.dir\build.make CMakeFiles/cmTC_b6933.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_440eb.dir/testCXXCompiler.cxx.obj
-C:\TDM-GCC-64\bin\g++.exe     -o CMakeFiles\cmTC_440eb.dir\testCXXCompiler.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_440eb.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_440eb.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_440eb.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_440eb.dir/objects.a @CMakeFiles\cmTC_440eb.dir\objects1.rsp
-C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_440eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_440eb.exe -Wl,--out-implib,libcmTC_440eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_440eb.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_b6933.dir/testCXXCompiler.cxx.obj
+C:\TDM-GCC-64\bin\g++.exe     -o CMakeFiles\cmTC_b6933.dir\testCXXCompiler.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_b6933.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b6933.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b6933.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_b6933.dir/objects.a @CMakeFiles\cmTC_b6933.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_b6933.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b6933.exe -Wl,--out-implib,libcmTC_b6933.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b6933.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_852dd/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_852dd.dir\build.make CMakeFiles/cmTC_852dd.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_39c30/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_39c30.dir\build.make CMakeFiles/cmTC_39c30.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_852dd.dir/CMakeCXXCompilerABI.cpp.obj
-C:\TDM-GCC-64\bin\g++.exe     -o CMakeFiles\cmTC_852dd.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_852dd.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_852dd.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_852dd.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_852dd.dir/objects.a @CMakeFiles\cmTC_852dd.dir\objects1.rsp
-C:\TDM-GCC-64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_852dd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_852dd.exe -Wl,--out-implib,libcmTC_852dd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building CXX object CMakeFiles/cmTC_39c30.dir/CMakeCXXCompilerABI.cpp.obj
+C:\TDM-GCC-64\bin\g++.exe     -o CMakeFiles\cmTC_39c30.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_39c30.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_39c30.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_39c30.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_39c30.dir/objects.a @CMakeFiles\cmTC_39c30.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_39c30.dir/objects.a -Wl,--no-whole-archive  -o cmTC_39c30.exe -Wl,--out-implib,libcmTC_39c30.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\TDM-GCC-64\bin\g++.exe
 COLLECT_LTO_WRAPPER=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe
@@ -276,8 +276,8 @@ Thread model: posix
 gcc version 5.1.0 (tdm64-1) 
 COMPILER_PATH=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/;C:/TDM-GCC-64/bin/../libexec/gcc/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/;C:/TDM-GCC-64/bin/../lib/gcc/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_852dd.exe' '-mtune=generic' '-march=x86-64'
- C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccDTi3d9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_852dd.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_852dd.dir/objects.a --no-whole-archive --out-implib libcmTC_852dd.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39c30.exe' '-mtune=generic' '-march=x86-64'
+ C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\cccVDGzb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_39c30.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_39c30.dir/objects.a --no-whole-archive --out-implib libcmTC_39c30.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -285,16 +285,16 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_852dd/fast"]
-  ignore line: [C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_852dd.dir\build.make CMakeFiles/cmTC_852dd.dir/build]
+  ignore line: [Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_39c30/fast"]
+  ignore line: [C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_39c30.dir\build.make CMakeFiles/cmTC_39c30.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_852dd.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\TDM-GCC-64\bin\g++.exe     -o CMakeFiles\cmTC_852dd.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_852dd.exe]
-  ignore line: ["F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_852dd.dir\link.txt --verbose=1]
-  ignore line: ["F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_852dd.dir/objects.a]
-  ignore line: [C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_852dd.dir/objects.a @CMakeFiles\cmTC_852dd.dir\objects1.rsp]
-  ignore line: [C:\TDM-GCC-64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_852dd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_852dd.exe -Wl,--out-implib,libcmTC_852dd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_39c30.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\TDM-GCC-64\bin\g++.exe     -o CMakeFiles\cmTC_39c30.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_39c30.exe]
+  ignore line: ["F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_39c30.dir\link.txt --verbose=1]
+  ignore line: ["F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_39c30.dir/objects.a]
+  ignore line: [C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_39c30.dir/objects.a @CMakeFiles\cmTC_39c30.dir\objects1.rsp]
+  ignore line: [C:\TDM-GCC-64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_39c30.dir/objects.a -Wl,--no-whole-archive  -o cmTC_39c30.exe -Wl,--out-implib,libcmTC_39c30.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\TDM-GCC-64\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe]
@@ -311,13 +311,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib/]
   ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_852dd.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccDTi3d9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_852dd.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_852dd.dir/objects.a --no-whole-archive --out-implib libcmTC_852dd.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39c30.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\cccVDGzb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_39c30.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../.. --whole-archive CMakeFiles\cmTC_39c30.dir/objects.a --no-whole-archive --out-implib libcmTC_39c30.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtend.o]
     arg [C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/5.1.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\ccDTi3d9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Przemek\AppData\Local\Temp\cccVDGzb.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -338,7 +338,7 @@ Parsed CXX implicit link information from above output:
     arg [--exclude-libs=libpthread.a] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_852dd.exe] ==> ignore
+    arg [cmTC_39c30.exe] ==> ignore
     arg [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/crtbegin.o] ==> ignore
     arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0]
@@ -348,10 +348,10 @@ Parsed CXX implicit link information from above output:
     arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../..] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_852dd.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_39c30.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_852dd.dll.a] ==> ignore
+    arg [libcmTC_39c30.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -393,16 +393,16 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_a0c3a/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a0c3a.dir\build.make CMakeFiles/cmTC_a0c3a.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_5f9cf/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_5f9cf.dir\build.make CMakeFiles/cmTC_5f9cf.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a0c3a.dir/feature_tests.cxx.obj
-C:\TDM-GCC-64\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_a0c3a.dir\feature_tests.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_a0c3a.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a0c3a.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a0c3a.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_a0c3a.dir/objects.a @CMakeFiles\cmTC_a0c3a.dir\objects1.rsp
-C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_a0c3a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a0c3a.exe -Wl,--out-implib,libcmTC_a0c3a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a0c3a.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_5f9cf.dir/feature_tests.cxx.obj
+C:\TDM-GCC-64\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_5f9cf.dir\feature_tests.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_5f9cf.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5f9cf.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5f9cf.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_5f9cf.dir/objects.a @CMakeFiles\cmTC_5f9cf.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_5f9cf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5f9cf.exe -Wl,--out-implib,libcmTC_5f9cf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5f9cf.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -468,16 +468,16 @@ mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-buil
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_19452/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_19452.dir\build.make CMakeFiles/cmTC_19452.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_f2903/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_f2903.dir\build.make CMakeFiles/cmTC_f2903.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_19452.dir/feature_tests.cxx.obj
-C:\TDM-GCC-64\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_19452.dir\feature_tests.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_19452.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_19452.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_19452.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_19452.dir/objects.a @CMakeFiles\cmTC_19452.dir\objects1.rsp
-C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_19452.dir/objects.a -Wl,--no-whole-archive  -o cmTC_19452.exe -Wl,--out-implib,libcmTC_19452.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_19452.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_f2903.dir/feature_tests.cxx.obj
+C:\TDM-GCC-64\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_f2903.dir\feature_tests.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_f2903.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f2903.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f2903.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_f2903.dir/objects.a @CMakeFiles\cmTC_f2903.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_f2903.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f2903.exe -Wl,--out-implib,libcmTC_f2903.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f2903.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -543,16 +543,16 @@ mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-buil
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_42512/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_42512.dir\build.make CMakeFiles/cmTC_42512.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_9fc1f/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_9fc1f.dir\build.make CMakeFiles/cmTC_9fc1f.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_42512.dir/feature_tests.cxx.obj
-C:\TDM-GCC-64\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_42512.dir\feature_tests.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_42512.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_42512.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_42512.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_42512.dir/objects.a @CMakeFiles\cmTC_42512.dir\objects1.rsp
-C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_42512.dir/objects.a -Wl,--no-whole-archive  -o cmTC_42512.exe -Wl,--out-implib,libcmTC_42512.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_42512.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_9fc1f.dir/feature_tests.cxx.obj
+C:\TDM-GCC-64\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_9fc1f.dir\feature_tests.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_9fc1f.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9fc1f.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9fc1f.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_9fc1f.dir/objects.a @CMakeFiles\cmTC_9fc1f.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_9fc1f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9fc1f.exe -Wl,--out-implib,libcmTC_9fc1f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9fc1f.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -618,16 +618,16 @@ mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-buil
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_7b9bb/fast"
-C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_7b9bb.dir\build.make CMakeFiles/cmTC_7b9bb.dir/build
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_e173c/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_e173c.dir\build.make CMakeFiles/cmTC_e173c.dir/build
 mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7b9bb.dir/feature_tests.cxx.obj
-C:\TDM-GCC-64\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_7b9bb.dir\feature_tests.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_7b9bb.exe
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7b9bb.dir\link.txt --verbose=1
-"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7b9bb.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_7b9bb.dir/objects.a @CMakeFiles\cmTC_7b9bb.dir\objects1.rsp
-C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_7b9bb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7b9bb.exe -Wl,--out-implib,libcmTC_7b9bb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7b9bb.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_e173c.dir/feature_tests.cxx.obj
+C:\TDM-GCC-64\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_e173c.dir\feature_tests.cxx.obj -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_e173c.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e173c.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e173c.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_e173c.dir/objects.a @CMakeFiles\cmTC_e173c.dir\objects1.rsp
+C:\TDM-GCC-64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_e173c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e173c.exe -Wl,--out-implib,libcmTC_e173c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e173c.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -688,3 +688,256 @@ mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-buil
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_9a692/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_9a692.dir\build.make CMakeFiles/cmTC_9a692.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a692.dir/CheckIncludeFile.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_9a692.dir\CheckIncludeFile.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_9a692.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9a692.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9a692.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_9a692.dir/objects.a @CMakeFiles\cmTC_9a692.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_9a692.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9a692.exe -Wl,--out-implib,libcmTC_9a692.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9a692.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_9ba03/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_9ba03.dir\build.make CMakeFiles/cmTC_9ba03.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ba03.dir/CheckSymbolExists.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_9ba03.dir\CheckSymbolExists.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Linking C executable cmTC_9ba03.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9ba03.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9ba03.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_9ba03.dir/objects.a @CMakeFiles\cmTC_9ba03.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_9ba03.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9ba03.exe -Wl,--out-implib,libcmTC_9ba03.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9ba03.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_31423/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_31423.dir\build.make CMakeFiles/cmTC_31423.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31423.dir/CheckIncludeFile.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_31423.dir\CheckIncludeFile.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_31423.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_31423.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_31423.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_31423.dir/objects.a @CMakeFiles\cmTC_31423.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_31423.dir/objects.a -Wl,--no-whole-archive  -o cmTC_31423.exe -Wl,--out-implib,libcmTC_31423.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_31423.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file xinput.h exists passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_74100/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_74100.dir\build.make CMakeFiles/cmTC_74100.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74100.dir/CheckIncludeFile.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_74100.dir\CheckIncludeFile.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_74100.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_74100.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_74100.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_74100.dir/objects.a @CMakeFiles\cmTC_74100.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_74100.dir/objects.a -Wl,--no-whole-archive  -o cmTC_74100.exe -Wl,--out-implib,libcmTC_74100.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_74100.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_3163a/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_3163a.dir\build.make CMakeFiles/cmTC_3163a.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3163a.dir/CheckIncludeFile.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_3163a.dir\CheckIncludeFile.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_3163a.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3163a.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3163a.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_3163a.dir/objects.a @CMakeFiles\cmTC_3163a.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_3163a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3163a.exe -Wl,--out-implib,libcmTC_3163a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3163a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_a7db3/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a7db3.dir\build.make CMakeFiles/cmTC_a7db3.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7db3.dir/CheckSymbolExists.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_a7db3.dir\CheckSymbolExists.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Linking C executable cmTC_a7db3.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a7db3.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a7db3.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_a7db3.dir/objects.a @CMakeFiles\cmTC_a7db3.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a7db3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a7db3.exe -Wl,--out-implib,libcmTC_a7db3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a7db3.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_d46a2/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d46a2.dir\build.make CMakeFiles/cmTC_d46a2.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d46a2.dir/CheckIncludeFile.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_d46a2.dir\CheckIncludeFile.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_d46a2.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d46a2.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d46a2.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_d46a2.dir/objects.a @CMakeFiles\cmTC_d46a2.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_d46a2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d46a2.exe -Wl,--out-implib,libcmTC_d46a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d46a2.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_dbf3f/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_dbf3f.dir\build.make CMakeFiles/cmTC_dbf3f.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbf3f.dir/CheckSymbolExists.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_dbf3f.dir\CheckSymbolExists.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Linking C executable cmTC_dbf3f.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dbf3f.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_dbf3f.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_dbf3f.dir/objects.a @CMakeFiles\cmTC_dbf3f.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_dbf3f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_dbf3f.exe -Wl,--out-implib,libcmTC_dbf3f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dbf3f.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_fcc27/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_fcc27.dir\build.make CMakeFiles/cmTC_fcc27.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcc27.dir/CheckIncludeFile.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_fcc27.dir\CheckIncludeFile.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_fcc27.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fcc27.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_fcc27.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_fcc27.dir/objects.a @CMakeFiles\cmTC_fcc27.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_fcc27.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fcc27.exe -Wl,--out-implib,libcmTC_fcc27.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fcc27.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file xinput.h exists passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_10ae6/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_10ae6.dir\build.make CMakeFiles/cmTC_10ae6.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10ae6.dir/CheckIncludeFile.c.obj
+C:\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_10ae6.dir\CheckIncludeFile.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_10ae6.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_10ae6.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_10ae6.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_10ae6.dir/objects.a @CMakeFiles\cmTC_10ae6.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_10ae6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_10ae6.exe -Wl,--out-implib,libcmTC_10ae6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_10ae6.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test _GLFW_HAS_DEP succeeded with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_d2175/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d2175.dir\build.make CMakeFiles/cmTC_d2175.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2175.dir/src.c.obj
+C:\TDM-GCC-64\bin\gcc.exe   -D_GLFW_HAS_DEP -Wl,--nxcompat   -o CMakeFiles\cmTC_d2175.dir\src.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_d2175.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d2175.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d2175.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_d2175.dir/objects.a @CMakeFiles\cmTC_d2175.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe  -D_GLFW_HAS_DEP -Wl,--nxcompat    -Wl,--whole-archive CMakeFiles\cmTC_d2175.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d2175.exe -Wl,--out-implib,libcmTC_d2175.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d2175.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _GLFW_HAS_ASLR succeeded with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_ee696/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ee696.dir\build.make CMakeFiles/cmTC_ee696.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee696.dir/src.c.obj
+C:\TDM-GCC-64\bin\gcc.exe   -D_GLFW_HAS_ASLR -Wl,--dynamicbase   -o CMakeFiles\cmTC_ee696.dir\src.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_ee696.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ee696.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ee696.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_ee696.dir/objects.a @CMakeFiles\cmTC_ee696.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe  -D_GLFW_HAS_ASLR -Wl,--dynamicbase    -Wl,--whole-archive CMakeFiles\cmTC_ee696.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ee696.exe -Wl,--out-implib,libcmTC_ee696.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ee696.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR succeeded with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/TDM-GCC-64/bin/mingw32-make.exe" "cmTC_24e7b/fast"
+C:/TDM-GCC-64/bin/mingw32-make.exe -f CMakeFiles\cmTC_24e7b.dir\build.make CMakeFiles/cmTC_24e7b.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24e7b.dir/src.c.obj
+C:\TDM-GCC-64\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_24e7b.dir\src.c.obj   -c F:\STUDIES\CPP\OpenGL_journey\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_24e7b.exe
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_24e7b.dir\link.txt --verbose=1
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_24e7b.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\cmTC_24e7b.dir/objects.a @CMakeFiles\cmTC_24e7b.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_24e7b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_24e7b.exe -Wl,--out-implib,libcmTC_24e7b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_24e7b.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

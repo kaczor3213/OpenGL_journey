@@ -122,6 +122,33 @@ OpenGL_triangle/fast:
 	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/build
 .PHONY : OpenGL_triangle/fast
 
+glad.obj: glad.c.obj
+
+.PHONY : glad.obj
+
+# target to build an object file
+glad.c.obj:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/glad.c.obj
+.PHONY : glad.c.obj
+
+glad.i: glad.c.i
+
+.PHONY : glad.i
+
+# target to preprocess a source file
+glad.c.i:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/glad.c.i
+.PHONY : glad.c.i
+
+glad.s: glad.c.s
+
+.PHONY : glad.s
+
+# target to generate assembly for a file
+glad.c.s:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make CMakeFiles/OpenGL_triangle.dir/glad.c.s
+.PHONY : glad.c.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... OpenGL_triangle
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... glad.obj
+	@echo ... glad.i
+	@echo ... glad.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -32,6 +32,16 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/common/cmake_install.cmake")
+  include("F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/external/glfw-master/cmake_install.cmake")
+  include("F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/external/glew-2.1.0/cmake_install.cmake")
+  include("F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/external/glm/cmake_install.cmake")
+  include("F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/OpenGL_triangle/cmake_install.cmake")
+
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

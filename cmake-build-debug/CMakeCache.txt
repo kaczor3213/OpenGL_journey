@@ -14,12 +14,11 @@
 # EXTERNAL cache entries
 ########################
 
+//Build shared libraries
+BUILD_SHARED_LIBS:BOOL=OFF
+
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/TDM-GCC-64/bin/ar.exe
-
-//For backwards compatibility, what version of CMake commands and
-// syntax should this version of CMake try to support.
-CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.4
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
@@ -115,8 +114,53 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Convert GNU import libraries to MS format (requires Visual Studio)
 CMAKE_GNUtoMS:BOOL=OFF
 
+//user executables (bin)
+CMAKE_INSTALL_BINDIR:PATH=bin
+
+//read-only architecture-independent data (DATAROOTDIR)
+CMAKE_INSTALL_DATADIR:PATH=
+
+//read-only architecture-independent data root (share)
+CMAKE_INSTALL_DATAROOTDIR:PATH=share
+
+//documentation root (DATAROOTDIR/doc/PROJECT_NAME)
+CMAKE_INSTALL_DOCDIR:PATH=
+
+//C header files (include)
+CMAKE_INSTALL_INCLUDEDIR:PATH=include
+
+//info documentation (DATAROOTDIR/info)
+CMAKE_INSTALL_INFODIR:PATH=
+
+//object code libraries (lib)
+CMAKE_INSTALL_LIBDIR:PATH=lib
+
+//program executables (libexec)
+CMAKE_INSTALL_LIBEXECDIR:PATH=libexec
+
+//locale-dependent data (DATAROOTDIR/locale)
+CMAKE_INSTALL_LOCALEDIR:PATH=
+
+//modifiable single-machine data (var)
+CMAKE_INSTALL_LOCALSTATEDIR:PATH=var
+
+//man documentation (DATAROOTDIR/man)
+CMAKE_INSTALL_MANDIR:PATH=
+
+//C header files for non-gcc (/usr/include)
+CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
+
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/OpenGL_journey
+
+//system admin executables (sbin)
+CMAKE_INSTALL_SBINDIR:PATH=sbin
+
+//modifiable architecture-independent data (com)
+CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
+
+//read-only single-machine data (etc)
+CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/TDM-GCC-64/bin/ld.exe
@@ -155,6 +199,21 @@ CMAKE_OBJDUMP:FILEPATH=C:/TDM-GCC-64/bin/objdump.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=OpenGL_journey
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=1.0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/TDM-GCC-64/bin/ranlib.exe
@@ -236,17 +295,123 @@ CMAKE_STRIP:FILEPATH=C:/TDM-GCC-64/bin/strip.exe
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Single output directory for building all executables.
-EXECUTABLE_OUTPUT_PATH:PATH=
+//Doxygen documentation generation tool (http://www.doxygen.org)
+DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
-//Single output directory for building all libraries.
-LIBRARY_OUTPUT_PATH:PATH=
+//Value Computed by CMake
+GLFW_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/external/glfw-master
+
+//Build the GLFW documentation
+GLFW_BUILD_DOCS:BOOL=OFF
+
+//Build the GLFW example programs
+GLFW_BUILD_EXAMPLES:BOOL=OFF
+
+//Build the GLFW test programs
+GLFW_BUILD_TESTS:BOOL=OFF
+
+//Include internals in documentation
+GLFW_DOCUMENT_INTERNALS:BOOL=OFF
+
+//Generate installation target
+GLFW_INSTALL:BOOL=ON
+
+//Value Computed by CMake
+GLFW_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/external/glfw-master
+
+//Force use of high-performance GPU on hybrid systems
+GLFW_USE_HYBRID_HPG:BOOL=OFF
+
+//Use the Vulkan loader statically linked into application
+GLFW_VULKAN_STATIC:BOOL=OFF
+
+//Enable language extensions
+GLM_DISABLE_AUTO_DETECTION:BOOL=OFF
+
+//No CMake Message
+GLM_QUIET:BOOL=OFF
+
+//Build unit tests
+GLM_TEST_ENABLE:BOOL=ON
+
+//Enable C++ 11
+GLM_TEST_ENABLE_CXX_11:BOOL=OFF
+
+//Enable C++ 14
+GLM_TEST_ENABLE_CXX_14:BOOL=OFF
+
+//Enable C++ 17
+GLM_TEST_ENABLE_CXX_17:BOOL=OFF
+
+//Enable C++ 20
+GLM_TEST_ENABLE_CXX_20:BOOL=OFF
+
+//Enable C++ 98
+GLM_TEST_ENABLE_CXX_98:BOOL=OFF
+
+//Enable fast math optimizations
+GLM_TEST_ENABLE_FAST_MATH:BOOL=OFF
+
+//Enable language extensions
+GLM_TEST_ENABLE_LANG_EXTENSIONS:BOOL=OFF
+
+//Enable AVX optimizations
+GLM_TEST_ENABLE_SIMD_AVX:BOOL=OFF
+
+//Enable AVX2 optimizations
+GLM_TEST_ENABLE_SIMD_AVX2:BOOL=OFF
+
+//Enable SSE2 optimizations
+GLM_TEST_ENABLE_SIMD_SSE2:BOOL=OFF
+
+//Enable SSE3 optimizations
+GLM_TEST_ENABLE_SIMD_SSE3:BOOL=OFF
+
+//Enable SSE 4.1 optimizations
+GLM_TEST_ENABLE_SIMD_SSE4_1:BOOL=OFF
+
+//Enable SSE 4.2 optimizations
+GLM_TEST_ENABLE_SIMD_SSE4_2:BOOL=OFF
+
+//Enable SSSE3 optimizations
+GLM_TEST_ENABLE_SIMD_SSSE3:BOOL=OFF
+
+//Force 'pure' instructions
+GLM_TEST_FORCE_PURE:BOOL=OFF
+
+//Takes an empty string or 64. Directory where lib will be installed:
+// lib or lib64
+LIB_SUFFIX:STRING=
 
 //OpenGL library for win32
 OPENGL_gl_LIBRARY:STRING=opengl32
 
 //GLU library for win32
 OPENGL_glu_LIBRARY:STRING=glu32
+
+//Value Computed by CMake
+OpenGLCommon_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/common
+
+//Value Computed by CMake
+OpenGLCommon_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/common
+
+//Value Computed by CMake
+OpenGL_Common_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/common
+
+//Value Computed by CMake
+OpenGL_Common_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/common
+
+//Value Computed by CMake
+OpenGL_Rriangle_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/OpenGL_triangle
+
+//Value Computed by CMake
+OpenGL_Rriangle_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle
+
+//Value Computed by CMake
+OpenGL_common_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/common
+
+//Value Computed by CMake
+OpenGL_common_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/common
 
 //Value Computed by CMake
 OpenGL_journey_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug
@@ -260,11 +425,56 @@ OpenGL_triangle_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debu
 //Value Computed by CMake
 OpenGL_triangle_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle
 
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug
+//Path to a file.
+VULKAN_INCLUDE_DIR:PATH=VULKAN_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+VULKAN_LIBRARY:FILEPATH=C:/Windows/System32/vulkan-1.dll
+
+//Path to a library.
+VULKAN_STATIC_LIBRARY:FILEPATH=VULKAN_STATIC_LIBRARY-NOTFOUND
+
+//Build the multi context glew library
+glew-cmake_BUILD_MULTI_CONTEXT:BOOL=ON
+
+//Build the shared glew library
+glew-cmake_BUILD_SHARED:BOOL=ON
+
+//Build the single context glew library
+glew-cmake_BUILD_SINGLE_CONTEXT:BOOL=ON
+
+//Build the static glew library
+glew-cmake_BUILD_STATIC:BOOL=ON
 
 //Value Computed by CMake
-Project_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey
+glew_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/external/glew-2.1.0
+
+//Value Computed by CMake
+glew_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/external/glew-2.1.0
+
+//The directory containing a CMake configuration file for glfw3.
+glfw3_DIR:PATH=glfw3_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for glfw.
+glfw_DIR:PATH=glfw_DIR-NOTFOUND
+
+//Value Computed by CMake
+glm_BINARY_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/cmake-build-debug/external/glm
+
+//Value Computed by CMake
+glm_SOURCE_DIR:STATIC=F:/STUDIES/CPP/OpenGL_journey/external/glm
+
+//Dependencies for the target
+libglew_shared_LIB_DEPENDS:STATIC=general;opengl32;
+
+//Dependencies for the target
+libglew_static_LIB_DEPENDS:STATIC=general;opengl32;
+
+//Dependencies for the target
+libglewmx_shared_LIB_DEPENDS:STATIC=general;opengl32;
+
+//Dependencies for the target
+libglewmx_static_LIB_DEPENDS:STATIC=general;opengl32;
 
 
 ########################
@@ -355,9 +565,43 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Have symbol pthread_create
+CMAKE_HAVE_LIBC_CREATE:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=F:/STUDIES/CPP/OpenGL_journey
+//ADVANCED property for variable: CMAKE_INSTALL_BINDIR
+CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DATADIR
+CMAKE_INSTALL_DATADIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DATAROOTDIR
+CMAKE_INSTALL_DATAROOTDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DOCDIR
+CMAKE_INSTALL_DOCDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_INCLUDEDIR
+CMAKE_INSTALL_INCLUDEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_INFODIR
+CMAKE_INSTALL_INFODIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LIBDIR
+CMAKE_INSTALL_LIBDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LIBEXECDIR
+CMAKE_INSTALL_LIBEXECDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LOCALEDIR
+CMAKE_INSTALL_LOCALEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LOCALSTATEDIR
+CMAKE_INSTALL_LOCALSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_MANDIR
+CMAKE_INSTALL_MANDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_OLDINCLUDEDIR
+CMAKE_INSTALL_OLDINCLUDEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SBINDIR
+CMAKE_INSTALL_SBINDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SHAREDSTATEDIR
+CMAKE_INSTALL_SHAREDSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SYSCONFDIR
+CMAKE_INSTALL_SYSCONFDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
@@ -375,7 +619,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -429,10 +673,30 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_STRIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Have include dinput.h
+DINPUT_H_FOUND:INTERNAL=1
+//ADVANCED property for variable: DOXYGEN_EXECUTABLE
+DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][c ][v()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: VULKAN_INCLUDE_DIR
+VULKAN_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: VULKAN_LIBRARY
+VULKAN_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: VULKAN_STATIC_LIBRARY
+VULKAN_STATIC_LIBRARY-ADVANCED:INTERNAL=1
+//Have include xinput.h
+XINPUT_H_FOUND:INTERNAL=1
+//Test _GLFW_HAS_64ASLR
+_GLFW_HAS_64ASLR:INTERNAL=1
+//Test _GLFW_HAS_ASLR
+_GLFW_HAS_ASLR:INTERNAL=1
+//Test _GLFW_HAS_DEP
+_GLFW_HAS_DEP:INTERNAL=1
 

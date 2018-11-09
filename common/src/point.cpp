@@ -1,5 +1,11 @@
 #include <point.hpp>
 
+color COLOR_RED(255, 0, 0, 0);
+color COLOR_GREEN(0, 255, 0, 0);
+color COLOR_BLUE(0, 0, 255, 0);
+color COLOR_BLACK(0, 0, 0, 0);
+color COLOR_WHITE(255, 255, 255, 0);
+
 point::point() : _color(COLOR_WHITE) {}
 
 point::point(const vertex &VERTEX, const color &COLOR)

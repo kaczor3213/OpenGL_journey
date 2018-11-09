@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.12)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(OpenGL_USE_STATIC_LIBS ON)
-
 set(SRC
         include/shader.hpp
         include/point.hpp
@@ -11,37 +9,34 @@ set(SRC
         include/vertex.hpp
         include/vertices.hpp
         include/opengl.hpp
+        src/glad.c
         src/color.cpp
         src/point.cpp
         src/shader.cpp
         src/vertex.cpp
         )
 
-set(OpenGL_INCLUDE_DIR
+set(LIBS
+        ${OPENGL_gl_LIBRARY}
+        ${GLFW_LIBRARIES}
+        ${GLEW_LIBRARIES}
+        )
+find_package(OpenGL REQUIRED)
+
+
+include_directories(
+        ../common/include/
         ../external/glad/include/
-        ../external/glfw-3.1.2/include/
+        ../external/glfw-master/include/
         ../external/glew-2.1.0/include/
         ../external/glm/
 )
 
-set(ALL_LIBS
-        ${OPENGL_LIBRARY}
-        glfw3
-        glew32
-        )
-
-find_package(OpenGL REQUIRED)
-
-project(OpenGLCommon VERSION 1.0)
-
-include_directories(include ${OpenGL_INCLUDE_DIR})
+project(OpenGL_common VERSION 1.0)
 
 add_library(${PROJECT_NAME} SHARED ${SRC})
 
-target_include_directories(${PROJECT_NAME} PRIVATE include)
-target_include_directories(${PROJECT_NAME} PRIVATE src)
-
-target_link_libraries(${PROJECT_NAME} ${ALL_LIBS})
+target_link_libraries(${PROJECT_NAME} ${LIBS})
 
 set_target_properties(${PROJECT_NAME} PROPERTIES VERSION ${PROJECT_VERSION})
 

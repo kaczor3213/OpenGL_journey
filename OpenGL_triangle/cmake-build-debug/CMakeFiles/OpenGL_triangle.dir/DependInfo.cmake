@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/main.cpp" "F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/main.cpp.obj"
+  "D:/Git/OpenGL_journey/OpenGL_triangle/main.cpp" "D:/Git/OpenGL_journey/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

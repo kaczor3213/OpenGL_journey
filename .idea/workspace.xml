@@ -12,33 +12,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3035a338-02a8-49a7-96a9-7371e6011461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/include/opengl.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/CXX.includecache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/color.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/point.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/F_/STUDIES/CPP/OpenGL_journey/common/src/vertex.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/includes_C.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/OpenGL_triangle.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/OpenGL_triangle.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/glad.c" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/glad.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/include/point.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/include/point.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/include/shader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/include/shader.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/color.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/color.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/point.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/shader.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/vertex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/vertex.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/OpenGL_triangle/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -95,14 +103,65 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="831276571">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="2" />
+          <entry key="hpp" value="2" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="117" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="117" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OpenGL_triangle/CMakeLists.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/include/point.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#37#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/point.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/vertex.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -117,6 +176,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -137,8 +197,8 @@
         <option value="$PROJECT_DIR$/common/include/shader.hpp" />
         <option value="$PROJECT_DIR$/common/src/color.cpp" />
         <option value="$PROJECT_DIR$/common/src/shader.cpp" />
-        <option value="$PROJECT_DIR$/common/src/point.cpp" />
         <option value="$PROJECT_DIR$/common/src/vertex.cpp" />
+        <option value="$PROJECT_DIR$/common/src/point.cpp" />
       </list>
     </option>
   </component>
@@ -149,33 +209,31 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="132" />
-    <option name="y" value="-17" />
-    <option name="width" value="1400" />
-    <option name="height" value="1003" />
+    <option name="x" value="833" />
+    <option name="width" value="854" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OpenGL_triangle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenGL_journey" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="OpenGL_triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="OpenGL_triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="OpenGL_triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cmake-build-debug" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="OpenGL_triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -199,10 +257,16 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="external" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="OpenGL_triangle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="OpenGL_triangle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="OpenGL_triangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenGL_journey" type="47feb1d3:ProjectViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17858000" />
+    <option name="totallyTimeSpent" value="20982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,11 +343,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="833" y="0" width="854" height="1017" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18390192" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.43450883" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32911393" />
@@ -342,13 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -366,38 +422,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenGL_triangle/glad.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL_triangle/glad.c" />
     <entry file="file://$PROJECT_DIR$/common/include/vertex.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/vertex.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/shader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -415,47 +444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/point.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/include/point.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#37#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/include/opengl.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/include/color.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#38#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/include/shader.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#39#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,6 +462,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/include/color.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#38#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/include/shader.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/shader.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/vertex.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/include/point.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#37#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/point.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>

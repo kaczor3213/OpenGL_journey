@@ -1,6 +1,6 @@
 #include "../include/point.hpp"
 
-point::point() : _color(COLOR_WHITE) {}
+point::point() : _color(color(255, 255, 255, 0)) {}
 
 point::point(const vertex &VERTEX, const color &COLOR)
 {

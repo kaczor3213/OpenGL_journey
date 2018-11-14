@@ -47,10 +47,10 @@ RM = "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\STUDIES\CPP\OpenGL_test\common
+CMAKE_SOURCE_DIR = F:\STUDIES\CPP\OpenGL_journey\common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio
+CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio
 
 # Include any dependencies generated for this target.
 include CMakeFiles\OpenGL_common.dir\depend.make
@@ -61,104 +61,84 @@ include CMakeFiles\OpenGL_common.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\OpenGL_common.dir\flags.make
 
-CMakeFiles\OpenGL_common.dir\src\glad.c.obj: CMakeFiles\OpenGL_common.dir\flags.make
-CMakeFiles\OpenGL_common.dir\src\glad.c.obj: ..\src\glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OpenGL_common.dir/src/glad.c.obj"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\glad.c.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_test\common\src\glad.c
-<<
-
-CMakeFiles\OpenGL_common.dir\src\glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenGL_common.dir/src/glad.c.i"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe > CMakeFiles\OpenGL_common.dir\src\glad.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STUDIES\CPP\OpenGL_test\common\src\glad.c
-<<
-
-CMakeFiles\OpenGL_common.dir\src\glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenGL_common.dir/src/glad.c.s"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\glad.c.s /c F:\STUDIES\CPP\OpenGL_test\common\src\glad.c
-<<
-
 CMakeFiles\OpenGL_common.dir\src\shader.cpp.obj: CMakeFiles\OpenGL_common.dir\flags.make
 CMakeFiles\OpenGL_common.dir\src\shader.cpp.obj: ..\src\shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL_common.dir/src/shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL_common.dir/src/shader.cpp.obj"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\shader.cpp.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_test\common\src\shader.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\shader.cpp.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_common.dir/src/shader.cpp.i"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe > CMakeFiles\OpenGL_common.dir\src\shader.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_test\common\src\shader.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_common.dir/src/shader.cpp.s"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\shader.cpp.s /c F:\STUDIES\CPP\OpenGL_test\common\src\shader.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\shader.cpp.s /c F:\STUDIES\CPP\OpenGL_journey\common\src\shader.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\point.cpp.obj: CMakeFiles\OpenGL_common.dir\flags.make
 CMakeFiles\OpenGL_common.dir\src\point.cpp.obj: ..\src\point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGL_common.dir/src/point.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL_common.dir/src/point.cpp.obj"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\point.cpp.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_test\common\src\point.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\point.cpp.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_journey\common\src\point.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_common.dir/src/point.cpp.i"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe > CMakeFiles\OpenGL_common.dir\src\point.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_test\common\src\point.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\common\src\point.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_common.dir/src/point.cpp.s"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\point.cpp.s /c F:\STUDIES\CPP\OpenGL_test\common\src\point.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\point.cpp.s /c F:\STUDIES\CPP\OpenGL_journey\common\src\point.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\color.cpp.obj: CMakeFiles\OpenGL_common.dir\flags.make
 CMakeFiles\OpenGL_common.dir\src\color.cpp.obj: ..\src\color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenGL_common.dir/src/color.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGL_common.dir/src/color.cpp.obj"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\color.cpp.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_test\common\src\color.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\color.cpp.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_journey\common\src\color.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_common.dir/src/color.cpp.i"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe > CMakeFiles\OpenGL_common.dir\src\color.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_test\common\src\color.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\common\src\color.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_common.dir/src/color.cpp.s"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\color.cpp.s /c F:\STUDIES\CPP\OpenGL_test\common\src\color.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\color.cpp.s /c F:\STUDIES\CPP\OpenGL_journey\common\src\color.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\vertex.cpp.obj: CMakeFiles\OpenGL_common.dir\flags.make
 CMakeFiles\OpenGL_common.dir\src\vertex.cpp.obj: ..\src\vertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenGL_common.dir/src/vertex.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenGL_common.dir/src/vertex.cpp.obj"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\vertex.cpp.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_test\common\src\vertex.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGL_common.dir\src\vertex.cpp.obj /FdCMakeFiles\OpenGL_common.dir\ /FS -c F:\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\vertex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL_common.dir/src/vertex.cpp.i"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe > CMakeFiles\OpenGL_common.dir\src\vertex.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_test\common\src\vertex.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp
 <<
 
 CMakeFiles\OpenGL_common.dir\src\vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL_common.dir/src/vertex.cpp.s"
 	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\vertex.cpp.s /c F:\STUDIES\CPP\OpenGL_test\common\src\vertex.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGL_common.dir\src\vertex.cpp.s /c F:\STUDIES\CPP\OpenGL_journey\common\src\vertex.cpp
 <<
 
 # Object files for target OpenGL_common
 OpenGL_common_OBJECTS = \
-"CMakeFiles\OpenGL_common.dir\src\glad.c.obj" \
 "CMakeFiles\OpenGL_common.dir\src\shader.cpp.obj" \
 "CMakeFiles\OpenGL_common.dir\src\point.cpp.obj" \
 "CMakeFiles\OpenGL_common.dir\src\color.cpp.obj" \
@@ -167,18 +147,15 @@ OpenGL_common_OBJECTS = \
 # External object files for target OpenGL_common
 OpenGL_common_EXTERNAL_OBJECTS =
 
-OpenGL_common.dll: CMakeFiles\OpenGL_common.dir\src\glad.c.obj
 OpenGL_common.dll: CMakeFiles\OpenGL_common.dir\src\shader.cpp.obj
 OpenGL_common.dll: CMakeFiles\OpenGL_common.dir\src\point.cpp.obj
 OpenGL_common.dll: CMakeFiles\OpenGL_common.dir\src\color.cpp.obj
 OpenGL_common.dll: CMakeFiles\OpenGL_common.dir\src\vertex.cpp.obj
 OpenGL_common.dll: CMakeFiles\OpenGL_common.dir\build.make
-OpenGL_common.dll: ..\external\glew-2.1.0\lib\Release\Win32\glew32s.lib
-OpenGL_common.dll: ..\external\glfw-3.2.1.bin.WIN32\lib-vc2015\glfw3.lib
 OpenGL_common.dll: CMakeFiles\OpenGL_common.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library OpenGL_common.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library OpenGL_common.dll"
 	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_dll --intdir=CMakeFiles\OpenGL_common.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\OpenGL_common.dir\objects1.rsp @<<
- /out:OpenGL_common.dll /implib:OpenGL_common.lib /pdb:F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\OpenGL_common.pdb /dll /version:1.0 /machine:X86 /INCREMENTAL:NO ..\external\glew-2.1.0\lib\Release\Win32\glew32s.lib ..\external\glfw-3.2.1.bin.WIN32\lib-vc2015\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  
+ /out:OpenGL_common.dll /implib:OpenGL_common.lib /pdb:F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\OpenGL_common.pdb /dll /version:1.0 /machine:X86 /INCREMENTAL:NO ../external/glew-2.1.0/lib/Release/Win32/glew32s.lib.lib ../external/glfw-3.2.1.bin.WIN32/lib-vc2015/glfw3.lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  
 <<
 
 # Rule to build all files generated by this target.
@@ -191,6 +168,6 @@ CMakeFiles\OpenGL_common.dir\clean:
 .PHONY : CMakeFiles\OpenGL_common.dir\clean
 
 CMakeFiles\OpenGL_common.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" F:\STUDIES\CPP\OpenGL_test\common F:\STUDIES\CPP\OpenGL_test\common F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles\OpenGL_common.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" F:\STUDIES\CPP\OpenGL_journey\common F:\STUDIES\CPP\OpenGL_journey\common F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles\OpenGL_common.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\OpenGL_common.dir\depend
 

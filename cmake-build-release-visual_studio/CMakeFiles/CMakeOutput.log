@@ -1,0 +1,272 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/PROGRAMMING/ViusalStudio/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.15.26730.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/PROGRAMMING/ViusalStudio/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.15.26730.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_6243b\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_6243b.dir\build.make /nologo -L                  CMakeFiles\cmTC_6243b.dir\build
+Building C object CMakeFiles/cmTC_6243b.dir/testCCompiler.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm812C.tmp
+testCCompiler.c
+Linking C executable cmTC_6243b.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6243b.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_6243b.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm816B.tmp
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_e2f3f\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_e2f3f.dir\build.make /nologo -L                  CMakeFiles\cmTC_e2f3f.dir\build
+Building C object CMakeFiles/cmTC_e2f3f.dir/CMakeCCompilerABI.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm8497.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_e2f3f.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e2f3f.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e2f3f.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm84E6.tmp
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_3a1c8\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_3a1c8.dir\build.make /nologo -L                  CMakeFiles\cmTC_3a1c8.dir\build
+Building C object CMakeFiles/cmTC_3a1c8.dir/feature_tests.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm8812.tmp
+feature_tests.c
+Linking C executable cmTC_3a1c8.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3a1c8.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_3a1c8.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm8861.tmp
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/PROGRAMMING/ViusalStudio/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.15.26730.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/PROGRAMMING/ViusalStudio/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.15.26730.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_95666\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_95666.dir\build.make /nologo -L                  CMakeFiles\cmTC_95666.dir\build
+Building C object CMakeFiles/cmTC_95666.dir/testCCompiler.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm9139.tmp
+testCCompiler.c
+Linking C executable cmTC_95666.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_95666.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_95666.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm9179.tmp
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_e310b\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_e310b.dir\build.make /nologo -L                  CMakeFiles\cmTC_e310b.dir\build
+Building C object CMakeFiles/cmTC_e310b.dir/CMakeCCompilerABI.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm9531.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_e310b.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e310b.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e310b.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm9570.tmp
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_af5d2\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_af5d2.dir\build.make /nologo -L                  CMakeFiles\cmTC_af5d2.dir\build
+Building C object CMakeFiles/cmTC_af5d2.dir/feature_tests.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm9A23.tmp
+feature_tests.c
+Linking C executable cmTC_af5d2.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_af5d2.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_af5d2.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm9A62.tmp
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_c7c04\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_c7c04.dir\build.make /nologo -L                  CMakeFiles\cmTC_c7c04.dir\build
+Building CXX object CMakeFiles/cmTC_c7c04.dir/testCXXCompiler.cxx.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm9E49.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_c7c04.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c7c04.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_c7c04.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm9E89.tmp
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_5c4eb\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_5c4eb.dir\build.make /nologo -L                  CMakeFiles\cmTC_5c4eb.dir\build
+Building CXX object CMakeFiles/cmTC_5c4eb.dir/CMakeCXXCompilerABI.cpp.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nmA250.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5c4eb.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5c4eb.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_5c4eb.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nmA29F.tmp
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_391e9\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_391e9.dir\build.make /nologo -L                  CMakeFiles\cmTC_391e9.dir\build
+Building CXX object CMakeFiles/cmTC_391e9.dir/feature_tests.cxx.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nmA6C5.tmp
+feature_tests.cxx
+Linking CXX executable cmTC_391e9.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_391e9.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_391e9.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nmA714.tmp
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

@@ -63,10 +63,10 @@ RM = "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\STUDIES\CPP\OpenGL_test\common
+CMAKE_SOURCE_DIR = F:\STUDIES\CPP\OpenGL_journey\common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio
+CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenGL_common.dir
@@ -75,7 +75,7 @@ CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_
 CMakeFiles\OpenGL_common.dir\all:
 	$(MAKE) -f CMakeFiles\OpenGL_common.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_common.dir\depend
 	$(MAKE) -f CMakeFiles\OpenGL_common.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_common.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target OpenGL_common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles --progress-num=1,2,3,4,5 "Built target OpenGL_common"
 .PHONY : CMakeFiles\OpenGL_common.dir\all
 
 # Include target in all.
@@ -85,9 +85,9 @@ all: CMakeFiles\OpenGL_common.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\OpenGL_common.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_common.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles 0
 .PHONY : CMakeFiles\OpenGL_common.dir\rule
 
 # Convenience name for target.

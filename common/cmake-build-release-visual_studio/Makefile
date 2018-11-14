@@ -52,10 +52,10 @@ RM = "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\STUDIES\CPP\OpenGL_test\common
+CMAKE_SOURCE_DIR = F:\STUDIES\CPP\OpenGL_journey\common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio
+CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_test\common\cmake-build-release-visual_studio\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_journey\common\cmake-build-release-visual_studio\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,33 +153,6 @@ src\color.s: src\color.cpp.s
 src\color.cpp.s:
 	$(MAKE) -f CMakeFiles\OpenGL_common.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_common.dir\src\color.cpp.s
 .PHONY : src\color.cpp.s
-
-src\glad.obj: src\glad.c.obj
-
-.PHONY : src\glad.obj
-
-# target to build an object file
-src\glad.c.obj:
-	$(MAKE) -f CMakeFiles\OpenGL_common.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_common.dir\src\glad.c.obj
-.PHONY : src\glad.c.obj
-
-src\glad.i: src\glad.c.i
-
-.PHONY : src\glad.i
-
-# target to preprocess a source file
-src\glad.c.i:
-	$(MAKE) -f CMakeFiles\OpenGL_common.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_common.dir\src\glad.c.i
-.PHONY : src\glad.c.i
-
-src\glad.s: src\glad.c.s
-
-.PHONY : src\glad.s
-
-# target to generate assembly for a file
-src\glad.c.s:
-	$(MAKE) -f CMakeFiles\OpenGL_common.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_common.dir\src\glad.c.s
-.PHONY : src\glad.c.s
 
 src\point.obj: src\point.cpp.obj
 
@@ -274,9 +247,6 @@ help:
 	@echo ... src/color.obj
 	@echo ... src/color.i
 	@echo ... src/color.s
-	@echo ... src/glad.obj
-	@echo ... src/glad.i
-	@echo ... src/glad.s
 	@echo ... src/point.obj
 	@echo ... src/point.i
 	@echo ... src/point.s

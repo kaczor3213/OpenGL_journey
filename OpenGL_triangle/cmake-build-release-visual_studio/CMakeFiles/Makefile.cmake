@@ -50,5 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/OpenGL_triangle_2.dir/DependInfo.cmake"
+  "CMakeFiles/OpenGL_triangle.dir/DependInfo.cmake"
   )

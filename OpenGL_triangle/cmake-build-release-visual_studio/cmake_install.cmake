@@ -1,8 +1,8 @@
-# Install script for directory: F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2
+# Install script for directory: F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL_triangle_2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL_triangle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

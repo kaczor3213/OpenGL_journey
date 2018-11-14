@@ -1,3 +1,3 @@
-F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/OpenGL_triangle_2.dir
-F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/edit_cache.dir
-F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/rebuild_cache.dir
+F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/OpenGL_triangle.dir
+F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/edit_cache.dir
+F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/rebuild_cache.dir

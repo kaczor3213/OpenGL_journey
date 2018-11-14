@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: F:/PROGRAMMING/ViusalStudio/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x86/cl.exe 
@@ -45,84 +45,84 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/nologo" "cmTC_27e31\fast"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_27e31.dir\build.make /nologo -L                  CMakeFiles\cmTC_27e31.dir\build
-Building C object CMakeFiles/cmTC_27e31.dir/testCCompiler.c.obj
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm2611.tmp
+Run Build Command:"nmake" "/nologo" "cmTC_7e542\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_7e542.dir\build.make /nologo -L                  CMakeFiles\cmTC_7e542.dir\build
+Building C object CMakeFiles/cmTC_7e542.dir/testCCompiler.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm441E.tmp
 testCCompiler.c
-Linking C executable cmTC_27e31.exe
-	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_27e31.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_27e31.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm2651.tmp
+Linking C executable cmTC_7e542.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7e542.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7e542.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm445E.tmp
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/nologo" "cmTC_64b31\fast"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_64b31.dir\build.make /nologo -L                  CMakeFiles\cmTC_64b31.dir\build
-Building C object CMakeFiles/cmTC_64b31.dir/CMakeCCompilerABI.c.obj
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm2A28.tmp
+Run Build Command:"nmake" "/nologo" "cmTC_59037\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_59037.dir\build.make /nologo -L                  CMakeFiles\cmTC_59037.dir\build
+Building C object CMakeFiles/cmTC_59037.dir/CMakeCCompilerABI.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm47F7.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_64b31.exe
-	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_64b31.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_64b31.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm2A67.tmp
+Linking C executable cmTC_59037.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_59037.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_59037.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm4836.tmp
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/nologo" "cmTC_6c2e4\fast"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_6c2e4.dir\build.make /nologo -L                  CMakeFiles\cmTC_6c2e4.dir\build
-Building C object CMakeFiles/cmTC_6c2e4.dir/feature_tests.c.obj
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm2E10.tmp
+Run Build Command:"nmake" "/nologo" "cmTC_d78d1\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_d78d1.dir\build.make /nologo -L                  CMakeFiles\cmTC_d78d1.dir\build
+Building C object CMakeFiles/cmTC_d78d1.dir/feature_tests.c.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm4C2D.tmp
 feature_tests.c
-Linking C executable cmTC_6c2e4.exe
-	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6c2e4.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_6c2e4.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm2E4F.tmp
+Linking C executable cmTC_d78d1.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d78d1.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d78d1.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm4C6C.tmp
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/nologo" "cmTC_482a3\fast"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_482a3.dir\build.make /nologo -L                  CMakeFiles\cmTC_482a3.dir\build
-Building CXX object CMakeFiles/cmTC_482a3.dir/testCXXCompiler.cxx.obj
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm3208.tmp
+Run Build Command:"nmake" "/nologo" "cmTC_e1c71\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_e1c71.dir\build.make /nologo -L                  CMakeFiles\cmTC_e1c71.dir\build
+Building CXX object CMakeFiles/cmTC_e1c71.dir/testCXXCompiler.cxx.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm4FE6.tmp
 testCXXCompiler.cxx
-Linking CXX executable cmTC_482a3.exe
-	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_482a3.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_482a3.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm3247.tmp
+Linking CXX executable cmTC_e1c71.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e1c71.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e1c71.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm5035.tmp
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/nologo" "cmTC_90869\fast"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_90869.dir\build.make /nologo -L                  CMakeFiles\cmTC_90869.dir\build
-Building CXX object CMakeFiles/cmTC_90869.dir/CMakeCXXCompilerABI.cpp.obj
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm3582.tmp
+Run Build Command:"nmake" "/nologo" "cmTC_832e8\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_832e8.dir\build.make /nologo -L                  CMakeFiles\cmTC_832e8.dir\build
+Building CXX object CMakeFiles/cmTC_832e8.dir/CMakeCXXCompilerABI.cpp.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm5380.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_90869.exe
-	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_90869.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_90869.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm35D1.tmp
+Linking CXX executable cmTC_832e8.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_832e8.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_832e8.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm53CF.tmp
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
+Change Dir: F:/STUDIES/CPP/OpenGL_journey/OpenGL_triangle/cmake-build-release-visual_studio/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/nologo" "cmTC_6b220\fast"
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_6b220.dir\build.make /nologo -L                  CMakeFiles\cmTC_6b220.dir\build
-Building CXX object CMakeFiles/cmTC_6b220.dir/feature_tests.cxx.obj
-	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm39F7.tmp
+Run Build Command:"nmake" "/nologo" "cmTC_f3526\fast"
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe -f CMakeFiles\cmTC_f3526.dir\build.make /nologo -L                  CMakeFiles\cmTC_f3526.dir\build
+Building CXX object CMakeFiles/cmTC_f3526.dir/feature_tests.cxx.obj
+	F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\cl.exe @C:\Users\Przemek\AppData\Local\Temp\nm594C.tmp
 feature_tests.cxx
-Linking CXX executable cmTC_6b220.exe
-	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6b220.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_6b220.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm3A46.tmp
+Linking CXX executable cmTC_f3526.exe
+	"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f3526.dir --manifests  -- F:\PROGRAMMING\ViusalStudio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_f3526.dir\objects1.rsp @C:\Users\Przemek\AppData\Local\Temp\nm599B.tmp
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

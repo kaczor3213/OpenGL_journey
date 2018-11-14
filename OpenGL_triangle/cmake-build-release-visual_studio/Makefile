@@ -52,10 +52,10 @@ RM = "F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\STUDIES\CPP\OpenGL_test\OpenGL_triangle_2
+CMAKE_SOURCE_DIR = F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_test\OpenGL_triangle_2\cmake-build-release-visual_studio
+CMAKE_BINARY_DIR = F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-release-visual_studio
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_test\OpenGL_triangle_2\cmake-build-release-visual_studio\CMakeFiles F:\STUDIES\CPP\OpenGL_test\OpenGL_triangle_2\cmake-build-release-visual_studio\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-release-visual_studio\CMakeFiles F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-release-visual_studio\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_test\OpenGL_triangle_2\cmake-build-release-visual_studio\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STUDIES\CPP\OpenGL_journey\OpenGL_triangle\cmake-build-release-visual_studio\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,17 +115,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OpenGL_triangle_2
+# Target rules for targets named OpenGL_triangle
 
 # Build rule for target.
-OpenGL_triangle_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OpenGL_triangle_2
-.PHONY : OpenGL_triangle_2
+OpenGL_triangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OpenGL_triangle
+.PHONY : OpenGL_triangle
 
 # fast build rule for target.
-OpenGL_triangle_2\fast:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle_2.dir\build
-.PHONY : OpenGL_triangle_2\fast
+OpenGL_triangle\fast:
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle.dir\build
+.PHONY : OpenGL_triangle\fast
 
 glad.obj: glad.c.obj
 
@@ -133,7 +133,7 @@ glad.obj: glad.c.obj
 
 # target to build an object file
 glad.c.obj:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle_2.dir\glad.c.obj
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle.dir\glad.c.obj
 .PHONY : glad.c.obj
 
 glad.i: glad.c.i
@@ -142,7 +142,7 @@ glad.i: glad.c.i
 
 # target to preprocess a source file
 glad.c.i:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle_2.dir\glad.c.i
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle.dir\glad.c.i
 .PHONY : glad.c.i
 
 glad.s: glad.c.s
@@ -151,7 +151,7 @@ glad.s: glad.c.s
 
 # target to generate assembly for a file
 glad.c.s:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle_2.dir\glad.c.s
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle.dir\glad.c.s
 .PHONY : glad.c.s
 
 main.obj: main.cpp.obj
@@ -160,7 +160,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle_2.dir\main.cpp.obj
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -169,7 +169,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle_2.dir\main.cpp.i
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -178,7 +178,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\OpenGL_triangle_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle_2.dir\main.cpp.s
+	$(MAKE) -f CMakeFiles\OpenGL_triangle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGL_triangle.dir\main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -187,7 +187,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... OpenGL_triangle_2
+	@echo ... OpenGL_triangle
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... glad.obj

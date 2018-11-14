@@ -15,6 +15,7 @@ set(SRC
         include/vertex.hpp
         src/vertex.cpp
         include/vertices.hpp
+        src/glad.c
         )
 
 

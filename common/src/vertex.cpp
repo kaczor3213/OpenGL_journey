@@ -40,8 +40,8 @@ vertex& vertex::operator=(vertex &&other) noexcept
 	return *this;
 }
 
-bool vertex::check_in_range(const float &value)
+bool vertex::check_in_range(const double &value)
 {
-	if (0.0 <= value <= 1.0) return true;
+	if (0.0 <= value && value <= 1.0) return true;
 	return false;
 }

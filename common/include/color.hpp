@@ -14,7 +14,7 @@ private:
 	bool check_range(const unsigned &VALUE);
 	void generate_buffer();
 public:
-	std::vector<float> pigments;
+	std::vector<double> pigments;
 	color () {}
 	color(const unsigned &RED,
 		const unsigned &GREEN,

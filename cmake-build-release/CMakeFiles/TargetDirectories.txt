@@ -1,0 +1,8 @@
+D:/Git/OpenGL_journey/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/Git/OpenGL_journey/cmake-build-release/CMakeFiles/rebuild_cache.dir
+D:/Git/OpenGL_journey/cmake-build-release/common/CMakeFiles/OpenGL_common.dir
+D:/Git/OpenGL_journey/cmake-build-release/common/CMakeFiles/edit_cache.dir
+D:/Git/OpenGL_journey/cmake-build-release/common/CMakeFiles/rebuild_cache.dir
+D:/Git/OpenGL_journey/cmake-build-release/OpenGL_triangle/CMakeFiles/OpenGL_triangle.dir
+D:/Git/OpenGL_journey/cmake-build-release/OpenGL_triangle/CMakeFiles/edit_cache.dir
+D:/Git/OpenGL_journey/cmake-build-release/OpenGL_triangle/CMakeFiles/rebuild_cache.dir

@@ -4,7 +4,7 @@
 #include <vector>
 
 class vertex {
-	bool check_in_range(const float &value);
+	bool check_in_range(const double &value);
 public:
 	std::vector<double> coordinates;
 	vertex();

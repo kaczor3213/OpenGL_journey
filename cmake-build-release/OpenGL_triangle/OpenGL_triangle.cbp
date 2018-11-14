@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGL_triangle"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\OpenGL_triangle\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Git/OpenGL_journey/cmake-build-release/OpenGL_triangle"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_triangle">
+				<Option output="D:/Git/OpenGL_journey/cmake-build-release/OpenGL_triangle/OpenGL_triangle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Git/OpenGL_journey/cmake-build-release/OpenGL_triangle"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Git/OpenGL_journey/OpenGL_triangle/../external/glew-2.1.0/include"/>
+					<Add directory="D:/Git/OpenGL_journey/OpenGL_triangle/../external/glfw-3.2.1.bin.WIN32/include"/>
+					<Add directory="D:/Git/OpenGL_journey/OpenGL_triangle/../external/glad/include"/>
+					<Add directory="D:/Git/OpenGL_journey/OpenGL_triangle/../external/glm/glm"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 OpenGL_triangle"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL_triangle/fast">
+				<Option output="D:/Git/OpenGL_journey/cmake-build-release/OpenGL_triangle/OpenGL_triangle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Git/OpenGL_journey/cmake-build-release/OpenGL_triangle"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Git/OpenGL_journey/OpenGL_triangle/../external/glew-2.1.0/include"/>
+					<Add directory="D:/Git/OpenGL_journey/OpenGL_triangle/../external/glfw-3.2.1.bin.WIN32/include"/>
+					<Add directory="D:/Git/OpenGL_journey/OpenGL_triangle/../external/glad/include"/>
+					<Add directory="D:/Git/OpenGL_journey/OpenGL_triangle/../external/glm/glm"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 OpenGL_triangle/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Git\OpenGL_journey\cmake-build-release\OpenGL_triangle\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Git/OpenGL_journey/OpenGL_triangle/glad.c">
+			<Option target="OpenGL_triangle"/>
+		</Unit>
+		<Unit filename="D:/Git/OpenGL_journey/OpenGL_triangle/main.cpp">
+			<Option target="OpenGL_triangle"/>
+		</Unit>
+		<Unit filename="D:/Git/OpenGL_journey/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Git/OpenGL_journey/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="D:/Git/OpenGL_journey/OpenGL_triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OpenGL_triangle\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

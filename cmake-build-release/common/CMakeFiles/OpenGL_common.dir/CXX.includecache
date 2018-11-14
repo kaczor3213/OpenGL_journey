@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Git/OpenGL_journey/common/include/color.hpp
+vector
+-
+sstream
+-
+string
+-
+algorithm
+-
+
+D:/Git/OpenGL_journey/common/src/color.cpp
+../include/color.hpp
+D:/Git/OpenGL_journey/common/include/color.hpp
+

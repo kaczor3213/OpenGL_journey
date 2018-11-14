@@ -57,7 +57,7 @@ color::~color()
 
 bool color::check_range(const unsigned &VALUE)
 {
-	if (0 <= VALUE <= 255) return true;
+	if (0 <= VALUE && VALUE <= 255) return true;
 	else return false;
 }
 

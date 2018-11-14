@@ -1,4 +1,0 @@
-ToolSet: 15.0@F:\PROGRAMMING\ViusalStudio
-Options: msvc.arch=x86
-
-Options:

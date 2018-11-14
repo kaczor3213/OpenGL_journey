@@ -1,0 +1,3 @@
+F:/STUDIES/CPP/OpenGL_test/common/cmake-build-release-visual_studio/CMakeFiles/OpenGL_common.dir
+F:/STUDIES/CPP/OpenGL_test/common/cmake-build-release-visual_studio/CMakeFiles/edit_cache.dir
+F:/STUDIES/CPP/OpenGL_test/common/cmake-build-release-visual_studio/CMakeFiles/rebuild_cache.dir

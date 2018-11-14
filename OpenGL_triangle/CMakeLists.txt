@@ -1,37 +1,21 @@
 cmake_minimum_required(VERSION 3.12)
+project(OpenGL_triangle)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_VERBOSE_MAKEFILE ON)
 
-set(SRC
-        main.cpp
-        glad.c
-        )
+set(CMAKE_CXX_STANDARD 17)
 
-set(LIBS
-        OpenGL_common
-        ${OPENGL_gl_LIBRARY}
-        ${GLFW_LIBRARIES}
-        ${GLEW_LIBRARIES}
-        )
+link_libraries(OpenGL_common)
+link_libraries(${PROJECT_SOURCE_DIR}/external/glew-2.1.0/lib/Release/Win32/glew32s.lib)
+link_libraries(${PROJECT_SOURCE_DIR}/external/glfw-3.2.1.bin.WIN32/lib-vc2015/glfw3.lib)
+
 find_package(OpenGL REQUIRED)
+include_directories(${OPENGL_INCLUDE_DIRS})
 
-include_directories(
-        ../common/include/
-        ../external/glad/include/
-        ../external/glfw-master/include/
-        ../external/glew-2.1.0/include/
-        ../external/glm/
-)
+add_executable(OpenGL_triangle main.cpp glad.c)
 
-link_directories(../common)
-
-project(OpenGL_triangle VERSION 1.0)
-
-add_executable(${PROJECT_NAME} ${SRC})
-
-target_link_libraries(${PROJECT_NAME} ${LIBS})
-
-set_target_properties(${PROJECT_NAME} PROPERTIES VERSION ${PROJECT_VERSION})
-
-
-
+include_directories(${PROJECT_SOURCE_DIR}/external/glew-2.1.0/include)
+include_directories(${PROJECT_SOURCE_DIR}/external/glfw-3.2.1.bin.WIN32/include)
+include_directories(${PROJECT_SOURCE_DIR}/external/glad/include)
+include_directories(${PROJECT_SOURCE_DIR}/external/glm/glm)
+link_directories(${PROJECT_SOURCE_DIR}/common)

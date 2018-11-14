@@ -1,10 +1,8 @@
 #include <iostream>
-#include <vertices.hpp>
-#include <shader.hpp>
-
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <glm/glm.hpp>
+#include <glm.hpp>
+#include <shader.hpp>
 
 unsigned SCR_WIDTH = 800;
 unsigned SCR_HEIGHT = 600;
@@ -14,6 +12,7 @@ void processInput(GLFWwindow *window);
 
 int main()
 {
+    std::cout<<"happen";
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -42,6 +41,7 @@ int main()
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
+
     glfwTerminate();
 
     return 0;

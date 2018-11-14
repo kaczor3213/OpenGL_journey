@@ -1,3 +1,0 @@
-D:/Git/OpenGL_journey/OpenGL_triangle/cmake-build-debug/CMakeFiles/OpenGL_triangle.dir
-D:/Git/OpenGL_journey/OpenGL_triangle/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Git/OpenGL_journey/OpenGL_triangle/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-#include <vertex.hpp>
+#include "../include/vertex.hpp"
 
 vertex::vertex() : coordinates{ 0,0,0 } {}
 

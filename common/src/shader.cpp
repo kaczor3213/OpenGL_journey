@@ -1,4 +1,4 @@
-#include <shader.hpp>
+#include "../include/shader.hpp"
 
 
 shader::shader(const std::string &vertexpath, const std::string &fragmentpath)

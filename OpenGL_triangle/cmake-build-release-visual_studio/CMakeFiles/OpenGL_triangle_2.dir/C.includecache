@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/glad/include/glad/glad.h
+windows.h
+-
+stddef.h
+-
+inttypes.h
+-
+inttypes.h
+-
+inttypes.h
+-
+stdint.h
+-
+stdint.h
+-
+inttypes.h
+-
+
+F:/STUDIES/CPP/OpenGL_test/OpenGL_triangle_2/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/glad.h
+-
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+

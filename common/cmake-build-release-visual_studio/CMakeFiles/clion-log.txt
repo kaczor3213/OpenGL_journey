@@ -1,0 +1,4 @@
+"F:\PROGRAMMING\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - NMake Makefiles" F:\STUDIES\CPP\OpenGL_test\common
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/STUDIES/CPP/OpenGL_test/common/cmake-build-release-visual_studio

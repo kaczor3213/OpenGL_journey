@@ -32,6 +32,11 @@ public:
 		const unsigned &ALPHA);
 };
 
+color COLOR_RED(255, 0, 0, 0);
+color COLOR_GREEN(0, 255, 0, 0);
+color COLOR_BLUE(0, 0, 255, 0);
+color COLOR_BLACK(0, 0, 0, 0);
+color COLOR_WHITE(255, 255, 255, 0);
 
 
 #endif // !COLOR_H

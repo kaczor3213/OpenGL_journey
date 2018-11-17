@@ -15,8 +15,9 @@ set(SRC
         include/vertex.hpp
         src/vertex.cpp
         include/vertices.hpp
-        src/glad.c
-        )
+        include/triangle.h
+        src/triangle.cpp
+        src/glad.c)
 
 
 find_package(OpenGL REQUIRED)
@@ -34,11 +35,9 @@ include_directories(../external/glfw-3.2.1.bin.WIN32/include)
 include_directories(../external/glad/include)
 include_directories(../external/glm/glm)
 
+target_link_libraries(${PROJECT_NAME} ../external/glfw-3.2.1.bin.WIN32/lib-vc2015/glfw3)
 target_include_directories(${PROJECT_NAME} PRIVATE include)
 target_include_directories(${PROJECT_NAME} PRIVATE src)
-
-target_link_libraries(${PROJECT_NAME} ../external/glew-2.1.0/lib/Release/Win32/glew32s.lib)
-target_link_libraries(${PROJECT_NAME} ../external/glfw-3.2.1.bin.WIN32/lib-vc2015/glfw3.lib)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES VERSION ${PROJECT_VERSION})
 

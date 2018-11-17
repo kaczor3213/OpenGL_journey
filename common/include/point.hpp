@@ -4,7 +4,7 @@
 #include "vertex.hpp"
 #include "color.hpp"
 
-class point : public vertex
+class point : public vertex, public color
 {
 private:
 	color _color;

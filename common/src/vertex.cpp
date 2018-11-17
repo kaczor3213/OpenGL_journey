@@ -29,14 +29,12 @@ vertex& vertex::operator=(const vertex &other)
 
 vertex::vertex(vertex &&other) noexcept
 {
-	coordinates = other.coordinates;
-	other.coordinates.clear();
+	coordinates = std::move(other.coordinates);
 }
 
 vertex& vertex::operator=(vertex &&other) noexcept
 {
-	coordinates = other.coordinates;
-	other.coordinates.clear();
+	coordinates = std::move(other.coordinates);
 	return *this;
 }
 

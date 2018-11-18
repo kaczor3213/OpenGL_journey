@@ -30,6 +30,10 @@ public:
     {
         return c_arr[index];
     }
+    T operator[](const int &index) const
+    {
+        return c_arr[index];
+    }
 };
 /* Czarek napraw to stara dupo
 float **parse_to_glsl(std::vector<point> &vertices)

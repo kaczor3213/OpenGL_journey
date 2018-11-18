@@ -30,7 +30,7 @@ void buffer::VAO_handling()
     bind_VAO();
 }
 
-void buffer::parse_to_glsl(vertices<point> &set)
+void buffer::parse_to_glsl(const vertices<point> &set)
 {
 
     VBO_DATA = new float*[set.size()];

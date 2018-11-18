@@ -1,14 +1,12 @@
 #ifndef VERTEX_HPP
 #define VERTEX_HPP
 
-#include <vector>
-
 class vertex {
 	bool check_in_range(const double &value);
 public:
-	std::vector<double> coordinates;
+    double position;
 	vertex();
-	vertex(const double &x,const double &y,const double &z);
+	vertex(const double &POSITION);
 	vertex(const vertex &other);
 	vertex& operator=(const vertex &other);
 	vertex(vertex &&other) noexcept;

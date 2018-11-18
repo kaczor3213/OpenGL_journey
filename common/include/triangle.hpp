@@ -2,14 +2,14 @@
 // Created by Moew34 on 11/17/2018.
 //
 
-#ifndef TRIANGLE_H
-#define TRIANGLE_H
+#ifndef TRIANGLE_HPP
+#define TRIANGLE_HPP
 
 #include "point.hpp"
 
 class triangle : public point
 {
-    std::vector <point> _triangle;
+    std::vector <point> coordinates;
 public:
     triangle(const point &first, const point &second, const point &third);
     triangle(const triangle &other);

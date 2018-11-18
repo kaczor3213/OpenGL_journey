@@ -15,7 +15,7 @@ set(SRC
         include/vertex.hpp
         src/vertex.cpp
         include/vertices.hpp
-        include/triangle.h
+        include/triangle.hpp
         src/triangle.cpp
         src/glad.c)
 

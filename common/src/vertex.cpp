@@ -1,15 +1,12 @@
 #include "../include/vertex.hpp"
 
-vertex::vertex() : coordinates{ 0,0,0 } {}
+vertex::vertex() : position{0} {}
 
-vertex::vertex(const double &x, const double &y, const double &z)
+vertex::vertex(const double &POSITION)
 {
-	if (check_in_range(x) && check_in_range(y) && check_in_range(z))
+	if (check_in_range(POSITION))
 	{
-		coordinates = std::vector<double>{x,y,z};
-		coordinates.push_back(x);
-		coordinates.push_back(y);
-		coordinates.push_back(z);
+		position = POSITION;
 	}
 	else
 	{
@@ -19,7 +16,7 @@ vertex::vertex(const double &x, const double &y, const double &z)
 
 vertex::vertex(const vertex &other)
 {
-	coordinates = other.coordinates;
+	position = other.position;
 }
 
 vertex& vertex::operator=(const vertex &other)
@@ -29,12 +26,12 @@ vertex& vertex::operator=(const vertex &other)
 
 vertex::vertex(vertex &&other) noexcept
 {
-	coordinates = std::move(other.coordinates);
+	position = other.position;
 }
 
 vertex& vertex::operator=(vertex &&other) noexcept
 {
-	coordinates = std::move(other.coordinates);
+	position = other.position;
 	return *this;
 }
 

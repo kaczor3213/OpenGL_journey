@@ -1,20 +1,21 @@
 //
 // Created by Moew34 on 11/17/2018.
 //
-#include "../include/triangle.h"
+#include "triangle.hpp"
+
 triangle::triangle(const point &first, const point &second, const point &third)
 {
-    _triangle.push_back(first);
-    _triangle.push_back(second);
-    _triangle.push_back(third);
+    coordinates.push_back(first);
+    coordinates.push_back(second);
+    coordinates.push_back(third);
 }
 triangle::triangle(const triangle &other)
 {
-    _triangle = other._triangle;
+    coordinates = other.coordinates;
 }
 triangle::triangle(triangle &&other) noexcept
 {
-    _triangle = std::move(other._triangle);
+    coordinates = std::move(other.coordinates);
 }
 triangle& triangle::operator=(const triangle &other)
 {
@@ -22,6 +23,6 @@ triangle& triangle::operator=(const triangle &other)
 }
 triangle& triangle::operator=(triangle &&other) noexcept
 {
-    _triangle = std::move(other._triangle);
+    coordinates = std::move(other.coordinates);
     return *this;
 }

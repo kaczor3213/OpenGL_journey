@@ -4,20 +4,18 @@ point::point() : _color(color(255, 255, 255, 0)) {}
 
 point::point(const vertex &VERTEX, const color &COLOR)
 {
-	coordinates = VERTEX.coordinates;
+	position = VERTEX.position;
 	_color = COLOR;
 }
 
-point::point(const double &x, const double &y, const double &z, const color &COLOR)
+point::point(const double &POSITION, const color &COLOR)
 {
-	coordinates.push_back(x);
-	coordinates.push_back(y);
-	coordinates.push_back(z);
+	position=POSITION;
 	_color = COLOR;
 }
 point::point(const point &other)
 {
-	coordinates = other.coordinates;
+	position = other.position;
 }
 
 point& point::operator=(const point &other)
@@ -27,12 +25,12 @@ point& point::operator=(const point &other)
 
 point::point(point &&other) noexcept
 {
-	coordinates = std::move(other.coordinates);
+	position = other.position;
 }
 
 point& point::operator=(point &&other) noexcept
 {
-	coordinates = std::move(other.coordinates);
+	position =other.position;
 	return *this;
 }
 

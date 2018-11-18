@@ -3,7 +3,32 @@
 
 #include "point.hpp"
 
-
+template <typename T>
+class vertices
+{
+private:
+    std::vector<T> c_arr;
+public:
+    vertices() {c_arr.resize(3,0)};
+    vertices(const std::vector<T> &coordinates) : c_arr(other.c_arr) {}
+    vertices(const vertices &other) : c_arr(other.c_arr) {}
+    vertices& operator=(const vertices &other) {
+        return *this=vertices(other);
+    }
+    vertices(vertices &&other) noexcept {
+        c_arr = std::move(other.c_arr);
+    }
+    vertices& operator=(vertices &&other) noexcept {
+        c_arr = std::move(other.c_arr);
+        return *this;
+    }
+    ~vertices() {}
+    vertices& operator[](const int &index)
+    {
+        return c_arr[index];
+    }
+};
+/* Czarek napraw to stara dupo
 float **parse_to_glsl(std::vector<point> &vertices)
 {
 	float **parser = new float*[vertices.size()+1];
@@ -22,5 +47,5 @@ float **parse_to_glsl(std::vector<point> &vertices)
 	}
 	return parser;
 }
-
+*/
 #endif // !VERTICES_HPP

@@ -10,7 +10,7 @@ private:
     std::vector<T> c_arr;
 public:
     vertices() {c_arr.resize(3,0)};
-    vertices(const std::vector<T> &coordinates) : c_arr(other.c_arr) {}
+    vertices(const std::vector<double> &coordinates) : c_arr(other.c_arr) {}
     vertices(const vertices &other) : c_arr(other.c_arr) {}
     vertices& operator=(const vertices &other) {
         return *this=vertices(other);
@@ -23,7 +23,7 @@ public:
         return *this;
     }
     ~vertices() {}
-    vertices& operator[](const int &index)
+    T& operator[](const int &index)
     {
         return c_arr[index];
     }

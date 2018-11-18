@@ -1,17 +1,25 @@
 #include "../include/vertex.hpp"
 
-vertex::vertex() : position{0} {}
 
-vertex::vertex(const double &POSITION)
+vertex::vertex(const std::vector<double> &coordinate_vector)
 {
-	if (check_in_range(POSITION))
+	if (check_in_range(coordinate_vector[0]) &&
+		check_in_range(coordinate_vector[1]) &&
+		check_in_range(coordinate_vector[2]))
 	{
-		position = POSITION;
+		position[0] = coordinate_vector[0];
+		position[1] = coordinate_vector[1];
+		position[2] = coordinate_vector[2];
 	}
 	else
 	{
 
 	}
+}
+
+vertex::vertex(const vector3d &coordinate_vector)
+{
+	position = coordinate_vector;
 }
 
 vertex::vertex(const vertex &other)

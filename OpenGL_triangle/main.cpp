@@ -3,6 +3,7 @@
 #include <GLFW/glfw3.h>
 #include <glm.hpp>
 #include <shader.hpp>
+#include <vertices.hpp>
 
 
 unsigned SCR_WIDTH = 800;
@@ -13,6 +14,9 @@ void processInput(GLFWwindow *window);
 
 int main()
 {
+    std::vector<double> bla{0.2,0.3,0.4};
+    vertices<point> my_vertices(bla);
+    my_vertices[0].position
     std::cout<<"happen";
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);

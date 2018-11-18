@@ -8,11 +8,21 @@ point::point(const vertex &VERTEX, const color &COLOR)
 	_color = COLOR;
 }
 
-point::point(const double &POSITION, const color &COLOR)
+point::point(const std::vector<double> &coordinate_vector, const color &COLOR)
 {
-	position=POSITION;
+	///to fix
+	position[0] = coordinate_vector[0];
+	position[1] = coordinate_vector[1];
+	position[2] = coordinate_vector[2];
 	_color = COLOR;
 }
+
+point::point(const vector3d &coordinate_vector, const color &COLOR)
+{
+	position = coordinate_vector;
+	_color = COLOR;
+}
+
 point::point(const point &other)
 {
 	position = other.position;

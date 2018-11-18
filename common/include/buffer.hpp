@@ -5,7 +5,7 @@
 #ifndef BUFFER_HPP
 #define BUFFER_HPP
 #include <gl/glew.h>
-#include <triangle.hpp>
+#include <vertices.hpp>
 
 class buffer {
 private:

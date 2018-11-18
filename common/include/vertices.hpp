@@ -23,7 +23,10 @@ public:
         return *this;
     }
     ~vertices() {}
-    T& operator[](const int &index)
+    int size() const {
+        return c_arr.size();
+    }
+    T& operator[](const int &index) const
     {
         return c_arr[index];
     }

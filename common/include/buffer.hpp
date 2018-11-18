@@ -4,8 +4,10 @@
 
 #ifndef BUFFER_HPP
 #define BUFFER_HPP
-#include <gl/glew.h>
-#include <vertices.hpp>
+
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+#include "vertices.hpp"
 
 class buffer {
 private:
@@ -20,6 +22,6 @@ public:
     void linking_vertex_attributes();
     void bind_VAO();
     void VAO_handling();
-    void parse_to_glsl(std::vector<point> &vertices);
+    void parse_to_glsl(const vertices<point> &set);
 };
 #endif //BUFFER_HPP

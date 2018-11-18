@@ -6,7 +6,7 @@
 #define TRIANGLE_HPP
 
 #include "point.hpp"
-#include <buffer.hpp>
+#include "buffer.hpp"
 
 class triangle : public point
 {

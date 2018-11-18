@@ -17,7 +17,11 @@ set(SRC
         include/vertices.hpp
         include/triangle.hpp
         src/triangle.cpp
-        src/glad.c include/vector3d.hpp src/vector3d.cpp)
+        src/glad.c
+        include/vector3d.hpp
+        src/vector3d.cpp
+        src/buffer.cpp
+        include/buffer.hpp)
 
 
 find_package(OpenGL REQUIRED)

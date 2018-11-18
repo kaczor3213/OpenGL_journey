@@ -26,7 +26,7 @@ public:
     int size() const {
         return c_arr.size();
     }
-    T& operator[](const int &index) const
+    T& operator[](const int &index)
     {
         return c_arr[index];
     }

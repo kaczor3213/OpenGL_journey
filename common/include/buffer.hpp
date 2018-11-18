@@ -22,6 +22,6 @@ public:
     void linking_vertex_attributes();
     void bind_VAO();
     void VAO_handling();
-    void parse_to_glsl(const vertices<point> &set);
+    void parse_to_glsl(vertices<point> &set);
 };
 #endif //BUFFER_HPP

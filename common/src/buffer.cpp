@@ -45,7 +45,7 @@ void buffer::parse_to_glsl(const vertices<point> &set)
             if (j < 3)
                 VBO_DATA[i][j] = static_cast<float>(set[j].position[j]);
             else
-                VBO_DATA[i][j] = set[i].get_color().pigments[j-3];
+                VBO_DATA[i][j] = static_cast<float>(set[i].get_color().pigments[j-3]);
         }
     }
 }

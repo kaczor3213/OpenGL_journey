@@ -4,13 +4,13 @@
 
 #ifndef TRIANGLE_HPP
 #define TRIANGLE_HPP
-
-#include "point.hpp"
+///end this class, include buffer, proper constructors
+#include "vertices.hpp"
 #include "buffer.hpp"
 
 class triangle : public point
 {
-    std::vector <point> coordinates;
+    vertices<point> coordinates;
 public:
     triangle(const point &first, const point &second, const point &third);
     triangle(const triangle &other);

@@ -2,7 +2,7 @@
 // Created by Moew34 on 11/18/2018.
 //
 #include "../include/buffer.hpp"
-
+///buffer parser needs upgrade
 buffer::~buffer()
 {
     for(int i = 0; i < VBO_DATA_SIZE; i++)

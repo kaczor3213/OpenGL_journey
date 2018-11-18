@@ -15,7 +15,7 @@ private:
     int VBO_DATA_SIZE;
 public:
     buffer() : VBO(0), VAO(0), VBO_DATA(nullptr) {}
-    ~buffer(){}
+    ~buffer();
     void VBO_handling(const float** data);
     void linking_vertex_attributes();
     void bind_VAO();

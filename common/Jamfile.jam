@@ -1,0 +1,13 @@
+project
+	: usage-requirements <include>.include/
+	;
+lib common
+	:	src/buffer.cpp 
+		src/color.cpp
+		src/point.cpp
+		src/shader.cpp
+		src/triangle.cpp
+		src/vector3d.cpp
+		src/vertex.cpp
+		src/glad.c
+	;

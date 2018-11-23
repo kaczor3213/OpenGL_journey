@@ -1,0 +1,7 @@
+"src\glad.c" -Fo"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\glad.obj"    -TC /O2 /Z7 /Ob0 /W3 /GR /MD /Zc:forScope /Zc:wchar_t -c 
+-DCOMMON_DLL 
+-DNDEBUG 
+"-I..\external\glad\include" 
+"-I..\external\glew\include" 
+"-I..\external\glfw\include" 
+"-Iinclude"

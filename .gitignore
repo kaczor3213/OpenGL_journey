@@ -31,6 +31,7 @@
 *.out
 *.app
 
+bin
 cmake-build-release
 cmake-build-debug
 cmake-build-release-visual_studio

@@ -4,6 +4,6 @@ project
 	;
 
 exe OpenGL_triangle 
-	: main.cpp
+	: main.cpp glad.c
 	;
 

@@ -1,8 +1,6 @@
-project
-	: usage-requirements <include>.include/
-	;
 lib common
-	:	src/buffer.cpp 
+	: # sources
+		src/buffer.cpp
 		src/color.cpp
 		src/point.cpp
 		src/shader.cpp
@@ -10,4 +8,16 @@ lib common
 		src/vector3d.cpp
 		src/vertex.cpp
 		src/glad.c
+	: # requirements
+		<link>shared
+		<define>COMMON_DLL
+	: # includes
+		<include>include
+		<include>../external/glad/include 
+		<include>../external/glew/include
+		<include>../external/glfw/include
+
+	: # libs
+		<file>../external/glew/lib/glew32.lib	<variant>release
+		<file>../external/glfw/lib/glfw3.lib	<variant>release
 	;

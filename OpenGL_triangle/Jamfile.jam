@@ -1,0 +1,9 @@
+project
+	: requirements <include>../common <include>../external/glad/include
+	: default-build release
+	;
+
+exe OpenGL_triangle 
+	: main.cpp
+	;
+

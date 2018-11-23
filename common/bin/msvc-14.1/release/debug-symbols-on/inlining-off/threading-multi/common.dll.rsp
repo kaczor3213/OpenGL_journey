@@ -1,9 +1,0 @@
-
-"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\buffer.obj" 
-"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\color.obj" 
-"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\point.obj" 
-"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\shader.obj" 
-"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\triangle.obj" 
-"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\vector3d.obj" 
-"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\vertex.obj" 
-"bin\msvc-14.1\release\debug-symbols-on\inlining-off\threading-multi\src\glad.obj"    

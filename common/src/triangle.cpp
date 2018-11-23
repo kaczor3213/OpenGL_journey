@@ -3,6 +3,8 @@
 //
 #include "../include/triangle.hpp"
 ///end this class, include buffer, proper constructors
+
+/*
 triangle::triangle(const point &first, const point &second, const point &third)
 {
     coordinates.push_back(first);
@@ -26,3 +28,4 @@ triangle& triangle::operator=(triangle &&other) noexcept
     coordinates = std::move(other.coordinates);
     return *this;
 }
+*/

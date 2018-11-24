@@ -16,6 +16,7 @@ lib common
 		<include>../external/glad/include 
 		<include>../external/glew/include
 		<include>../external/glfw/include
+		<include>../external/glm/include
 
 	: # libs
 		<file>../external/glew/lib/glew32.lib	<variant>release

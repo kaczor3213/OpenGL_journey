@@ -1,1 +1,2 @@
+build-project common ;
 build-project OpenGL_triangle ;

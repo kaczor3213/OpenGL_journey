@@ -5,7 +5,7 @@ project
 exe OpenGL_triangle 
 	: main.cpp ../common//common
  	: # includes
-                <include>include
+               
                 <include>../external/glad/include
                 <include>../external/glew/include
                 <include>../external/glfw/include

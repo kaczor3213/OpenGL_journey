@@ -18,7 +18,7 @@ private:
 public:
     buffer() : VBO(0), VAO(0), VBO_DATA(nullptr), VBO_DATA_SIZE(0) {}
     ~buffer();
-    void set_buffers(const float** data);
+    void set_buffers();
 	void bind_and_draw();
     void parse_to_glsl(const vertices<point> &set);
 };

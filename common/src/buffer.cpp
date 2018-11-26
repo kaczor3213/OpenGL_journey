@@ -9,25 +9,34 @@ buffer::~buffer()
         delete[] VBO_DATA[i];
     delete[] VBO_DATA;
 }
+<<<<<<< HEAD
 void buffer::VBO_handling()
+=======
+void buffer::set_buffers(const float** data)
+>>>>>>> 5126c0c7c5ead4bf38723d5aa1e51106d4d45d62
 {
+	glGenVertexArrays(1, &VAO);
+	glBindVertexArray(VAO);
+
     glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
+<<<<<<< HEAD
     //glBufferData(GL_ARRAY_BUFFER, sizeof(data), data, GL_STATIC_DRAW);
 }
 void buffer::linking_vertex_attributes()
 {
+=======
+    glBufferData(GL_ARRAY_BUFFER, sizeof(data), data, GL_STATIC_DRAW);
+
+>>>>>>> 5126c0c7c5ead4bf38723d5aa1e51106d4d45d62
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
+
 }
-void buffer::bind_VAO()
+void buffer::bind_and_draw()
 {
-    glBindVertexArray(VAO);
-}
-void buffer::VAO_handling()
-{
-    glGenVertexArrays(1, &VAO);
-    bind_VAO();
+	glBindVertexArray(VAO);
+	glDrawArrays(GL_TRIANGLES, 0, 3);
 }
 
 void buffer::parse_to_glsl()

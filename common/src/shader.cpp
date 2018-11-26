@@ -70,7 +70,6 @@ void shader::compile(const char *c_vertexcode, const char *c_fragmentcode)
 void shader::run() const
 {
 	glUseProgram(shaderProgram);
-	glDrawArrays(GL_TRIANGLES, 0, 3);
 }
 
 void shader::link_shader(const std::string &vertexpath, const std::string &fragmentpath)

@@ -5,8 +5,8 @@
 #ifndef BUFFER_HPP
 #define BUFFER_HPP
 
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
+#include <glad.h>
+#include <glfw3.h>
 #include "vertices.hpp"
 
 class buffer {

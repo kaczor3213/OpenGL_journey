@@ -1,10 +1,9 @@
 #include <iostream>
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
+#include <glad.h>
+#include <glfw3.h>
 #include <glm.hpp>
-#include <shader.hpp>
-#include <vertices.hpp>
-
+//#include <shader.hpp>
+//#include <vertices.hpp>
 
 unsigned SCR_WIDTH = 800;
 unsigned SCR_HEIGHT = 600;

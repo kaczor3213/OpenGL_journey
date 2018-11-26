@@ -7,7 +7,7 @@ class vertex {
 	bool check_in_range(const double &value);
 public:
     vector3d position;
-    vertex::vertex() {}
+    vertex() {}
 	vertex(const std::vector<double> &coordinate_vector);
     vertex(const vector3d &coordinate_vector);
 	vertex(const vertex &other);

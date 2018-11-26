@@ -33,6 +33,7 @@
 
 *.sln
 *.vcxproj*
+.vs
 bin
 Release
 External

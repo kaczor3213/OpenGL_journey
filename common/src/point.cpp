@@ -56,7 +56,6 @@ color point::get_color()
 	return _color;
 }
 
-
 bool point::check_in_range(const double &value)
 {
 	if (0.0 <= value && value <= 1.0) return true;

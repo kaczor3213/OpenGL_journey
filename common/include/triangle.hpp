@@ -6,17 +6,17 @@
 #define TRIANGLE_HPP
 ///end this class, include buffer, proper constructors
 #include "vertices.hpp"
-#include "buffer.hpp"
+#include "shape.hpp"
 
-class triangle : public point
+class triangle : public shape
 {
-    vertices<point> coordinates;
 public:
-    triangle(const point &first, const point &second, const point &third);
+	triangle();
     triangle(const triangle &other);
     triangle(triangle &&other) noexcept;
     triangle& operator=(const triangle &other);
     triangle& operator=(triangle &&other) noexcept;
+	~triangle();
 };
 
-#endif //TRIANGLE_H
+#endif //TRIANGLE_HPP

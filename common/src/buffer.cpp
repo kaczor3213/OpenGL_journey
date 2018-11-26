@@ -9,11 +9,11 @@ buffer::~buffer()
         delete[] VBO_DATA[i];
     delete[] VBO_DATA;
 }
-void buffer::VBO_handling(const float** data)
+void buffer::VBO_handling()
 {
     glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(data), data, GL_STATIC_DRAW);
+    //glBufferData(GL_ARRAY_BUFFER, sizeof(data), data, GL_STATIC_DRAW);
 }
 void buffer::linking_vertex_attributes()
 {
@@ -30,7 +30,7 @@ void buffer::VAO_handling()
     bind_VAO();
 }
 
-void buffer::parse_to_glsl(const vertices<point> &set)
+void buffer::parse_to_glsl()
 {
     VBO_DATA = new float*[set.size()];
     VBO_DATA_SIZE = set.size();

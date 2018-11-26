@@ -2,7 +2,7 @@
 #define VERTICES_HPP
 
 #include "point.hpp"
-///add vector constructor
+
 template <typename T>
 class vertices
 {

@@ -2,18 +2,20 @@
 
 point::point() : _color(color(255, 255, 255, 0)) {}
 
-point::point(const vertex &VERTEX, const color &COLOR)
-{
-	position = VERTEX.position;
-	_color = COLOR;
-}
-
 point::point(const std::vector<double> &coordinate_vector, const color &COLOR)
 {
-	///to fix
-	position[0] = coordinate_vector[0];
-	position[1] = coordinate_vector[1];
-	position[2] = coordinate_vector[2];
+	if (check_in_range(coordinate_vector[0]) &&
+		check_in_range(coordinate_vector[1]) &&
+		check_in_range(coordinate_vector[2]))
+	{
+		position[0] = coordinate_vector[0];
+		position[1] = coordinate_vector[1];
+		position[2] = coordinate_vector[2];
+	}
+	else
+	{
+
+	}
 	_color = COLOR;
 }
 
@@ -52,4 +54,11 @@ void point::set_color(const color &COLOR)
 color point::get_color()
 {
 	return _color;
+}
+
+
+bool point::check_in_range(const double &value)
+{
+	if (0.0 <= value && value <= 1.0) return true;
+	return false;
 }

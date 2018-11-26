@@ -32,7 +32,6 @@ void buffer::VAO_handling()
 
 void buffer::parse_to_glsl(const vertices<point> &set)
 {
-
     VBO_DATA = new float*[set.size()];
     VBO_DATA_SIZE = set.size();
     for (int i=0; i< VBO_DATA_SIZE; i++)

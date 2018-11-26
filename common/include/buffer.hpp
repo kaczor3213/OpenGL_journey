@@ -8,6 +8,7 @@
 #include <glad.h>
 #include <glfw3.h>
 #include "vertices.hpp"
+#include "shape.hpp"
 
 class buffer {
 private:
@@ -20,6 +21,6 @@ public:
     ~buffer();
     void set_buffers();
 	void bind_and_draw();
-    void parse_to_glsl(const vertices<point> &set);
+    void parse_to_glsl(shape &set);
 };
 #endif //BUFFER_HPP

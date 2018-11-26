@@ -28,10 +28,10 @@ void buffer::bind_and_draw()
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 }
 
-void buffer::parse_to_glsl(const vertices<point> &set)
+void buffer::parse_to_glsl(shape &set)
 {
-    VBO_DATA = new float*[set.size()];
-    VBO_DATA_SIZE = set.size();
+    VBO_DATA = new float*[set.coordinates.size()];
+    VBO_DATA_SIZE = set.coordinates.size();
     for (int i=0; i < VBO_DATA_SIZE; i++)
         VBO_DATA[i] = new float[7];
 
@@ -40,9 +40,9 @@ void buffer::parse_to_glsl(const vertices<point> &set)
         for (int j = 0; j < 7; j++)
         {
             if (j < 3)
-                VBO_DATA[i][j] = static_cast<float>(set[j].position[j]);
+                VBO_DATA[i][j] = static_cast<float>(set.coordinates[j].position[j]);
             else
-                VBO_DATA[i][j] = static_cast<float>(set[i].get_color().pigments[j-3]);
+                VBO_DATA[i][j] = static_cast<float>(set.coordinates[i].get_color().pigments[j-3]);
         }
     }
 }

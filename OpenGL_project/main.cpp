@@ -2,8 +2,8 @@
 #include <glad.h>
 #include <glfw3.h>
 #include <glm.hpp>
-//#include <shader.hpp>
-//#include <vertices.hpp>
+#include "../common/include/buffer.hpp"
+#include "../common/include/triangle.hpp"
 
 unsigned SCR_WIDTH = 800;
 unsigned SCR_HEIGHT = 600;
@@ -33,6 +33,13 @@ int main()
         getchar();
         return -1;
     }
+
+	///tu sie dzieje magia
+
+	//triangle my_triangle;
+	//my_triangle.coordinates[0].position[0] = 0.5;
+
+
     while (!glfwWindowShouldClose(window))
     {
         processInput(window);

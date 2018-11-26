@@ -27,7 +27,7 @@ public:
         return *this;
     }
     ~vertices() {}
-    int size() const {
+    int size() {
         return c_arr.size();
     }
     T& operator[](const int &index)

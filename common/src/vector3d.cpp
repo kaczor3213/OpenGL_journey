@@ -35,5 +35,10 @@ vector3d& vector3d::operator=(vector3d &&other) noexcept
 
 double& vector3d::operator[](const int &index)
 {
-       return set[index];
+    return set[index];
+}
+
+double vector3d::operator[](const int &index) const
+{
+	return set[index];
 }

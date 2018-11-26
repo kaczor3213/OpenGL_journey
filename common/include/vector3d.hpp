@@ -18,7 +18,8 @@ public:
     vector3d& operator=(const vector3d &other);
     vector3d(vector3d &&other) noexcept;
     vector3d& operator=(vector3d &&other) noexcept;
-    double& operator[](const int &INDEX);
+    double& operator[](const int &index);
+	double operator[](const int &index) const;
     ~vector3d() {}
 };
 

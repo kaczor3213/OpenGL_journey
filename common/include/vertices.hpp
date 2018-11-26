@@ -10,10 +10,10 @@ private:
     std::vector<T> c_arr;
 public:
 	vertices() { 
-		c_arr.resize(3, 0);
+		c_arr.resize(3);
 	}
 	vertices(const std::vector<T> &arr) {
-		c_arr = std::copy(arr.begin(), arr.end(), c_arr);
+		c_arr = arr;
 	}
     vertices(const vertices &other) : c_arr(other.c_arr) {}
     vertices& operator=(const vertices &other) {

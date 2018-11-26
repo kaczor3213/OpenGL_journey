@@ -16,7 +16,7 @@ public:
     triangle(triangle &&other) noexcept;
     triangle& operator=(const triangle &other);
     triangle& operator=(triangle &&other) noexcept;
-	~triangle();
+	~triangle() {}
 };
 
 #endif //TRIANGLE_HPP

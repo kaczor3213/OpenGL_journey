@@ -36,11 +36,10 @@ int main()
 
 	///tu sie dzieje magia
 	
-	const color COLOR_RED(255, 0, 0);
-	const color COLOR_GREEN(0, 255, 0);
-	const color COLOR_BLUE(0, 0, 255);
+	const color COLOR_RED(255, 0, 0, 255);
+	const color COLOR_GREEN(0, 255, 0, 255);
+	const color COLOR_BLUE(0, 0, 255, 255);
 	
-
 	buffer my_buffer;
 	triangle my_triangle;
 

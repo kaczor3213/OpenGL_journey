@@ -7,6 +7,7 @@
 
 triangle::triangle() {
 	indices = std::vector<double>{ 0,1,2 };
+	coordinates.resize(3);
 }
 
 triangle::triangle(const triangle &other) {

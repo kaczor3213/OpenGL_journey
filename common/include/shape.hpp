@@ -9,8 +9,7 @@ protected:
 	std::vector<double> indices;
 public:
 	vertices<point> coordinates;
-	shape() {
-	}
+	shape() {}
 	virtual ~shape() {}
 };
 

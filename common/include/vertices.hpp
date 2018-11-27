@@ -30,13 +30,15 @@ public:
     int size() {
         return c_arr.size();
     }
-    T& operator[](const int &index)
-    {
+    T& operator[](const int &index) {
         return c_arr[index];
     }
-    T operator[](const int &index) const
-    {
+    T operator[](const int &index) const {
         return c_arr[index];
     }
+	void resize(const int &new_size)
+	{
+		c_arr.resize(new_size);
+	}
 };
 #endif // !VERTICES_HPP

@@ -11,7 +11,6 @@
 
 class triangle : public shape
 {
-	
 public:
 	triangle();
     triangle(const triangle &other);

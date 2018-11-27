@@ -10,7 +10,7 @@ shader::shader()
 		"{\n"
 		"   gl_Position = vec4(aPos, 1.0);\n"
 		"   ourColor = aColor;\n"
-		"}\0";
+		"}\n\0";
 
 	const char *fragmentShaderSource = "#version 330 core\n"
 		"out vec4 FragColor;\n"
@@ -21,8 +21,8 @@ shader::shader()
 		"}\n\0";
 	
 	compile(vertexShaderSource, fragmentShaderSource);
-	//delete[] vertexShaderSource;
-	//delete[] fragmentShaderSource;
+	//delete vertexShaderSource;
+	//delete fragmentShaderSource;
 }
 
 shader::shader(const std::string &vertexpath, const std::string &fragmentpath)

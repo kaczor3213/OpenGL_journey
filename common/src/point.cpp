@@ -1,6 +1,6 @@
 #include "../include/point.hpp"
 
-point::point() : _color(color(255, 255, 255)) {}
+point::point() : _color(color(255, 255, 255, 255)) {}
 
 point::point(const std::vector<float> &coordinate_vector, const color &COLOR)
 {

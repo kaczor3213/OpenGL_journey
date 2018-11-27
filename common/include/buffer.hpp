@@ -15,7 +15,7 @@ class buffer : public shader {
 private:
     unsigned VBO;
     unsigned VAO;
-    float VBO_DATA [18];
+    std::vector<float> VBO_DATA;
     int VBO_DATA_SIZE;
 public:
     buffer() : VBO(0), VAO(0), VBO_DATA_SIZE(0) {}

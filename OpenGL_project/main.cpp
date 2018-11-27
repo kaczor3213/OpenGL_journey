@@ -35,22 +35,47 @@ int main()
     }
 
 	///tu sie dzieje magia
+	
+	const color COLOR_RED(255, 0, 0);
+	const color COLOR_GREEN(0, 255, 0);
+	const color COLOR_BLUE(0, 0, 255);
+	
 
-	//triangle my_triangle;
-	//my_triangle.coordinates[0].position[0] = 0.5;
+	buffer my_buffer;
+	triangle my_triangle;
 
+	my_triangle.coordinates[0].position[0] = -0.5;
+	my_triangle.coordinates[0].position[1] = -0.5;
+	my_triangle.coordinates[0].position[2] = 0.0;
+
+	my_triangle.coordinates[1].position[0] = 0.5;
+	my_triangle.coordinates[1].position[1] = -0.5;
+	my_triangle.coordinates[1].position[2] = 0.0;
+
+	my_triangle.coordinates[2].position[0] = 0.0;
+	my_triangle.coordinates[2].position[1] = 0.5;
+	my_triangle.coordinates[2].position[2] = 0.0;
+
+	my_triangle.coordinates[0].set_color(COLOR_RED);
+	my_triangle.coordinates[1].set_color(COLOR_GREEN);
+	my_triangle.coordinates[2].set_color(COLOR_BLUE);
+
+	my_buffer.parse_to_glsl(my_triangle);
+	my_buffer.set_buffers();
+
+	my_buffer.run();
 
     while (!glfwWindowShouldClose(window))
     {
         processInput(window);
-        glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
-        glfwSwapBuffers(window);
+		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
+
+		my_buffer.bind_and_draw();
+
+		glfwSwapBuffers(window);
         glfwPollEvents();
     }
-
     glfwTerminate();
-
     return 0;
 }
 

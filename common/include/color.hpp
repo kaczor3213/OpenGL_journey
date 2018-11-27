@@ -14,12 +14,11 @@ private:
 	bool check_range(const unsigned &VALUE);
 	void generate_buffer();
 public:
-	std::vector<double> pigments;
+	std::vector <float> pigments;
 	color () {}
 	color(const unsigned &RED,
 		const unsigned &GREEN,
-		const unsigned &BLUE,
-		const unsigned &ALPHA);
+		const unsigned &BLUE);
 	color(const color &other);
 	color& operator=(const color &other);
 	color(color &&other) noexcept;
@@ -28,8 +27,7 @@ public:
 	std::string get_buffer();
 	void set_color(const unsigned &RED,
 		const unsigned &GREEN,
-		const unsigned &BLUE,
-		const unsigned &ALPHA);
+		const unsigned &BLUE);
 };
 /*
 extern const color COLOR_RED(255, 0, 0, 0);

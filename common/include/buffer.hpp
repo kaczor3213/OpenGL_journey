@@ -9,12 +9,13 @@
 #include <glfw3.h>
 #include "vertices.hpp"
 #include "shape.hpp"
+#include "shader.hpp"
 
-class buffer {
+class buffer : public shader {
 private:
     unsigned VBO;
     unsigned VAO;
-    float** VBO_DATA;
+    float* VBO_DATA;
     int VBO_DATA_SIZE;
 public:
     buffer() : VBO(0), VAO(0), VBO_DATA(nullptr), VBO_DATA_SIZE(0) {}

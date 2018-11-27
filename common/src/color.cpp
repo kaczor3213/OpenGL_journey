@@ -2,16 +2,14 @@
 
 color::color(const unsigned &RED,
 	const unsigned &GREEN,
-	const unsigned &BLUE,
-	const unsigned &ALPHA)
+	const unsigned &BLUE)
 {
-	if (check_range(RED) && check_range(GREEN) && check_range(BLUE) && check_range(ALPHA))
+	if (check_range(RED) && check_range(GREEN) && check_range(BLUE))
 	{
 		double tmp = 1.0f / 255.0f;
 		pigments.push_back(tmp * RED);
 		pigments.push_back(tmp * GREEN);
 		pigments.push_back(tmp * BLUE);
-		pigments.push_back(tmp * ALPHA);
 		generate_buffer();
 	}
 	else
@@ -65,8 +63,7 @@ void color::generate_buffer()
 {
 	buffer << pigments[0] << "f, "
 		<< pigments[1] << "f, "
-		<< pigments[2] << "f, "
-		<< pigments[3] << "f ";
+		<< pigments[2] << "f, ";
 }
 
 std::string color::get_buffer()
@@ -76,18 +73,16 @@ std::string color::get_buffer()
 
 void color::set_color(const unsigned &RED,
 	const unsigned &GREEN,
-	const unsigned &BLUE,
-	const unsigned &ALPHA)
+	const unsigned &BLUE)
 {
 	pigments.clear();
 	buffer.clear();
-	if (check_range(RED) && check_range(GREEN) && check_range(BLUE) && check_range(ALPHA))
+	if (check_range(RED) && check_range(GREEN) && check_range(BLUE))
 	{
 		double tmp = 1.0 / 255.0;
 		pigments.push_back(tmp * RED);
 		pigments.push_back(tmp * GREEN);
 		pigments.push_back(tmp * BLUE);
-		pigments.push_back(tmp * ALPHA);
 		generate_buffer();
 	}
 	else

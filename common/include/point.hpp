@@ -7,12 +7,12 @@
 class point
 {
 private:
-	bool check_in_range(const double &value);
+	bool check_in_range(const float &value);
 	color _color;
 public:
 	vector3d position;
 	point();
-	point(const std::vector<double> &coordinate_vector, const color &COLOR);
+	point(const std::vector<float> &coordinate_vector, const color &COLOR);
 	point(const vector3d &coordinate_vector, const color &COLOR);
 	point(const point &other);
 	point& operator=(const point &other);

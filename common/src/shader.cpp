@@ -1,5 +1,29 @@
 #include "../include/shader.hpp"
+///dziwny blad delete #25 i #26 linia
+shader::shader()
+{	
+	const char *vertexShaderSource = "#version 330 core\n"
+		"layout (location = 0) in vec3 aPos;\n"
+		"layout (location = 1) in vec3 aColor;\n"
+		"out vec3 ourColor;\n"
+		"void main()\n"
+		"{\n"
+		"   gl_Position = vec4(aPos, 1.0);\n"
+		"   ourColor = aColor;\n"
+		"}\0";
 
+	const char *fragmentShaderSource = "#version 330 core\n"
+		"out vec4 FragColor;\n"
+		"in vec3 ourColor;\n"
+		"void main()\n"
+		"{\n"
+		"   FragColor = vec4(ourColor, 1.0f);\n"
+		"}\n\0";
+	
+	compile(vertexShaderSource, fragmentShaderSource);
+	//delete[] vertexShaderSource;
+	//delete[] fragmentShaderSource;
+}
 
 shader::shader(const std::string &vertexpath, const std::string &fragmentpath)
 {
@@ -51,8 +75,8 @@ shader::~shader()
 
 void shader::compile(const char *c_vertexcode, const char *c_fragmentcode)
 {
-	glVertexAttribPointer(0, 7, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)0);
-	glEnableVertexAttribArray(0);
+	unsigned vertexShader;
+	unsigned fragmentShader;
 	vertexShader = glCreateShader(GL_VERTEX_SHADER);
 	glShaderSource(vertexShader, 1, &c_vertexcode, nullptr);
 	glCompileShader(vertexShader);

@@ -15,10 +15,10 @@ class buffer : public shader {
 private:
     unsigned VBO;
     unsigned VAO;
-    float* VBO_DATA;
+    float VBO_DATA [18];
     int VBO_DATA_SIZE;
 public:
-    buffer() : VBO(0), VAO(0), VBO_DATA(nullptr), VBO_DATA_SIZE(0) {}
+    buffer() : VBO(0), VAO(0), VBO_DATA_SIZE(0) {}
     ~buffer();
     void set_buffers();
 	void bind_and_draw();

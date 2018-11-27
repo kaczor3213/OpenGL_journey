@@ -37,20 +37,34 @@ void buffer::bind_and_draw()
 
 void buffer::parse_to_glsl(shape &set)
 {
-	VBO_DATA_SIZE = set.coordinates.size() * 6;
-    VBO_DATA = new float[VBO_DATA_SIZE];
+	float vertices[] = {
+		// positions         // colors
+		 0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,  // bottom right
+		-0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  // bottom left
+		 0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f   // top 
+
+	};
+
+	VBO_DATA_SIZE = 18;
+	for (int i = 0; i < VBO_DATA_SIZE; i++)
+	{
+		VBO_DATA[i] = vertices[i];
+	}
+
+	/*
 	int k=0;
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			VBO_DATA[k] = static_cast<float>(set.coordinates[i].position[j]);
+			VBO_DATA[k] = set.coordinates[i].position[j];
 			k++;
 		}
 		for (int j = 0; j < 3; j++)
 		{
-			VBO_DATA[k] = static_cast<float>(set.coordinates[i].get_color().pigments[j]);
+			VBO_DATA[k] = set.coordinates[i].get_color().pigments[j];
 			k++;
 		}
     }
+	*/
 }

@@ -59,8 +59,8 @@ int main()
 	my_triangle.coordinates[1].set_color(COLOR_GREEN);
 	my_triangle.coordinates[2].set_color(COLOR_BLUE);
 
-	my_buffer.parse_to_glsl(my_triangle);
-	my_buffer.set_buffers();
+	my_buffer.render(my_triangle);
+
 
 	my_buffer.run();
 
@@ -69,7 +69,7 @@ int main()
         processInput(window);
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
 
-		my_buffer.bind_and_draw();
+		my_buffer.draw();
 
 		glfwSwapBuffers(window);
         glfwPollEvents();

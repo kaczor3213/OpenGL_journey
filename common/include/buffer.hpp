@@ -7,6 +7,7 @@
 
 #include <glad.h>
 #include <glfw3.h>
+#include <array>
 #include "vertices.hpp"
 #include "shape.hpp"
 #include "shader.hpp"
@@ -15,13 +16,11 @@ class buffer : public shader {
 private:
     unsigned VBO;
     unsigned VAO;
-    std::vector<float> VBO_DATA;
-    int VBO_DATA_SIZE;
+    std::array<float,21> VBO_DATA;
 public:
-    buffer() : VBO(0), VAO(0), VBO_DATA_SIZE(0) {}
+    buffer() : VBO(0), VAO(0) {}
     ~buffer();
-    void set_buffers();
-	void bind_and_draw();
-    void parse_to_glsl(shape &set);
+	void draw();
+    void render(shape &set);
 };
 #endif //BUFFER_HPP

@@ -2,6 +2,7 @@
 // Created by Moew34 on 11/18/2018.
 //
 
+///prepare buffer for EBO indices container
 #ifndef BUFFER_HPP
 #define BUFFER_HPP
 

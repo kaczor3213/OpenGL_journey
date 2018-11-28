@@ -4,7 +4,7 @@
 
 #ifndef TRIANGLE_HPP
 #define TRIANGLE_HPP
-///end this class, include buffer, proper constructors
+
 #include "vertices.hpp"
 #include "shape.hpp"
 #include "shader.hpp"

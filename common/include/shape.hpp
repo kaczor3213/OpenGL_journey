@@ -10,10 +10,9 @@ class shape
 protected:
 	//std::vector<unsigned> indices;
 public:
-	std::vector<unsigned> indices;
+	std::vector<unsigned int> indices;
 	vertices<point> coordinates;
 	shape() {}
-	std::vector<unsigned> indices_handle() { return indices; }
 	virtual ~shape() {}
 };
 

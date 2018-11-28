@@ -36,22 +36,22 @@ int main()
 
 	///tu sie dzieje magia
 
-	const color COLOR_YELLOW(0, 255, 255, 255);
+	const color COLOR_YELLOW(255, 255, 0, 255);
 	const color COLOR_BLACK(0, 0, 0, 255);
 
 	buffer my_buffer;
 	quad my_quad;
 
 	my_quad.coordinates[0].position[0] = -0.5;
-	my_quad.coordinates[0].position[1] = -0.5;
+	my_quad.coordinates[0].position[1] = 0.5;
 	my_quad.coordinates[0].position[2] = 0.0;
 
-	my_quad.coordinates[1].position[0] = 0.5;
+	my_quad.coordinates[1].position[0] = -0.5;
 	my_quad.coordinates[1].position[1] = -0.5;
 	my_quad.coordinates[1].position[2] = 0.0;
 
-	my_quad.coordinates[2].position[0] = -0.5;
-	my_quad.coordinates[2].position[1] = 0.5;
+	my_quad.coordinates[2].position[0] = 0.5;
+	my_quad.coordinates[2].position[1] = -0.5;
 	my_quad.coordinates[2].position[2] = 0.0;
 
 	my_quad.coordinates[3].position[0] = 0.5;

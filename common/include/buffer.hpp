@@ -2,7 +2,8 @@
 // Created by Moew34 on 11/18/2018.
 //
 
-///prepare buffer for EBO indices container
+///make a universal draw function for different shapes
+///make a container for several different shapes
 #ifndef BUFFER_HPP
 #define BUFFER_HPP
 

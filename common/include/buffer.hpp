@@ -8,18 +8,18 @@
 
 #include <glad.h>
 #include <glfw3.h>
-#include <array>
 #include "vertices.hpp"
 #include "shape.hpp"
 #include "shader.hpp"
 
 class buffer : public shader {
 private:
+	unsigned EBO;
     unsigned VBO;
     unsigned VAO;
-    std::array<float,21> VBO_DATA;
+    std::vector<float> VBO_DATA;
 public:
-    buffer() : VBO(0), VAO(0) {}
+    buffer() : VBO(0), VAO(0), EBO(0) {}
     ~buffer();
 	void draw();
     void render(shape &set);

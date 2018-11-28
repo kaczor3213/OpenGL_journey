@@ -1,7 +1,7 @@
 #include "../include/quad.hpp"
-
+///prepare for proper indices arrays
 quad::quad() {
-	//indices = std::vector<double>{ 0,1,2,3};
+	//indices = std::vector<double>{ 0,1,2,1,2,3};
 	coordinates.resize(4);
 }
 

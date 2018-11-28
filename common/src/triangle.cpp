@@ -2,11 +2,11 @@
 // Created by Moew34 on 11/17/2018.
 //
 #include "../include/triangle.hpp"
-///end this class, include buffer, proper constructors
+///prepare for proper indices arrays
 
 
 triangle::triangle() {
-	indices = std::vector<double>{ 0,1,2 };
+	indices = std::vector<unsigned>{ 0,1,2 };
 	coordinates.resize(3);
 }
 

@@ -19,6 +19,7 @@ void buffer::draw()
 
 void buffer::render(shape &set)
 {
+	VBO_DATA.resize(7 * set.coordinates.size());
 	int k=0;
 	for (int i = 0; i < 3; i++)
 	{
@@ -37,7 +38,9 @@ void buffer::render(shape &set)
 	glGenBuffers(1, &VBO);
 	glBindVertexArray(VAO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(VBO_DATA), VBO_DATA.data(), GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, VBO_DATA.size() * sizeof(float), &VBO_DATA[0], GL_STATIC_DRAW);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, set.indices.size() * sizeof(unsigned), &set.indices[0], GL_STATIC_DRAW);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
 	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)(3 * sizeof(float)));

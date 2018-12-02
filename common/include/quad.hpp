@@ -1,7 +1,6 @@
 #ifndef QUAD_HPP
 #define QUAD_HPP
 
-///prepare for proper indices arrays
 #include "vertices.hpp"
 #include "shape.hpp"
 #include "shader.hpp"

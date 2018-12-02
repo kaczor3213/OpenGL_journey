@@ -38,6 +38,9 @@ int main()
 
 	const color COLOR_YELLOW(255, 255, 0, 255);
 	const color COLOR_BLACK(0, 0, 0, 255);
+	const color COLOR_RED(255, 0, 0, 255);
+	const color COLOR_GREEN(0, 255, 0, 255);
+	const color COLOR_BLUE(0, 0, 255, 255);
 
 	buffer my_buffer;
 	quad my_quad;
@@ -58,10 +61,10 @@ int main()
 	my_quad.coordinates[3].position[1] = 0.5;
 	my_quad.coordinates[3].position[2] = 0.0;
 
-	my_quad.coordinates[0].set_color(COLOR_YELLOW);
+	my_quad.coordinates[0].set_color(COLOR_GREEN);
 	my_quad.coordinates[1].set_color(COLOR_BLACK);
-	my_quad.coordinates[2].set_color(COLOR_YELLOW);
-	my_quad.coordinates[3].set_color(COLOR_BLACK);
+	my_quad.coordinates[2].set_color(COLOR_RED);
+	my_quad.coordinates[3].set_color(COLOR_BLUE);
 
 	my_buffer.render(my_quad);
 

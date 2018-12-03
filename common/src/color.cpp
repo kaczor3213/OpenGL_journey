@@ -7,7 +7,7 @@ color::color(const unsigned &RED,
 {
 	if (check_range(RED) && check_range(GREEN) && check_range(BLUE) && check_range(ALPHA))
 	{
-		float tmp = 1.0 / 255.0;
+		float tmp = 1.0f / 255.0f;
 		pigments.push_back(tmp * RED);
 		pigments.push_back(tmp * GREEN);
 		pigments.push_back(tmp * BLUE);
@@ -64,7 +64,7 @@ void color::set_color(const unsigned &RED,
 	buffer.clear();
 	if (check_range(RED) && check_range(GREEN) && check_range(BLUE) && check_range(ALPHA))
 	{
-		float tmp = 1.0 / 255.0;
+		float tmp = 1.0f / 255.0f;
 		pigments.push_back(tmp * RED);
 		pigments.push_back(tmp * GREEN);
 		pigments.push_back(tmp * BLUE);

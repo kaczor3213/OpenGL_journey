@@ -2,14 +2,19 @@
 #define VERTICES_HPP
 
 #include "point.hpp"
-///add vector constructor
+
 template <typename T>
 class vertices
 {
 private:
     std::vector<T> c_arr;
 public:
-    vertices() {c_arr.resize(3,0)};
+	vertices() { 
+		c_arr.resize(3);
+	}
+	vertices(const std::vector<T> &arr) {
+		c_arr = arr;
+	}
     vertices(const vertices &other) : c_arr(other.c_arr) {}
     vertices& operator=(const vertices &other) {
         return *this=vertices(other);
@@ -22,16 +27,18 @@ public:
         return *this;
     }
     ~vertices() {}
-    int size() const {
+    int size() {
         return c_arr.size();
     }
-    T& operator[](const int &index)
-    {
+    T& operator[](const int &index) {
         return c_arr[index];
     }
-    T operator[](const int &index) const
-    {
+    T operator[](const int &index) const {
         return c_arr[index];
     }
+	void resize(const int &new_size)
+	{
+		c_arr.resize(new_size);
+	}
 };
 #endif // !VERTICES_HPP

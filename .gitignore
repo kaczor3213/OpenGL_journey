@@ -31,9 +31,9 @@
 *.out
 *.app
 
+*.sln
+*.vcxproj*
+.vs
 bin
-cmake-build-release
-cmake-build-debug
-cmake-build-release-visual_studio
-.idea
-external
+Release
+External

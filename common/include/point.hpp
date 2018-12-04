@@ -1,17 +1,18 @@
 #ifndef POINT_HPP
 #define POINT_HPP
 
-#include "vertex.hpp"
+#include "vector3d.hpp"
 #include "color.hpp"
 
-class point : public vertex
+class point
 {
 private:
+	bool check_in_range(const float &value);
 	color _color;
 public:
+	vector3d position;
 	point();
-	point(const vertex &VERTEX, const color &COLOR);
-	point(const std::vector<double> &coordinate_vector, const color &COLOR);
+	point(const std::vector<float> &coordinate_vector, const color &COLOR);
 	point(const vector3d &coordinate_vector, const color &COLOR);
 	point(const point &other);
 	point& operator=(const point &other);

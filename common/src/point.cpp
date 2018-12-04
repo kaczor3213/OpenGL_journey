@@ -1,19 +1,21 @@
 #include "../include/point.hpp"
 
-point::point() : _color(color(255, 255, 255, 0)) {}
+point::point() : _color(color(255, 255, 255, 255)) {}
 
-point::point(const vertex &VERTEX, const color &COLOR)
+point::point(const std::vector<float> &coordinate_vector, const color &COLOR)
 {
-	position = VERTEX.position;
-	_color = COLOR;
-}
+	if (check_in_range(coordinate_vector[0]) &&
+		check_in_range(coordinate_vector[1]) &&
+		check_in_range(coordinate_vector[2]))
+	{
+		position[0] = coordinate_vector[0];
+		position[1] = coordinate_vector[1];
+		position[2] = coordinate_vector[2];
+	}
+	else
+	{
 
-point::point(const std::vector<double> &coordinate_vector, const color &COLOR)
-{
-	///to fix
-	position[0] = coordinate_vector[0];
-	position[1] = coordinate_vector[1];
-	position[2] = coordinate_vector[2];
+	}
 	_color = COLOR;
 }
 
@@ -52,4 +54,10 @@ void point::set_color(const color &COLOR)
 color point::get_color()
 {
 	return _color;
+}
+
+bool point::check_in_range(const float &value)
+{
+	if (0.0 <= value && value <= 1.0) return true;
+	return false;
 }

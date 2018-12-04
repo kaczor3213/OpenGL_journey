@@ -8,7 +8,7 @@ vector3d::vector3d()
     set.resize(3);
 }
 
-vector3d::vector3d(const double &x, const double &y, const double &z)
+vector3d::vector3d(const float &x, const float &y, const float &z)
 {
     set.push_back(x);
     set.push_back(y);
@@ -33,7 +33,12 @@ vector3d& vector3d::operator=(vector3d &&other) noexcept
     return *this;
 }
 
-double& vector3d::operator[](const int &index)
+float& vector3d::operator[](const int &index)
 {
-       return set[index];
+    return set[index];
+}
+
+float vector3d::operator[](const int &index) const
+{
+	return set[index];
 }

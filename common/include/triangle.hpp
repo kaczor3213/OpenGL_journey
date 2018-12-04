@@ -4,19 +4,20 @@
 
 #ifndef TRIANGLE_HPP
 #define TRIANGLE_HPP
-///end this class, include buffer, proper constructors
-#include "vertices.hpp"
-#include "buffer.hpp"
 
-class triangle : public point
+#include "vertices.hpp"
+#include "shape.hpp"
+#include "shader.hpp"
+
+class triangle : public shape
 {
-    vertices<point> coordinates;
 public:
-    triangle(const point &first, const point &second, const point &third);
+	triangle();
     triangle(const triangle &other);
     triangle(triangle &&other) noexcept;
     triangle& operator=(const triangle &other);
     triangle& operator=(triangle &&other) noexcept;
+	~triangle() {}
 };
 
-#endif //TRIANGLE_H
+#endif //TRIANGLE_HPP

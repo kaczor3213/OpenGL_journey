@@ -21,8 +21,8 @@ shader::shader()
 		"}\n\0";
 	
 	compile(vertexShaderSource, fragmentShaderSource);
-	//delete vertexShaderSource;
-	//delete fragmentShaderSource;
+	//delete[] vertexShaderSource;
+	//delete[] fragmentShaderSource;
 }
 
 shader::shader(const std::string &vertexpath, const std::string &fragmentpath)

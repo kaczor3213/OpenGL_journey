@@ -1,13 +1,8 @@
-//
-// Created by Moew34 on 11/17/2018.
-//
-
 #ifndef TRIANGLE_HPP
 #define TRIANGLE_HPP
 
 #include "vertices.hpp"
 #include "shape.hpp"
-#include "shader.hpp"
 
 class triangle : public shape
 {
@@ -18,6 +13,8 @@ public:
     triangle& operator=(const triangle &other);
     triangle& operator=(triangle &&other) noexcept;
 	~triangle() {}
+	void render();
+	void update();
 };
 
 #endif //TRIANGLE_HPP

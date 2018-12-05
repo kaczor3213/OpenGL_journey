@@ -2,6 +2,8 @@
 #define POLYGON_HPP
 
 #include "shape.hpp"
+#include <glad.h>
+#include <glfw3.h>
 
 class polygon : public shape
 {
@@ -14,6 +16,8 @@ public:
 	polygon& operator=(polygon &&other) noexcept;
 	~polygon() {}
 	void resize(const unsigned &size);
+	void render();
+	void update();
 };
 
 #endif //POLYGON_HPP

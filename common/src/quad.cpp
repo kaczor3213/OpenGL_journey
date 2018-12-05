@@ -1,16 +1,23 @@
 #include "../include/quad.hpp"
-///prepare for proper indices arrays
+
 quad::quad() {
-	indices = std::vector<unsigned>{ 0,1,2,0,2,3};
 	coordinates.resize(4);
 }
 
 quad::quad(const quad &other) {
+	EBO = other.EBO;
+	VBO = other.VBO;
+	VAO = other.VAO;
+	VBO_DATA = other.VBO_DATA;
 	indices = other.indices;
 	coordinates = other.coordinates;
 }
 
 quad::quad(quad &&other) noexcept {
+	EBO = std::move(other.EBO);
+	VBO = std::move(other.VBO);
+	VAO = std::move(other.VAO);
+	VBO_DATA = std::move(other.VBO_DATA);
 	indices = std::move(other.indices);
 	coordinates = std::move(other.coordinates);
 }
@@ -20,8 +27,25 @@ quad& quad::operator=(const quad &other) {
 }
 
 quad& quad::operator=(quad &&other) noexcept {
+	EBO = std::move(other.EBO);
+	VBO = std::move(other.VBO);
+	VAO = std::move(other.VAO);
+	VBO_DATA = std::move(other.VBO_DATA);
 	indices = std::move(other.indices);
 	coordinates = std::move(other.coordinates);
 	return *this;
+}
+
+void quad::render()
+{
+	//indices generator
+	indices = std::vector<unsigned int>{ 0,1,2,0,2,3 };
+}
+
+
+void quad::update()
+{
+	//indices generator
+	indices = std::vector<unsigned int>{ 0,1,2,0,2,3 };
 }
 

@@ -1,4 +1,5 @@
 #include "../include/triangle.hpp"
+#include <iostream>
 
 triangle::triangle() {
 	coordinates.resize(4);
@@ -36,16 +37,18 @@ triangle& triangle::operator=(triangle &&other) noexcept {
 	return *this;
 }
 
-void triangle::render()
-{
+void triangle::render() {
 	//indices generator
+	std::cout << "dupa";
 	indices = std::vector<unsigned int>{ 0,1,2 };
+	data_parser();
+	buff_handle();
 }
 
-
-void triangle::update()
-{
-	//indices generator
-	indices = std::vector<unsigned int>{ 0,1,2 };
+void triangle::draw() {
+	run();
+	glClear(GL_COLOR_BUFFER_BIT);
+	glBindVertexArray(VAO);
+	glDrawArrays(GL_TRIANGLES, 0, 3);
 }
 

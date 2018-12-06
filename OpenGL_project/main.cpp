@@ -57,6 +57,7 @@ int main()
 	my_triangle.coordinates[1].set_color(COLOR_GREEN);
 	my_triangle.coordinates[2].set_color(COLOR_BLUE);
 
+	
 	my_triangle.render();
 
     while (!glfwWindowShouldClose(window))

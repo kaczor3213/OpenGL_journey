@@ -12,6 +12,8 @@ protected:
 	GLuint VAO;
 	std::vector<float> VBO_DATA;
 	std::vector<unsigned int> indices;
+	void data_parser();
+	void buff_handle();
 public:
 	vertices<point> coordinates;
 	shape() : VBO(0), VAO(0), EBO(0) {}

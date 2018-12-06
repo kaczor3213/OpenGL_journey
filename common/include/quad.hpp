@@ -1,7 +1,6 @@
 #ifndef QUAD_HPP
 #define QUAD_HPP
 
-#include "vertices.hpp"
 #include "shape.hpp"
 
 class quad : public shape
@@ -13,8 +12,7 @@ public:
 	quad& operator=(const quad &other);
 	quad& operator=(quad &&other) noexcept;
 	~quad() {}
-	void render();
-	void update();
+	virtual void render();
 };
 
 #endif // !QUAD_CPP

@@ -43,7 +43,8 @@ shape::~shape() {
 	glDeleteBuffers(1, &EBO);
 }
 
-void shape::render() {
+void shape::data_parser()
+{
 	VBO_DATA.resize(7 * coordinates.size());
 	int k = 0;
 	for (int i = 0; i < coordinates.size(); i++)
@@ -59,6 +60,10 @@ void shape::render() {
 			k++;
 		}
 	}
+}
+
+void shape::buff_handle()
+{
 	glGenVertexArrays(1, &VAO);
 	glGenBuffers(1, &VBO);
 	glGenBuffers(1, &EBO);
@@ -73,9 +78,15 @@ void shape::render() {
 	glEnableVertexAttribArray(1);
 }
 
+void shape::render() {
+	data_parser();
+	buff_handle();
+}
+
 void shape::draw() {
+	run();
 	glClear(GL_COLOR_BUFFER_BIT);
 	glBindVertexArray(VAO);
-	glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0);
+	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
 }
 

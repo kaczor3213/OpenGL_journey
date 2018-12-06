@@ -36,16 +36,9 @@ quad& quad::operator=(quad &&other) noexcept {
 	return *this;
 }
 
-void quad::render()
-{
-	//indices generator
+void quad::render() {
 	indices = std::vector<unsigned int>{ 0,1,2,0,2,3 };
-}
-
-
-void quad::update()
-{
-	//indices generator
-	indices = std::vector<unsigned int>{ 0,1,2,0,2,3 };
+	data_parser();
+	buff_handle();
 }
 

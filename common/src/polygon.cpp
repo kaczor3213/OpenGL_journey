@@ -1,5 +1,6 @@
 #include "../include/polygon.hpp"
 #include <iostream>
+#include <chrono>
 polygon::polygon(const unsigned &size) {
 	coordinates.resize(size);
 }
@@ -44,18 +45,15 @@ void polygon::resize(const unsigned &size) {
 
 void polygon::render()
 {
+	auto start = std::chrono::steady_clock::now();	
 	bool not_done{ true };
 	int i = 0, count = 0;
 	std::vector<unsigned int> angle;
 	std::vector<int> tmp;
 	for (int i = 0; i < coordinates.size(); i++)
 		tmp.push_back(i);
-
 	while (not_done)
 	{
-		//for (auto x : indices)
-			//std::cout << x << "\t";
-		std::cout << std::endl;
 		while (angle.size() < 3)
 		{
 			if (tmp[i] >= 0)
@@ -66,12 +64,7 @@ void polygon::render()
 			else
 				i++;
 			if (i >= tmp.size()) i = 0;
-			
 		}
-		for (auto x : angle)
-			std::cout << x << "\t";
-		std::cout << std::endl;
-		Sleep(1000);
 		if (
 			((coordinates[angle[0]].position[0] - coordinates[angle[1]].position[0]) *
 			(coordinates[angle[2]].position[1] - coordinates[angle[1]].position[1]) -
@@ -79,28 +72,26 @@ void polygon::render()
 			(coordinates[angle[0]].position[1] - coordinates[angle[1]].position[1])) < 0
 			)
 		{
-			std::cout << "ear!"<<angle[1]<<"\n";
-			std::cout << "indeks: " << i << "\n";
 			for (auto x : angle)
 				indices.push_back(x);
 			tmp[angle[1]] = -1;
 			i=angle[2];
 			count++;
-
 			angle.clear();
-			
 		}
-		else 
+		else
 		{
 			i = angle[1];
 			angle.clear();
-			std::cout << "indeks: " << i << "\n";
 		}
-	
 		if (count == tmp.size()-2) not_done = false;
 	}
+	auto finish = std::chrono::steady_clock::now();
+	double elapsed_seconds = std::chrono::duration_cast<std::chrono::microseconds>(finish - start).count();
+	std::cout << elapsed_seconds;
 	data_parser();
 	buff_handle();
+
 }
 
 void polygon::update()
@@ -108,35 +99,45 @@ void polygon::update()
 	bool not_done{ true };
 	int i = 0, count = 0;
 	std::vector<unsigned int> angle;
-	std::vector<unsigned> tmp;
+	std::vector<int> tmp;
 	for (int i = 0; i < coordinates.size(); i++)
 		tmp.push_back(i);
+
 	while (not_done)
 	{
-		
 		while (angle.size() < 3)
 		{
 			if (tmp[i] >= 0)
-				angle.push_back(i);
+			{
+				angle.push_back(tmp[i]);
+				i++;
+			}
 			else
 				i++;
 			if (i >= tmp.size()) i = 0;
+
 		}
-		
-		if (((coordinates[angle[0]].position[0] - coordinates[angle[1]].position[0]) *
+		if (
+			((coordinates[angle[0]].position[0] - coordinates[angle[1]].position[0]) *
 			(coordinates[angle[2]].position[1] - coordinates[angle[1]].position[1]) -
 			(coordinates[angle[2]].position[0] - coordinates[angle[1]].position[0]) *
-			(coordinates[angle[0]].position[1] - coordinates[angle[1]].position[1])) > 0
+			(coordinates[angle[0]].position[1] - coordinates[angle[1]].position[1])) < 0
 			)
 		{
-			for (auto vertice : angle)
-				indices.push_back(vertice);
+			for (auto x : angle)
+				indices.push_back(x);
 			tmp[angle[1]] = -1;
-			count++;
 			i = angle[2];
+			count++;
 			angle.clear();
 		}
-		if (count == tmp.size()) not_done = false;
+		else
+		{
+			i = angle[1];
+			angle.clear();
+		}
+
+		if (count == tmp.size() - 2) not_done = false;
 	}
 	data_parser();
 	buff_handle();

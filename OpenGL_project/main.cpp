@@ -2,7 +2,10 @@
 #include <glad.h>
 #include <glfw3.h>
 #include <glm.hpp>
+<<<<<<< HEAD:OpenGL_project/main.cpp
 #include "../common/include/buffer.hpp"
+=======
+>>>>>>> dev:OpenGL_project/main.cpp
 #include "../common/include/triangle.hpp"
 
 unsigned SCR_WIDTH = 800;
@@ -40,7 +43,10 @@ int main()
 	const color COLOR_GREEN(0, 255, 0, 255);
 	const color COLOR_BLUE(0, 0, 255, 255);
 	
+<<<<<<< HEAD:OpenGL_project/main.cpp
 	buffer my_buffer;
+=======
+>>>>>>> dev:OpenGL_project/main.cpp
 	triangle my_triangle;
 
 	my_triangle.coordinates[0].position[0] = -0.5;
@@ -59,17 +65,26 @@ int main()
 	my_triangle.coordinates[1].set_color(COLOR_GREEN);
 	my_triangle.coordinates[2].set_color(COLOR_BLUE);
 
+<<<<<<< HEAD:OpenGL_project/main.cpp
 	my_buffer.render(my_triangle);
 
 
 	my_buffer.run();
+=======
+	
+	my_triangle.render();
+>>>>>>> dev:OpenGL_project/main.cpp
 
     while (!glfwWindowShouldClose(window))
     {
         processInput(window);
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
 
+<<<<<<< HEAD:OpenGL_project/main.cpp
 		my_buffer.draw();
+=======
+		my_triangle.draw();
+>>>>>>> dev:OpenGL_project/main.cpp
 
 		glfwSwapBuffers(window);
         glfwPollEvents();

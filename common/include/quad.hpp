@@ -1,9 +1,13 @@
 #ifndef QUAD_HPP
 #define QUAD_HPP
 
+<<<<<<< HEAD
 #include "vertices.hpp"
 #include "shape.hpp"
 #include "shader.hpp"
+=======
+#include "shape.hpp"
+>>>>>>> dev
 
 class quad : public shape
 {
@@ -14,6 +18,10 @@ public:
 	quad& operator=(const quad &other);
 	quad& operator=(quad &&other) noexcept;
 	~quad() {}
+<<<<<<< HEAD
+=======
+	virtual void render();
+>>>>>>> dev
 };
 
 #endif // !QUAD_CPP

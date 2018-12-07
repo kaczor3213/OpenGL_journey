@@ -2,11 +2,7 @@
 #include <glad.h>
 #include <glfw3.h>
 #include <glm.hpp>
-<<<<<<< HEAD
-#include "../common/include/buffer.hpp"
-=======
->>>>>>> dev
-#include "../common/include/quad.hpp"
+#include "../common/include/polygon.hpp"
 
 unsigned SCR_WIDTH = 800;
 unsigned SCR_HEIGHT = 600;
@@ -45,52 +41,58 @@ int main()
 	const color COLOR_GREEN(0, 255, 0, 255);
 	const color COLOR_BLUE(0, 0, 255, 255);
 
-<<<<<<< HEAD
-	buffer my_buffer;
-=======
->>>>>>> dev
-	quad my_quad;
+	polygon my_polygon(8);
 
-	my_quad.coordinates[0].position[0] = -0.5;
-	my_quad.coordinates[0].position[1] = 0.5;
-	my_quad.coordinates[0].position[2] = 0.0;
-
-	my_quad.coordinates[1].position[0] = -0.5;
-	my_quad.coordinates[1].position[1] = -0.5;
-	my_quad.coordinates[1].position[2] = 0.0;
-
-	my_quad.coordinates[2].position[0] = 0.5;
-	my_quad.coordinates[2].position[1] = -0.5;
-	my_quad.coordinates[2].position[2] = 0.0;
-
-	my_quad.coordinates[3].position[0] = 0.5;
-	my_quad.coordinates[3].position[1] = 0.5;
-	my_quad.coordinates[3].position[2] = 0.0;
-
-	my_quad.coordinates[0].set_color(COLOR_GREEN);
-	my_quad.coordinates[1].set_color(COLOR_BLACK);
-	my_quad.coordinates[2].set_color(COLOR_RED);
-	my_quad.coordinates[3].set_color(COLOR_BLUE);
-
-<<<<<<< HEAD
-	my_buffer.render(my_quad);
+	my_polygon.coordinates[0].position[0] = -0.5;
+	my_polygon.coordinates[0].position[1] = -0.5;
+	my_polygon.coordinates[0].position[2] = 0.0;
 
 
-	my_buffer.run();
-=======
-	my_quad.render();
->>>>>>> dev
+	my_polygon.coordinates[1].position[0] = -0.2;
+	my_polygon.coordinates[1].position[1] = -0.2;
+	my_polygon.coordinates[1].position[2] = 0.0;
+
+	my_polygon.coordinates[2].position[0] = 0.2;
+	my_polygon.coordinates[2].position[1] = -0.2;
+	my_polygon.coordinates[2].position[2] = 0.0;
+
+	my_polygon.coordinates[3].position[0] = 0.5;
+	my_polygon.coordinates[3].position[1] = -0.5;
+	my_polygon.coordinates[3].position[2] = 0.0;
+
+	my_polygon.coordinates[4].position[0] = 0.5;
+	my_polygon.coordinates[4].position[1] = 0.5;
+	my_polygon.coordinates[4].position[2] = 0.0;
+
+	my_polygon.coordinates[5].position[0] = 0.0;
+	my_polygon.coordinates[5].position[1] = 0.2;
+	my_polygon.coordinates[5].position[2] = 0.0;
+
+	my_polygon.coordinates[6].position[0] = -0.5;
+	my_polygon.coordinates[6].position[1] = 0.5;
+	my_polygon.coordinates[6].position[2] = 0.0;
+
+	my_polygon.coordinates[7].position[0] = -0.9;
+	my_polygon.coordinates[7].position[1] = 0.0;
+	my_polygon.coordinates[7].position[2] = 0.0;
+
+	my_polygon.coordinates[0].set_color(COLOR_GREEN);
+	my_polygon.coordinates[1].set_color(COLOR_BLACK);
+	my_polygon.coordinates[2].set_color(COLOR_RED);
+	my_polygon.coordinates[3].set_color(COLOR_BLUE);
+	my_polygon.coordinates[4].set_color(COLOR_YELLOW);
+	my_polygon.coordinates[5].set_color(COLOR_RED);
+	my_polygon.coordinates[6].set_color(COLOR_BLUE);
+	my_polygon.coordinates[7].set_color(COLOR_YELLOW);
+
+	my_polygon.render();
 
 	while (!glfwWindowShouldClose(window))
 	{
 		processInput(window);
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
 
-<<<<<<< HEAD
-		my_buffer.draw();
-=======
-		my_quad.draw();
->>>>>>> dev
+		my_polygon.draw();
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();

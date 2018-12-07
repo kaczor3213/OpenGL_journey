@@ -29,11 +29,22 @@ public:
 		const unsigned &ALPHA);
 };
 /*
-extern const color COLOR_RED(255, 0, 0, 0);
+
 extern const color COLOR_GREEN(0, 255, 0, 0);
 extern const color COLOR_BLUE(0, 0, 255, 0);
 extern const color COLOR_BLACK(0, 0, 0, 0);
 extern const color COLOR_WHITE(255, 255, 255, 0);
+
+
+#define COLOR_RED color(255, 0, 0, 0);
+#define COLOR_BLUE color(0, 0, 255, 0);
+#define COLOR_BLACK color(0, 0, 0, 0);
+#define COLOR_WHITE color(255, 255, 255, 0);
 */
 
 #endif // !COLOR_HPP
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dev

@@ -43,8 +43,5 @@ extern const color COLOR_WHITE(255, 255, 255, 0);
 */
 
 #endif // !COLOR_HPP
-<<<<<<< HEAD
-=======
 
 
->>>>>>> dev

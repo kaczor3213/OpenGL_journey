@@ -2,10 +2,6 @@
 #include <glad.h>
 #include <glfw3.h>
 #include <glm.hpp>
-<<<<<<< HEAD
-#include "../common/include/buffer.hpp"
-=======
->>>>>>> dev
 #include "../common/include/quad.hpp"
 
 unsigned SCR_WIDTH = 800;
@@ -45,10 +41,6 @@ int main()
 	const color COLOR_GREEN(0, 255, 0, 255);
 	const color COLOR_BLUE(0, 0, 255, 255);
 
-<<<<<<< HEAD
-	buffer my_buffer;
-=======
->>>>>>> dev
 	quad my_quad;
 
 	my_quad.coordinates[0].position[0] = -0.5;
@@ -72,25 +64,14 @@ int main()
 	my_quad.coordinates[2].set_color(COLOR_RED);
 	my_quad.coordinates[3].set_color(COLOR_BLUE);
 
-<<<<<<< HEAD
-	my_buffer.render(my_quad);
-
-
-	my_buffer.run();
-=======
 	my_quad.render();
->>>>>>> dev
 
 	while (!glfwWindowShouldClose(window))
 	{
 		processInput(window);
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
 
-<<<<<<< HEAD
-		my_buffer.draw();
-=======
 		my_quad.draw();
->>>>>>> dev
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();

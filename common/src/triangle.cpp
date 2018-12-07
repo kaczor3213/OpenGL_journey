@@ -1,4 +1,3 @@
-
 #include "../include/triangle.hpp"
 #include <iostream>
 

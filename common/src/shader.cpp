@@ -21,8 +21,6 @@ shader::shader()
 		"}\n\0";
 	
 	compile(vertexShaderSource, fragmentShaderSource);
-	//delete vertexShaderSource;
-	//delete fragmentShaderSource;
 	//delete[] vertexShaderSource;
 	//delete[] fragmentShaderSource;
 }

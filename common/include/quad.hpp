@@ -1,10 +1,6 @@
 #ifndef QUAD_HPP
 #define QUAD_HPP
 
-
-#include "vertices.hpp"
-#include "shape.hpp"
-#include "shader.hpp"
 #include "shape.hpp"
 
 class quad : public shape

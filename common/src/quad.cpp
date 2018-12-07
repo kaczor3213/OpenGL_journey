@@ -1,7 +1,6 @@
 #include "../include/quad.hpp"
 
 quad::quad() {
-	indices = std::vector<unsigned>{ 0,1,2,0,2,3};
 	coordinates.resize(4);
 }
 
@@ -36,7 +35,6 @@ quad& quad::operator=(quad &&other) noexcept {
 	coordinates = std::move(other.coordinates);
 	return *this;
 }
-
 
 void quad::render() {
 	indices = std::vector<unsigned int>{ 0,1,2,0,2,3 };

@@ -21,7 +21,7 @@ void animate::move(const float &horizontal, const float &vertical, const float &
 	transform = glm::translate(transform, glm::vec3(vertical, horizontal, depth));
 }
 
-void animate::rotate(const float &horizontal, const float &vertical, const float &turn_flat) {
+void animate::rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat) {
 	transform = glm::rotate(transform, 0.005f, glm::vec3(vertical, horizontal, turn_flat));
 }
 

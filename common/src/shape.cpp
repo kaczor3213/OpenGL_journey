@@ -82,11 +82,18 @@ void shape::render() {
 	data_parser();
 	buff_handle();
 }
-
+/*
 void shape::draw() {
 	run();
 	glClear(GL_COLOR_BUFFER_BIT);
 	glBindVertexArray(VAO);
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
 }
+*/
+void shape::draw() {
+	glClear(GL_COLOR_BUFFER_BIT);
+	glBindVertexArray(VAO);
+	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
+}
+
 

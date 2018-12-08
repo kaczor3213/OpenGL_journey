@@ -1,6 +1,12 @@
 #ifndef SHAPE_HPP
 #define SHAPE_HPP
 
+#include <glad.h>
+#include <glfw3.h>
+#include <glm.hpp>
+#include <gtc/matrix_transform.hpp>
+#include <gtc/type_ptr.hpp>
+
 #include "shader.hpp"
 #include "vertices.hpp"
 

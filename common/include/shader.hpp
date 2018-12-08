@@ -9,9 +9,10 @@
 
 class shader
 {
+protected:
+	unsigned shaderProgram;
 public:
 	void compile(const char *c_vertexcode, const char *c_fragmentcode);
-	unsigned shaderProgram;
 	shader();
 	shader(const std::string &vertexpath, const std::string &fragmentpath);
 	shader(const shader &other);

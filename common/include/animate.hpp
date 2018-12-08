@@ -1,6 +1,7 @@
 #ifndef ANIMATE_HPP
 #define ANIMATE_HPP
 
+#include <glfw3.h>
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
@@ -10,6 +11,7 @@
 
 class animate : public shader
 {
+	glm::mat4 transform = glm::mat4(1.0f);
 public:
 	animate();
 	animate(const animate &other);

@@ -2,6 +2,7 @@
 #define SHADER_HPP
 
 #include <glad.h>
+#include <glfw3.h>
 #include <fstream>
 #include <string>
 #include <sstream>
@@ -9,9 +10,10 @@
 
 class shader
 {
+protected:
+	unsigned shaderProgram;
 public:
 	void compile(const char *c_vertexcode, const char *c_fragmentcode);
-	unsigned shaderProgram;
 	shader();
 	shader(const std::string &vertexpath, const std::string &fragmentpath);
 	shader(const shader &other);

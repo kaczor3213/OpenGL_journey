@@ -35,5 +35,6 @@
 *.vcxproj*
 .vs
 bin
+Debug
 Release
 External

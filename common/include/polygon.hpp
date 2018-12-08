@@ -6,8 +6,7 @@
 class polygon : public shape
 {
 public:
-	//polygon() {}
-	polygon(const unsigned &size);
+	explicit polygon(const unsigned &size);
 	polygon(const polygon &other);
 	polygon(polygon &&other) noexcept;
 	polygon& operator=(const polygon &other);

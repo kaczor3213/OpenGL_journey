@@ -22,7 +22,7 @@ void animate::move(const float &horizontal, const float &vertical, const float &
 }
 
 void animate::rotate(const float &horizontal, const float &vertical, const float &turn_flat) {
-	transform = glm::rotate(transform, 0.01f, glm::vec3(vertical, horizontal, turn_flat));
+	transform = glm::rotate(transform, 0.005f, glm::vec3(vertical, horizontal, turn_flat));
 }
 
 void animate::scale(const float &x_scale_parameter, const float &y_scale_parameter, const float &z_scale_parameter) {

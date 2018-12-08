@@ -1,46 +1,34 @@
 #include "../include/animate.hpp"
 
-animate::animate()
-{
+animate::animate() {
 	transform = glm::mat4(1.0f);
 }
-animate::animate(const animate &other)
-{
+animate::animate(const animate &other) {
 	transform = other.transform;
 }
-animate::animate(animate &&other) noexcept
-{
+animate::animate(animate &&other) noexcept {
 	transform = std::move(other.transform);
 }
-animate& animate::operator=(const animate &other)
-{
+animate& animate::operator=(const animate &other) {
 	return *this = animate(other);
 }
-animate& animate::operator=(animate &&other) noexcept
-{
+animate& animate::operator=(animate &&other) noexcept {
 	transform = std::move(other.transform);
 	return *this;
 }
-void animate::move()
-{
-	transform = glm::translate(transform, glm::vec3(0.0f, 0.0f, 0.0f));
-}
-void animate::rotate()
-{
-	transform = glm::rotate(transform, (float)glfwGetTime(), glm::vec3(1.0f, -1.0f, 1.0f));
-}
-void animate::scale()
-{
-	transform = glm::scale(transform, glm::vec3(0.5, 0.5, 0.5));
-}
-/* PRZYDATNY FRAGMENT KODU
-glm::mat4 transform = glm::mat4(1.0f);;
-	transform = glm::translate(transform, glm::vec3(0.0f, 0.0f, 0.0f));
-	transform = glm::rotate(transform, (float)glfwGetTime(), glm::vec3(1.0f, -1.0f, 1.0f));
 
-	run();
+void animate::move(const float &horizontal, const float &vertical, const float &depth) {
+	transform = glm::translate(transform, glm::vec3(vertical, horizontal, depth));
+}
 
-	unsigned int transformLoc = glGetUniformLocation(shaderProgram, "transform");
-	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
+void animate::rotate(const float &horizontal, const float &vertical, const float &turn_flat) {
+	transform = glm::rotate(transform, (float)glfwGetTime(), glm::vec3(vertical, horizontal, turn_flat));
+}
 
-*/
+void animate::scale(const float &x_scale_parameter, const float &y_scale_parameter, const float &z_scale_parameter) {
+	transform = glm::scale(transform, glm::vec3(x_scale_parameter, y_scale_parameter, z_scale_parameter));
+}
+
+void animate::scale_whole(const float &scale_parameter) {
+	transform = glm::scale(transform, glm::vec3(scale_parameter, scale_parameter, 0.0f));
+}

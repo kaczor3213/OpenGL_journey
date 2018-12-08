@@ -2,6 +2,7 @@
 #define SHADER_HPP
 
 #include <glad.h>
+#include <glfw3.h>
 #include <fstream>
 #include <string>
 #include <sstream>

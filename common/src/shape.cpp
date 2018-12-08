@@ -91,7 +91,9 @@ void shape::draw() {
 }
 */
 void shape::draw() {
-	glClear(GL_COLOR_BUFFER_BIT);
+	run();
+	transformLoc = glGetUniformLocation(shaderProgram, "transform");
+	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
 	glBindVertexArray(VAO);
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
 }

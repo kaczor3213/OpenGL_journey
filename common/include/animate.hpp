@@ -11,7 +11,7 @@
 
 class animate : public shader
 {
-	glm::mat4 transform = glm::mat4(1.0f);
+	glm::mat4 transform;
 public:
 	animate();
 	animate(const animate &other);

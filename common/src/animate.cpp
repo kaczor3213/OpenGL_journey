@@ -1,5 +1,9 @@
 #include "../include/animate.hpp"
 
+animate::animate()
+{
+	transform = glm::mat4(1.0f);
+}
 animate::animate(const animate &other)
 {
 	transform = other.transform;

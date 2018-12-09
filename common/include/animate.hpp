@@ -11,8 +11,8 @@
 class animate : public shader
 {
 protected:
-	glm::mat4 transform;
-	unsigned int transformLoc;
+	glm::mat4 model;
+	unsigned int modelLoc;
 public:
 	animate();
 	animate(const animate &other);

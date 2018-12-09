@@ -1,8 +1,6 @@
 #ifndef SHAPE_HPP
 #define SHAPE_HPP
 
-
-
 #include "animate.hpp"
 #include "vertices.hpp"
 

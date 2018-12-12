@@ -1,23 +1,22 @@
 #ifndef WORLDSPACE_HPP
 #define WORLDSPACE_HPP
 
-#include "../include/polygon.hpp"
-class worldspace : polygon
+#include <glm.hpp>
+#include <gtc/matrix_transform.hpp>
+#include <gtc/type_ptr.hpp>
+
+class worldspace
 {
 protected:
-	glm::mat4 view;
 	glm::mat4 projection;
-	int viewLoc;
-	int projectionLoc;
+	unsigned int projectionLoc;
 public:
 	worldspace();
 	worldspace(const worldspace &other);
 	worldspace(worldspace &&other) noexcept;
 	worldspace& operator=(const worldspace &other);
 	worldspace& operator=(worldspace &&other) noexcept;
-	void set_view(const float &horizontal, const float &vertical, const float &depth);
-	void set_projection(const float &angle, const float &scr_width, const float &scr_height);
-	void draw_world();
 	~worldspace() {}
+	virtual void set_projection(const float &angle, const float &scr_width, const float &scr_height);
 };
 #endif // !WORLDSPACE_HPP

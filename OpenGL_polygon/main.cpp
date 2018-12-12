@@ -91,6 +91,7 @@ int main()
 	{
 		processInput(window);
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
+		glClear(GL_COLOR_BUFFER_BIT);
 
 		my_polygon.draw();
 

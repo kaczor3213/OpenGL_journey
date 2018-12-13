@@ -1,6 +1,7 @@
 #ifndef MODEL_TRANSFORM_HPP
 #define MODEL_TRANSFORM_HPP
 
+#include <glad.h>
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>

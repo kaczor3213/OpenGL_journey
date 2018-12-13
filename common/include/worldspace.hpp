@@ -1,6 +1,7 @@
 #ifndef WORLDSPACE_HPP
 #define WORLDSPACE_HPP
 
+#include <glad.h>
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>

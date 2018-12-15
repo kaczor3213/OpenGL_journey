@@ -1,14 +1,6 @@
 ﻿#ifndef CAMERA_HPP
 #define CAMERA_HPP
 
-/*
-Klasa kamery będzie o wiele bardziej rozbudowana.
-Proponuję przebudowanie całej na wzór tej stworzonej przez gościa z kursu.
-viewLoc może tu istnieć, pod warunkiem, że klasa camera będzie miała dostęp do bufora. 
-Jest tak, ponieważ potrzebuje ona dostępu do programu shadera (alternatywą jest przeniesienie viewLoc i pochodnych do shape).
-*/
-
-#include <glad.h>
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>

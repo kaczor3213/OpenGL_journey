@@ -4,9 +4,8 @@
 #include "../include/model_transform.hpp"
 #include "../include/camera.hpp"
 #include "../include/worldspace.hpp"
-#include "../include/shader.hpp"
 
-class animate : public shader
+class animate : public model_transform, public camera, public worldspace
 {
 public:
 	animate() {}

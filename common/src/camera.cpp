@@ -2,6 +2,13 @@
 
 camera::camera() {
 	view = glm::mat4(1.0f);
+	camPos = glm::vec3(0.0f, 0.0f, 0.0f);
+	frontPos = glm::vec3(0.0f, 0.0f, -1.0f);
+	upPos = glm::vec3(0.0f, 1.0f, 0.0f);
+	worldUpPos = upPos;
+	camYaw = -90.0f;
+	camPitch = 0.0f;
+	camZoom = 45.0f;
 }
 
 camera::camera(const camera &other) {

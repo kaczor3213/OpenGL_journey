@@ -4,12 +4,24 @@
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
+#include <string>
+#include <glad.h>
+
+enum camMov { FORWARD, BACKWARD, LEFT, RIGHT };
 
 class camera
 {
 protected:
 	glm::mat4 view;
 	unsigned viewLoc;
+	glm::vec3 camPos;
+	glm::vec3 frontPos;
+	glm::vec3 upPos;
+	glm::vec3 worldUpPos;
+	glm::vec3 right;
+	float camYaw;
+	float camPitch;
+	float camZoom;
 public:
 	camera();
 	camera(const camera &other);
@@ -19,7 +31,12 @@ public:
 	~camera() {}
 	virtual void move(const float &horizontal, const float &vertical, const float &depth);
 	virtual void rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat);
-	virtual void zoom(const float &x_scale_parameter, const float &y_scale_parameter, const float &z_scale_parameter);
+	virtual void pointCam(glm::vec3 position, glm::vec3 up, glm::vec3 front, float yaw, float pitch, float zoom);
+	virtual void updateCam();
+	virtual void setView();
+	virtual void procKeys(camMov dir, float inTime);
+	virtual void procMouseMov(float xoffs, float yoffs, GLboolean constrain);
+	virtual void procMouseZoom(float yoffs);
 };
 
 #endif

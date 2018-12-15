@@ -6,7 +6,6 @@
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
 
-#include "../common/include/polygon.hpp"
 #include "../common/include/quad.hpp"
 
 unsigned SCR_WIDTH = 800;
@@ -31,13 +30,13 @@ int main()
 	}
 	glfwMakeContextCurrent(window);
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
 	{
 		std::cout << "Failed to initialize GLAD" << std::endl;
 		getchar();
 		return -1;
 	}
-
 	glEnable(GL_DEPTH_TEST);
 
 	///tu sie dzieje magia

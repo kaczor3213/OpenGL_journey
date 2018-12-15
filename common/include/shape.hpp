@@ -1,11 +1,10 @@
 #ifndef SHAPE_HPP
 #define SHAPE_HPP
 
-#include "animate.hpp"
 #include "vertices.hpp"
 #include "shader.hpp"
 
-class shape : public shader, public animate
+class shape : public shader
 {
 protected:
 	GLuint EBO;

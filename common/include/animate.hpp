@@ -5,10 +5,10 @@
 #include "../include/camera.hpp"
 #include "../include/worldspace.hpp"
 
-class animate : public model_transform, public camera, public worldspace
+class animate : public worldspace, public model_transform, public camera
 {
 public:
 	animate() {}
 	~animate() {}
 };
-#endif // !ANIMATE_HPP
+#endif

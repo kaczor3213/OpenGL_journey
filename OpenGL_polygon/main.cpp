@@ -1,7 +1,11 @@
 #include <iostream>
 #include <glad.h>
 #include <glfw3.h>
+
 #include <glm.hpp>
+#include <gtc/matrix_transform.hpp>
+#include <gtc/type_ptr.hpp>
+
 #include "../common/include/polygon.hpp"
 
 unsigned SCR_WIDTH = 800;
@@ -32,6 +36,8 @@ int main()
 		getchar();
 		return -1;
 	}
+
+	glEnable(GL_DEPTH_TEST);
 
 	///tu sie dzieje magia
 
@@ -91,7 +97,7 @@ int main()
 	{
 		processInput(window);
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT);
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		my_polygon.draw();
 

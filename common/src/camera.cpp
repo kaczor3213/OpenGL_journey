@@ -2,13 +2,17 @@
 
 camera::camera() {
 	view = glm::mat4(1.0f);
-	camPos = glm::vec3(0.0f, 0.0f, 0.0f);
-	frontPos = glm::vec3(0.0f, 0.0f, -1.0f);
-	upPos = glm::vec3(0.0f, 1.0f, 0.0f);
-	worldUpPos = upPos;
-	camYaw = -90.0f;
-	camPitch = 0.0f;
-	camZoom = 45.0f;
+	Position = glm::vec3(0.0f, 0.0f, 0.0f);
+	Front = glm::vec3(0.0f, 0.0f, -1.0f);
+	Up = glm::vec3(0.0f, 1.0f, 0.0f);
+	WorldUp = Up;
+
+	Yaw = YAW;
+	Pitch = PITCH;
+	Zoom = ZOOM;
+
+	MovementSpeed = SPEED;
+	MouseSensitivity = SENSITIVITY;
 }
 
 camera::camera(const camera &other) {
@@ -28,33 +32,66 @@ camera& camera::operator=(camera &&other) noexcept {
 	return *this;
 }
 
-void camera::moveCam(const float &horizontal, const float &vertical, const float &depth) {
+void camera::process_keyboard(CameraMovement direction, const float &deltaTime) {
+	float velocity = MovementSpeed * deltaTime;
+	if (direction == FORWARD)
+		Position += Front * velocity;
+	if (direction == BACKWARD)
+		Position -= Front * velocity;
+	if (direction == LEFT)
+		Position -= Right * velocity;
+	if (direction == RIGHT)
+		Position += Right * velocity;
+}
+
+void camera::process_mouse_movement(const float &xoffset, const float &yoffset, bool constrainPitch = true) {
+	Yaw += xoffset * MouseSensitivity;
+	Pitch += yoffset * MouseSensitivity;
+	if (constrainPitch)
+	{
+		if (Pitch > 89.0f)
+			Pitch = 89.0f;
+		if (Pitch < -89.0f)
+			Pitch = -89.0f;
+	}
+	update();
+}
+
+void camera::process_mouse_scroll(const float &yoffset) {
+	if (Zoom >= 1.0f && Zoom <= 45.0f)
+		Zoom -= yoffset;
+	if (Zoom <= 1.0f)
+		Zoom = 1.0f;
+	if (Zoom >= 45.0f)
+		Zoom = 45.0f;
+}
+
+void camera::move(const float &horizontal, const float &vertical, const float &depth) {
 	view = glm::translate(view, glm::vec3(horizontal, vertical, depth));
 }
 
-void camera::rotateCam(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat) {
+void camera::rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat) {
 	view = glm::rotate(view, glm::radians(speed_scale), glm::vec3(horizontal, vertical, turn_flat));
 }
 
-void camera::pointCam(glm::vec3 position, glm::vec3 up, glm::vec3 front, const float &yaw, const float &pitch, const float &zoom) {
-	camPos = position;
-	worldUpPos = up;
-	camYaw = yaw;
-	camPitch = pitch;
-	camZoom = zoom;
-	updateCam();
+void camera::place(glm::vec3 position, glm::vec3 up, glm::vec3 front, const float &yaw, const float &pitch, const float &zoom) {
+	Position = position;
+	WorldUp = up;
+	Yaw = yaw;
+	Pitch = pitch;
+	Zoom = zoom;
 }
 
-void camera::updateCam() {
+void camera::update() {
 	glm::vec3 tmp;
-	tmp.x = cos(glm::radians(camYaw)) * cos(glm::radians(camPitch));
-	tmp.y = sin(glm::radians(camPitch));
-	tmp.z = sin(glm::radians(camYaw)) * cos(glm::radians(camPitch));
-	frontPos = glm::normalize(tmp);
-	right = glm::normalize(glm::cross(frontPos, worldUpPos));
-	upPos = glm::normalize(glm::cross(right, frontPos));
+	tmp.x = cos(glm::radians(Yaw)) * cos(glm::radians(Pitch));
+	tmp.y = sin(glm::radians(Pitch));
+	tmp.z = sin(glm::radians(Yaw)) * cos(glm::radians(Pitch));
+	Front = glm::normalize(tmp);
+	Right = glm::normalize(glm::cross(Front, WorldUp));
+	Up = glm::normalize(glm::cross(Right, Front));
 }
 
-void camera::setViewCam() {
-	view = glm::lookAt(camPos, camPos + frontPos, upPos);
+glm::mat4 camera::get_view() {
+	return glm::lookAt(Position, Position + Front, Up);
 }

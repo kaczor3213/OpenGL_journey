@@ -5,12 +5,11 @@
 #include <glfw3.h>
 #include "shape.hpp"
 #include "animate.hpp"
-#include "input_handling.hpp"
 
 class model : public shape, public animate
 {
 public:
-	model();
+	model() {}
 	model(const model &other);
 	model(model &&other) noexcept;
 	model& operator=(const model &other);

@@ -9,7 +9,7 @@
 class model_transform
 {
 protected:
-	glm::mat4 model;
+	glm::mat4 _model;
 	unsigned int modelLoc;
 public:
 	model_transform();

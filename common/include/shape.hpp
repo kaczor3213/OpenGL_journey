@@ -3,8 +3,9 @@
 
 #include "vertices.hpp"
 #include "shader.hpp"
+#include "animate.hpp"
 
-class shape : public shader
+class shape : public shader, public animate
 {
 protected:
 	GLuint EBO;

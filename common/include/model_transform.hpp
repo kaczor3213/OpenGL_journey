@@ -9,8 +9,8 @@
 class model_transform
 {
 protected:
-	glm::mat4 _model;
-	unsigned int modelLoc;
+	glm::mat4 transform;
+	unsigned transformLoc;
 public:
 	model_transform();
 	model_transform(const model_transform &other);

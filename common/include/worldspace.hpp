@@ -1,10 +1,11 @@
-#ifndef WORLDSPACE_HPP
+/*#ifndef WORLDSPACE_HPP
 #define WORLDSPACE_HPP
 
 #include <glad.h>
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
+
 
 class worldspace
 {
@@ -20,4 +21,5 @@ public:
 	~worldspace() {}
 	virtual void set_projection(const float &angle, const float &scr_width, const float &scr_height);
 };
-#endif // !WORLDSPACE_HPP
+#endif
+*/

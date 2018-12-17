@@ -7,12 +7,7 @@
 #include <gtc/type_ptr.hpp>
 
 #include "../common/include/quad.hpp"
-
-unsigned SCR_WIDTH = 800;
-unsigned SCR_HEIGHT = 600;
-
-void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-void processInput(GLFWwindow *window);
+#include "../common/include/input.hpp"
 
 int main()
 {
@@ -21,7 +16,7 @@ int main()
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	
-	GLFWwindow *window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Okno", nullptr, nullptr);
+	GLFWwindow *window = glfwCreateWindow(800, 600, "Okno", nullptr, nullptr);
 	if (window == nullptr)
 	{
 		std::cout << "ERROR WHILE CREATING A WINDOW::EXITING\n";
@@ -39,6 +34,8 @@ int main()
 	}
 	glEnable(GL_DEPTH_TEST);
 
+	init_input(window);
+
 	///tu sie dzieje magia
 
 	const color COLOR_YELLOW(255, 255, 0, 255);
@@ -50,19 +47,19 @@ int main()
 	quad my_quad;
 	my_quad.coordinates[0].position[0] = -0.5;
 	my_quad.coordinates[0].position[1] = 0.5;
-	my_quad.coordinates[0].position[2] = 0.0;
+	my_quad.coordinates[0].position[2] = -0.5;
 
 	my_quad.coordinates[1].position[0] = -0.5;
 	my_quad.coordinates[1].position[1] = -0.5;
-	my_quad.coordinates[1].position[2] = 0.0;
+	my_quad.coordinates[1].position[2] = -0.5;
 
 	my_quad.coordinates[2].position[0] = 0.5;
 	my_quad.coordinates[2].position[1] = -0.5;
-	my_quad.coordinates[2].position[2] = 0.0;
+	my_quad.coordinates[2].position[2] = -0.5;
 
 	my_quad.coordinates[3].position[0] = 0.5;
 	my_quad.coordinates[3].position[1] = 0.5;
-	my_quad.coordinates[3].position[2] = 0.0;
+	my_quad.coordinates[3].position[2] = -0.5;
 
 	my_quad.coordinates[0].set_color(COLOR_GREEN);
 	my_quad.coordinates[1].set_color(COLOR_BLACK);
@@ -70,15 +67,20 @@ int main()
 	my_quad.coordinates[3].set_color(COLOR_BLUE);
 
 	my_quad.render();
-	
+
 	
 	while (!glfwWindowShouldClose(window))
 	{
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		my_quad.draw();
+		my_quad.process_keyboard(keyboard_callback(window), 0.005f);
+		my_quad.process_mouse_movement(get_mouse_position(), true);
+		my_quad.process_mouse_scroll(get_scroll_position());
+		my_quad.get_view();
 
+		my_quad.draw();
+		
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}

@@ -16,4 +16,4 @@ public:
 	virtual void draw();
 };
 
-#endif //TRIANGLE_HPP
+#endif

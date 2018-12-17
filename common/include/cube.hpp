@@ -14,7 +14,6 @@ public:
 	cube();
 	~cube() {}
 	void generate();
-	//void buff_handle();
 	void render_cube();
 	void draw();
 };

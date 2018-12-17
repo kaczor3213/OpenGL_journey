@@ -1,6 +1,5 @@
 #include "../include/polygon.hpp"
-#include <iostream>
-#include <chrono>
+
 polygon::polygon(const unsigned &size) {
 	coordinates.resize(size);
 }
@@ -53,21 +52,13 @@ float polygon::cross_product(const int &f_v, const int &s_v, const int &r_p)
 
 void polygon::render()
 {
-
-	auto start = std::chrono::steady_clock::now();
+	/*
 	std::vector<float> t;
 	t.push_back(cross_product(1, coordinates.size() - 1 , 0));
 	for (int i = 1; i < coordinates.size() - 1; i++)
 		t.push_back(cross_product(i+1,i-1,i));
 	t.push_back(cross_product(0, coordinates.size() - 2, coordinates.size() - 1));
-	for (auto x : t)
-		std::cout << x << "\t";
-	std::cout << std::endl;
-	auto finish = std::chrono::steady_clock::now();
-	double elapsed_seconds = std::chrono::duration_cast<std::chrono::microseconds>(finish - start).count();
-	std::cout << elapsed_seconds;
-
-
+	*/
 
 	bool not_done{ true };
 	int i = 0, count = 0;

@@ -1,8 +1,7 @@
 #include "../include/triangle.hpp"
-#include <iostream>
 
 triangle::triangle() {
-	coordinates.resize(4);
+	coordinates.resize(3);
 }
 
 triangle::triangle(const triangle &other) {
@@ -38,8 +37,6 @@ triangle& triangle::operator=(triangle &&other) noexcept {
 }
 
 void triangle::render() {
-	//indices generator
-	std::cout << "dupa";
 	indices = std::vector<unsigned int>{ 0,1,2 };
 	data_parser();
 	buff_handle();
@@ -47,8 +44,13 @@ void triangle::render() {
 
 void triangle::draw() {
 	run();
-	glClear(GL_COLOR_BUFFER_BIT);
+	transformLoc = glGetUniformLocation(shaderProgram, "transform");
+	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
+	viewLoc = glGetUniformLocation(shaderProgram, "view");
+	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+	projectionLoc = glGetUniformLocation(shaderProgram, "projection");
+	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
 	glBindVertexArray(VAO);
-	glDrawArrays(GL_TRIANGLES, 0, 3);
+	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
 }
 

@@ -44,9 +44,9 @@ public:
 	~camera() {}
 	void get_view();
 	void update();
-	virtual void move(const float &horizontal, const float &vertical, const float &depth);
-	virtual void rotate(const float &speed_scale, const float &horizontal, const float &vertical, const float &turn_flat);
-	virtual void place(glm::vec3 position, glm::vec3 up, glm::vec3 front, const float &yaw, const float &pitch, const float &zoom);
+	virtual void camera_move(const float &horizontal, const float &vertical, const float &depth);
+	virtual void camera_rotate(const float &speed_scale, const float &horizontal, const float &vertical, const float &turn_flat);
+	virtual void camera_place(glm::vec3 position, glm::vec3 up, glm::vec3 front, const float &yaw, const float &pitch, const float &zoom);
 
 
 	virtual void process_keyboard(CameraMovement direction, const float &deltaTime);

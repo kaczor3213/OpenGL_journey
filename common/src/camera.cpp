@@ -81,15 +81,15 @@ void camera::process_mouse_scroll(double yoffset) {
 		Zoom = 45.0f;
 }
 
-void camera::move(const float &horizontal, const float &vertical, const float &depth) {
+void camera::camera_move(const float &horizontal, const float &vertical, const float &depth) {
 	view = glm::translate(view, glm::vec3(horizontal, vertical, depth));
 }
 
-void camera::rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat) {
+void camera::camera_rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat) {
 	view = glm::rotate(view, glm::radians(speed_scale), glm::vec3(horizontal, vertical, turn_flat));
 }
 
-void camera::place(glm::vec3 position, glm::vec3 up, glm::vec3 front, const float &yaw, const float &pitch, const float &zoom) {
+void camera::camera_place(glm::vec3 position, glm::vec3 up, glm::vec3 front, const float &yaw, const float &pitch, const float &zoom) {
 	Position = position;
 	WorldUp = up;
 	Yaw = yaw;

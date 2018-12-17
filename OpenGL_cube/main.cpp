@@ -15,7 +15,7 @@ int main()
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-	
+
 	GLFWwindow *window = glfwCreateWindow(800, 600, "Okno", nullptr, nullptr);
 	if (window == nullptr)
 	{
@@ -53,7 +53,7 @@ int main()
 	my_cube.render_cube();
 
 
-	
+
 	while (!glfwWindowShouldClose(window))
 	{
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
@@ -65,7 +65,7 @@ int main()
 		my_cube.get_view();
 
 		my_cube.draw();
-		
+
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}

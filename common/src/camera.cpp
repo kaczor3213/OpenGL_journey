@@ -1,5 +1,5 @@
 #include "../include/camera.hpp"
-#include <iostream>
+
 
 camera::camera() {
 	projection = glm::mat4(1.0f);
@@ -73,7 +73,6 @@ void camera::process_mouse_movement(const vector2d &offset, bool constrainPitch)
 }
 
 void camera::process_mouse_scroll(double yoffset) {
-	std::cout << yoffset << "\n";
 	if (Zoom >= 1.0f && Zoom <= 45.0f)
 		Zoom -= yoffset;
 	if (Zoom <= 1.0f)

@@ -15,7 +15,6 @@ public:
 	model& operator=(const model &other);
 	model& operator=(model &&other) noexcept;
 	virtual ~model() {}
-	virtual void bindWindow(GLFWwindow &window);
 	virtual void draw();
 };
 

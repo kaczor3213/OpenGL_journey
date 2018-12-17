@@ -22,6 +22,7 @@ CameraMovement keyboard_callback(GLFWwindow *window)
 		return LEFT;
 	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
 		return RIGHT;
+	return NONE;
 }
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) { 

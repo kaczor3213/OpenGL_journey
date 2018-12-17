@@ -47,19 +47,19 @@ int main()
 	quad my_quad;
 	my_quad.coordinates[0].position[0] = -0.5;
 	my_quad.coordinates[0].position[1] = 0.5;
-	my_quad.coordinates[0].position[2] = -0.5;
+	my_quad.coordinates[0].position[2] = -0.7;
 
 	my_quad.coordinates[1].position[0] = -0.5;
 	my_quad.coordinates[1].position[1] = -0.5;
-	my_quad.coordinates[1].position[2] = -0.5;
+	my_quad.coordinates[1].position[2] = -0.7;
 
 	my_quad.coordinates[2].position[0] = 0.5;
 	my_quad.coordinates[2].position[1] = -0.5;
-	my_quad.coordinates[2].position[2] = -0.5;
+	my_quad.coordinates[2].position[2] = -0.7;
 
 	my_quad.coordinates[3].position[0] = 0.5;
 	my_quad.coordinates[3].position[1] = 0.5;
-	my_quad.coordinates[3].position[2] = -0.5;
+	my_quad.coordinates[3].position[2] = -0.7;
 
 	my_quad.coordinates[0].set_color(COLOR_GREEN);
 	my_quad.coordinates[1].set_color(COLOR_BLACK);

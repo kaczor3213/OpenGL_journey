@@ -1,6 +1,5 @@
 #include "../include/polygon.hpp"
-#include <iostream>
-#include <chrono>
+
 polygon::polygon(const unsigned &size) {
 	coordinates.resize(size);
 }
@@ -43,9 +42,24 @@ void polygon::resize(const unsigned &size) {
 	update();
 }
 
+float polygon::cross_product(const int &f_v, const int &s_v, const int &r_p)
+{
+	return  (coordinates[f_v].position[0] - coordinates[r_p].position[0]) *
+		(coordinates[s_v].position[1] - coordinates[r_p].position[1]) -
+		(coordinates[s_v].position[0] - coordinates[r_p].position[0]) *
+		(coordinates[f_v].position[1] - coordinates[r_p].position[1]);
+}
+
 void polygon::render()
 {
-	auto start = std::chrono::steady_clock::now();	
+	/*
+	std::vector<float> t;
+	t.push_back(cross_product(1, coordinates.size() - 1 , 0));
+	for (int i = 1; i < coordinates.size() - 1; i++)
+		t.push_back(cross_product(i+1,i-1,i));
+	t.push_back(cross_product(0, coordinates.size() - 2, coordinates.size() - 1));
+	*/
+
 	bool not_done{ true };
 	int i = 0, count = 0;
 	std::vector<unsigned int> angle;
@@ -66,7 +80,8 @@ void polygon::render()
 			if (i >= tmp.size()) i = 0;
 		}
 		if (
-			((coordinates[angle[0]].position[0] - coordinates[angle[1]].position[0]) *
+			(
+			(coordinates[angle[0]].position[0] - coordinates[angle[1]].position[0]) *
 			(coordinates[angle[2]].position[1] - coordinates[angle[1]].position[1]) -
 			(coordinates[angle[2]].position[0] - coordinates[angle[1]].position[0]) *
 			(coordinates[angle[0]].position[1] - coordinates[angle[1]].position[1])) < 0
@@ -86,12 +101,8 @@ void polygon::render()
 		}
 		if (count == tmp.size()-2) not_done = false;
 	}
-	auto finish = std::chrono::steady_clock::now();
-	double elapsed_seconds = std::chrono::duration_cast<std::chrono::microseconds>(finish - start).count();
-	std::cout << elapsed_seconds;
 	data_parser();
 	buff_handle();
-
 }
 
 void polygon::update()

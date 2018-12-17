@@ -15,4 +15,4 @@ public:
 	virtual void render();
 };
 
-#endif // !QUAD_CPP
+#endif

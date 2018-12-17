@@ -82,18 +82,15 @@ void shape::render() {
 	data_parser();
 	buff_handle();
 }
-/*
-void shape::draw() {
-	run();
-	glClear(GL_COLOR_BUFFER_BIT);
-	glBindVertexArray(VAO);
-	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
-}
-*/
+
 void shape::draw() {
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");
 	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
+	viewLoc = glGetUniformLocation(shaderProgram, "view");
+	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+	projectionLoc = glGetUniformLocation(shaderProgram, "projection");
+	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
 	glBindVertexArray(VAO);
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
 }

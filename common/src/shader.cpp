@@ -7,9 +7,11 @@ shader::shader()
 		"layout (location = 1) in vec3 aColor;\n"
 		"out vec3 ourColor;\n"
 		"uniform mat4 transform;\n"
+		"uniform mat4 view;\n"
+		"uniform mat4 projection;\n"
 		"void main()\n"
 		"{\n"
-		"   gl_Position = transform * vec4(aPos, 1.0);\n"
+		"   gl_Position =  projection * view * transform * vec4(aPos, 1.0);\n"
 		"   ourColor = aColor;\n"
 		"}\n\0";
 

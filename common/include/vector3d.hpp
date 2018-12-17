@@ -1,7 +1,3 @@
-//
-// Created by Przemek on 11/18/2018.
-//
-
 #ifndef VECTOR3D_HPP
 #define VECTOR3D_HPP
 
@@ -23,4 +19,4 @@ public:
     ~vector3d() {}
 };
 
-#endif VECTOR3D_HPP
+#endif

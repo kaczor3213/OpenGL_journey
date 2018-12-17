@@ -5,6 +5,8 @@
 
 class polygon : public shape
 {
+private:
+	float cross_product(const int &f_v, const int &s_v, const int &r_p);
 public:
 	explicit polygon(const unsigned &size);
 	polygon(const polygon &other);

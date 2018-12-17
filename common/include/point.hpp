@@ -22,4 +22,4 @@ public:
 	color get_color();
 };
 
-#endif // !POINT_HPP
+#endif

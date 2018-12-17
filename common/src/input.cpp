@@ -1,7 +1,5 @@
 #include "../include/input.hpp"
 
-
-
 void init_input(GLFWwindow *&window)
 {
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
@@ -49,7 +47,15 @@ vector2d get_mouse_position() {
 }
 
 const double get_scroll_position() {
-	double yoffset = CurrentScrollPos - LastScrollPos ;
-	LastScrollPos = CurrentScrollPos;
-	return yoffset;
+	if (CurrentScrollPos - LastScrollPos > 0)
+	{
+		CurrentScrollPos = LastScrollPos;
+		return 1.0;
+	}
+	if (CurrentScrollPos - LastScrollPos < 0)
+	{
+		CurrentScrollPos = LastScrollPos;
+		return -1.0;
+	}
+	return 0.0;
 }

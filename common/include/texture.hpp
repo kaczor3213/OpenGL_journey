@@ -1,6 +1,9 @@
 #ifndef TEXTURES_HPP
 #define TEXTURES_HPP
 
+//pamietaj o dodaniu tego headera do externali, ktory Ci wyslalem
+//zapomnialem zmienic parsera, ale mowiles, ze zmiensiz vector3d, wiec to sie dogra spokojnie
+
 #include <glad.h>
 #include "stb_image.h"
 #include <string>

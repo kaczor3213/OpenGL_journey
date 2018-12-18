@@ -4,8 +4,9 @@
 #include "vertices.hpp"
 #include "shader.hpp"
 #include "animate.hpp"
+#include "texture.hpp"
 
-class shape : public shader, public animate
+class shape : public shader, public texture, public animate
 {
 protected:
 	GLuint EBO;

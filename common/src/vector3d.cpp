@@ -1,44 +1,23 @@
-//
-// Created by Przemek on 11/18/2018.
-//
 #include "../include/vector3d.hpp"
 
-vector3d::vector3d()
+Vector3d::Vector3d(const Vector3d &other) : x(other.x), y(other.y), z(other.z) {}
+
+Vector3d& Vector3d::operator=(const Vector3d &other)
 {
-    set.resize(3);
+    return *this = Vector3d(other);
 }
 
-vector3d::vector3d(const float &x, const float &y, const float &z)
+Vector3d::Vector3d(Vector3d &&other) noexcept
 {
-    set.push_back(x);
-    set.push_back(y);
-    set.push_back(z);
+    x = std::move(other.x);
+	y = std::move(other.y);
+	z = std::move(other.z);
 }
 
-vector3d::vector3d(const vector3d &other) : set(other.set) {}
-
-vector3d& vector3d::operator=(const vector3d &other)
+Vector3d& Vector3d::operator=(Vector3d &&other) noexcept
 {
-    return *this = vector3d(other);
-}
-
-vector3d::vector3d(vector3d &&other) noexcept
-{
-    set = std::move(other.set);
-}
-
-vector3d& vector3d::operator=(vector3d &&other) noexcept
-{
-    set = std::move(other.set);
+	x = std::move(other.x);
+	y = std::move(other.y);
+	z = std::move(other.z);
     return *this;
-}
-
-float& vector3d::operator[](const int &index)
-{
-    return set[index];
-}
-
-float vector3d::operator[](const int &index) const
-{
-	return set[index];
 }

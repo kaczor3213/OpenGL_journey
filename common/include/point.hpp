@@ -1,27 +1,26 @@
 #ifndef POINT_HPP
 #define POINT_HPP
 
-#include "vector3d.hpp"
 #include "vector2d.hpp"
+#include "vector3d.hpp"
 #include "color.hpp"
 
-class point
+class Point : public Vector2d, public Vector3d
 {
 private:
 	bool check_in_range(const float &value);
-	color _color;
+	Color color;
 public:
-	vector3d position;
-	vector2d texturecoords;
-	point();
-	point(const std::vector<float> &coordinate_vector, const std::vector<float> &texture_vector, const color &COLOR);
-	point(const vector3d &coordinate_vector, const vector2d &texture_vector, const color &COLOR);
-	point(const point &other);
-	point& operator=(const point &other);
-	point(point &&other) noexcept;
-	point& operator=(point &&other) noexcept;
-	void set_color(const color &COLOR);
-	color get_color();
+	Point();
+	Point(const std::vector<float> &coordinate_vector, const Color &COLOR, const std::vector<float> &texture_vector);
+	Point(const Vector3d &coordinate_vector, const Color &COLOR, const Vector2d &texture_vector);
+	Point(const Point &other);
+	Point& operator=(const Point &other);
+	Point(Point &&other) noexcept;
+	Point& operator=(Point &&other) noexcept;
+	virtual void set_coordinates(const float &X, const float &Y, const float &Z);
+	virtual void set_color(const Color &COLOR);
+	Color get_color();
 };
 
 #endif

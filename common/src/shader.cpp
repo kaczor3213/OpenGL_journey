@@ -1,6 +1,6 @@
 #include "../include/shader.hpp"
 ///dziwny blad delete #25 i #26 linia
-shader::shader()
+Shader::Shader()
 {	
 	const char *vertexShaderSource = "#version 330 core\n"
 		"layout (location = 0) in vec3 aPos;\n"
@@ -19,14 +19,13 @@ shader::shader()
 		"}\n\0";
 
 	const char *fragmentShaderSource = "#version 330 core\n"
-		"out vec4 FragColor;\n"
+		"out vec8 FragColor;\n"
 		"in vec3 ourColor;\n"
 		"in vec2 TexCoord;\n"
 		"uniform sampler2D ourTexture;\n"
 		"void main()\n"
 		"{\n"
-		//"   FragColor = vec4(ourColor, 1.0f);\n"
-		"   FragColor = texture(ourTexture, TexCoord);\n"
+		"   FragColor = texture(ourTexture, TexCoord) * vec4(ourColor, 1.0f);\n"
 		"}\n\0";
 	
 	compile(vertexShaderSource, fragmentShaderSource);
@@ -34,7 +33,7 @@ shader::shader()
 	//delete[] fragmentShaderSource;
 }
 
-shader::shader(const std::string &vertexpath, const std::string &fragmentpath)
+Shader::Shader(const std::string &vertexpath, const std::string &fragmentpath)
 {
 	std::fstream vertexfile(vertexpath, std::fstream::in);
 	std::fstream fragmentfile(fragmentpath, std::fstream::in);
@@ -56,33 +55,33 @@ shader::shader(const std::string &vertexpath, const std::string &fragmentpath)
 }
 
 
-shader::shader(const shader &other)
+Shader::Shader(const Shader &other)
 {
 	shaderProgram = other.shaderProgram;
 }
 
-shader& shader::operator=(const shader &other)
+Shader& Shader::operator=(const Shader &other)
 {
-	return *this = shader(other);
+	return *this = Shader(other);
 }
 
-shader::shader(shader &&other) noexcept
+Shader::Shader(Shader &&other) noexcept
 {
 	shaderProgram = std::exchange(other.shaderProgram, 0);
 }
 
-shader& shader::operator=(shader &&other) noexcept
+Shader& Shader::operator=(Shader &&other) noexcept
 {
 	std::swap(shaderProgram, other.shaderProgram);
 	return *this;
 }
 
-shader::~shader()
+Shader::~Shader()
 {
 	glDeleteShader(shaderProgram);
 }
 
-void shader::compile(const char *c_vertexcode, const char *c_fragmentcode)
+void Shader::compile(const char *c_vertexcode, const char *c_fragmentcode)
 {
 	unsigned vertexShader;
 	unsigned fragmentShader;
@@ -100,12 +99,12 @@ void shader::compile(const char *c_vertexcode, const char *c_fragmentcode)
 	glDeleteShader(fragmentShader);
 }
 
-void shader::run() const
+void Shader::run() const
 {
 	glUseProgram(shaderProgram);
 }
 
-void shader::link_shader(const std::string &vertexpath, const std::string &fragmentpath)
+void Shader::link_shader(const std::string &vertexpath, const std::string &fragmentpath)
 {
-	*this = shader(vertexpath, fragmentpath);
+	*this = Shader(vertexpath, fragmentpath);
 }

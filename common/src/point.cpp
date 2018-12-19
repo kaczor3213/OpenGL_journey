@@ -1,66 +1,78 @@
 #include "../include/point.hpp"
 
-point::point() : _color(color(255, 255, 255, 255)) {}
+Point::Point() : color(Color(255, 255, 255, 255)) {}
 
-point::point(const std::vector<float> &coordinate_vector, const std::vector<float> &texture_vector,  const color &COLOR)
-{
+Point::Point(const std::vector<float> &coordinate_vector, const Color &COLOR, const std::vector<float> &texture_vector) {
 	if (check_in_range(coordinate_vector[0]) &&
 		check_in_range(coordinate_vector[1]) &&
 		check_in_range(coordinate_vector[2]))
 	{
-		position[0] = coordinate_vector[0];
-		position[1] = coordinate_vector[1];
-		position[2] = coordinate_vector[2];
+		x = coordinate_vector[0];
+		y = coordinate_vector[1];
+		z = coordinate_vector[2];
 	}
 	else {}
-	texturecoords.x = texture_vector[0];
-	texturecoords.y = texture_vector[1];
-	_color = COLOR;
+	color = COLOR;
+	q = texture_vector[0];
+	w = texture_vector[1];
 }
 
-point::point(const vector3d &coordinate_vector, const vector2d &texture_vector, const color &COLOR)
-{
-	position = coordinate_vector;
-	texturecoords = texture_vector;
-	_color = COLOR;
+Point::Point(const Vector3d &coordinate_vector, const Color &COLOR, const Vector2d &texture_vector) {
+	 x = coordinate_vector.x;
+	 y = coordinate_vector.y;
+	 z = coordinate_vector.z;
+	color = COLOR;
+	q = texture_vector.q;
+	w = texture_vector.w;
 }
 
-point::point(const point &other)
-{
-	position = other.position;
-	texturecoords = other.texturecoords;
+Point::Point(const Point &other) {
+	x = other.x;
+	y = other.y;
+	z = other.z;
+	color = other.color;
+	q =  other.q;
+	w =  other.w;
 }
 
-point::point(point &&other) noexcept
-{
-	position = std::move(other.position);
-	texturecoords = std::move(other.texturecoords);
+Point::Point(Point &&other) noexcept {
+	x = std::move(other.x);
+	y = std::move(other.y);
+	z = std::move(other.z);
+	color = std::move(other.color);
+	q = std::move(other.q);
+	w = std::move(other.w);
 }
 
-point& point::operator=(const point &other)
-{
-	return *this = point(other);
+Point& Point::operator=(const Point &other) {
+	return *this = Point(other);
 }
 
-point& point::operator=(point &&other) noexcept
-{
-	position = std::move(other.position);
-	texturecoords = std::move(other.texturecoords);
+Point& Point::operator=(Point &&other) noexcept {
+	x = std::move(other.x);
+	y = std::move(other.y);
+	z = std::move(other.z);
+	color = std::move(other.color);
+	q = std::move(other.q);
+	w = std::move(other.w);
 	return *this;
 }
 
-void point::set_color(const color &COLOR)
-{
-	_color = COLOR;
+void Point::set_coordinates(const float &X, const float &Y, const float &Z) {
+	x = X;
+	y = Y;
+	z = Z;
 }
 
-color point::get_color()
-{
-	return _color;
+void Point::set_color(const Color &COLOR) {
+	color = COLOR;
 }
 
-bool point::check_in_range(const float &value)
-{
+Color Point::get_color() {
+	return color;
+}
+
+bool Point::check_in_range(const float &value) {
 	if (0.0 <= value && value <= 1.0) return true;
 	return false;
 }

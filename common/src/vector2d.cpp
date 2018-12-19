@@ -1,18 +1,18 @@
 #include "../include/vector2d.hpp"
 
-vector2d::vector2d(const vector2d &other) : x(other.x), y(other.y) {}
+Vector2d::Vector2d(const Vector2d &other) : q(other.q), w(other.w) {}
 
-vector2d::vector2d(vector2d &&other) noexcept {
-	x = std::move(other.x);
-	y = std::move(other.y);
+Vector2d::Vector2d(Vector2d &&other) noexcept {
+	q = std::move(other.q);
+	w = std::move(other.w);
 }
 
-vector2d& vector2d::operator=(const vector2d &other) {
-	return *this = vector2d(other);
+Vector2d& Vector2d::operator=(const Vector2d &other) {
+	return *this = Vector2d(other);
 }
 
-vector2d& vector2d::operator=(vector2d &&other) noexcept {
-	x = std::move(other.x);
-	y = std::move(other.y);
+Vector2d& Vector2d::operator=(Vector2d &&other) noexcept {
+	q = std::move(other.q);
+	w = std::move(other.w);
 	return *this;
 }

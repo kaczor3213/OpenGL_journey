@@ -1,156 +1,13 @@
 #include "../include/cube.hpp"
 #include <iostream>
 
-cube::cube()
+Cube::Cube()
 {
 	coordinates.resize(36);
 }
 
-void cube::generate()
+void Cube::generate()
 {
-	coordinates[0].position[0] = -0.5;
-	coordinates[0].position[1] = -0.5;
-	coordinates[0].position[2] = -0.5;
-
-	coordinates[1].position[0] = 0.5;
-	coordinates[1].position[1] = -0.5;
-	coordinates[1].position[2] = -0.5;
-
-	coordinates[2].position[0] = 0.5;
-	coordinates[2].position[1] = 0.5;
-	coordinates[2].position[2] = -0.5;
-
-	coordinates[3].position[0] = 0.5;
-	coordinates[3].position[1] = 0.5;
-	coordinates[3].position[2] = -0.5;
-
-	coordinates[4].position[0] = -0.5;
-	coordinates[4].position[1] = 0.5;
-	coordinates[4].position[2] = -0.5;
-	
-	coordinates[5].position[0] = -0.5;
-	coordinates[5].position[1] = -0.5;
-	coordinates[5].position[2] = -0.5;
-	
-	coordinates[6].position[0] = -0.5;
-	coordinates[6].position[1] = -0.5;
-	coordinates[6].position[2] = 0.5;
-	
-	coordinates[7].position[0] = 0.5;
-	coordinates[7].position[1] = -0.5;
-	coordinates[7].position[2] = 0.5;
-	
-	coordinates[8].position[0] = 0.5;
-	coordinates[8].position[1] = 0.5;
-	coordinates[8].position[2] = 0.5;
-			  
-	coordinates[9].position[0] = 0.5;
-	coordinates[9].position[1] = 0.5;
-	coordinates[9].position[2] = 0.5;
-	
-	coordinates[10].position[0] = -0.5;
-	coordinates[10].position[1] = 0.5;
-	coordinates[10].position[2] = 0.5;
-	
-	coordinates[11].position[0] = -0.5;
-	coordinates[11].position[1] = -0.5;
-	coordinates[11].position[2] = 0.5;
-	
-	coordinates[12].position[0] = -0.5;
-	coordinates[12].position[1] = 0.5;
-	coordinates[12].position[2] = 0.5;
-	
-	coordinates[13].position[0] = -0.5;
-	coordinates[13].position[1] = 0.5;
-	coordinates[13].position[2] = -0.5;
-	
-	coordinates[14].position[0] = -0.5;
-	coordinates[14].position[1] = -0.5;
-	coordinates[14].position[2] = -0.5;
-	
-	coordinates[15].position[0] = -0.5;
-	coordinates[15].position[1] = -0.5;
-	coordinates[15].position[2] = -0.5;
-	
-	coordinates[16].position[0] = -0.5;
-	coordinates[16].position[1] = -0.5;
-	coordinates[16].position[2] = 0.5;
-	
-	coordinates[17].position[0] = -0.5;
-	coordinates[17].position[1] = 0.5;
-	coordinates[17].position[2] = 0.5;
-	
-	coordinates[18].position[0] = 0.5;
-	coordinates[18].position[1] = 0.5;
-	coordinates[18].position[2] = 0.5;
-	
-	coordinates[19].position[0] = 0.5;
-	coordinates[19].position[1] = 0.5;
-	coordinates[19].position[2] = -0.5;
-	
-	coordinates[20].position[0] = 0.5;
-	coordinates[20].position[1] = -0.5;
-	coordinates[20].position[2] = -0.5;
-	
-	coordinates[21].position[0] = 0.5;
-	coordinates[21].position[1] = -0.5;
-	coordinates[21].position[2] = -0.5;
-	
-	coordinates[22].position[0] = 0.5;
-	coordinates[22].position[1] = -0.5;
-	coordinates[22].position[2] = 0.5;
-	
-	coordinates[23].position[0] = 0.5;
-	coordinates[23].position[1] = 0.5;
-	coordinates[23].position[2] = 0.5;
-	
-	coordinates[24].position[0] = -0.5;
-	coordinates[24].position[1] = -0.5;
-	coordinates[24].position[2] = -0.5;
-	
-	coordinates[25].position[0] = 0.5;
-	coordinates[25].position[1] = -0.5;
-	coordinates[25].position[2] = -0.5;
-	
-	coordinates[26].position[0] = 0.5;
-	coordinates[26].position[1] = -0.5;
-	coordinates[26].position[2] = 0.5;
-	
-	coordinates[27].position[0] = 0.5;
-	coordinates[27].position[1] = -0.5;
-	coordinates[27].position[2] = 0.5;
-	
-	coordinates[28].position[0] = -0.5;
-	coordinates[28].position[1] = -0.5;
-	coordinates[28].position[2] = 0.5;
-	
-	coordinates[29].position[0] = -0.5;
-	coordinates[29].position[1] = -0.5;
-	coordinates[29].position[2] = -0.5;
-			  
-	coordinates[30].position[0] = -0.5;
-	coordinates[30].position[1] = 0.5;
-	coordinates[30].position[2] = -0.5;
-			  
-	coordinates[31].position[0] = 0.5;
-	coordinates[31].position[1] = 0.5;
-	coordinates[31].position[2] = -0.5;
-	
-	coordinates[32].position[0] = 0.5;
-	coordinates[32].position[1] = 0.5;
-	coordinates[32].position[2] = 0.5;
-			  
-	coordinates[33].position[0] = 0.5;
-	coordinates[33].position[1] = 0.5;
-	coordinates[33].position[2] = 0.5;
-	
-	coordinates[34].position[0] = -0.5;
-	coordinates[34].position[1] = 0.5;
-	coordinates[34].position[2] = 0.5;
-			  
-	coordinates[35].position[0] = -0.5;
-	coordinates[35].position[1] = 0.5;
-	coordinates[35].position[2] = -0.5;
 
 ////////
 
@@ -200,13 +57,13 @@ void cube::generate()
 	coordinates[35].set_color(COLOR_BLUE);
 }
 
-void cube::render_cube()
+void Cube::render_cube()
 {
 	render();
 	buff_handle();
 }
 
-void cube::draw()
+void Cube::draw()
 {
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");

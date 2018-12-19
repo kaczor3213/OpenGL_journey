@@ -6,7 +6,7 @@
 #include "animate.hpp"
 #include "texture.hpp"
 
-class shape : public shader, public texture, public animate
+class Shape : public Shader, public Texture, public Animate
 {
 protected:
 	GLuint EBO;
@@ -15,16 +15,19 @@ protected:
 	std::vector<float> VBO_DATA;
 	std::vector<unsigned int> indices;
 	void data_parser();
-public:
-	vertices<point> coordinates;
-	shape() : VBO(0), VAO(0), EBO(0) {}
-	shape(const unsigned &size);
-	shape(const shape &other);
-	shape(shape &&other) noexcept;
-	shape& operator=(const shape &other);
-	shape& operator=(shape &&other) noexcept;
-	virtual ~shape();
 	virtual void buff_handle();
+public:
+	Vertices<Point> coordinates;
+
+	Shape() : VBO(0), VAO(0), EBO(0) {}
+	Shape(const unsigned &size);
+	Shape(const Shape &other);
+	Shape(Shape &&other) noexcept;
+	Shape& operator=(const Shape &other);
+	Shape& operator=(Shape &&other) noexcept;
+	virtual ~Shape();
+	virtual void set_texture(const Texture &TEXTURE, const float &Q, const float &W);
+	virtual void set_shape_color(const Color &COLOR);
 	virtual void render();
 	virtual void update() {}
 	virtual void draw();

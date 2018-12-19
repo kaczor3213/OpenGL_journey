@@ -37,12 +37,12 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset) {
 	CurrentScrollPos = yoffset;
 }
 
-vector2d get_mouse_position() {
+Vector2d get_mouse_position() {
 	float xoffset = CurrentMouseXPos - LastMouseXPos;
 	float yoffset = LastMouseYPos - CurrentMouseYPos;
 	LastMouseXPos = CurrentMouseXPos;
 	LastMouseYPos = CurrentMouseYPos;
-	vector2d tmp(xoffset, yoffset);
+	Vector2d tmp(xoffset, yoffset);
 	return tmp;
 }
 

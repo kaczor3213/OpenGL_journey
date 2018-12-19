@@ -1,7 +1,7 @@
 #include "../include/camera.hpp"
 
 
-camera::camera() {
+Camera::Camera() {
 	projection = glm::mat4(1.0f);
 	view = glm::mat4(1.0f);
 	Position = glm::vec3(0.0f, 0.0f, 0.0f);
@@ -17,24 +17,24 @@ camera::camera() {
 	MouseSensitivity = SENSITIVITY;
 }
 
-camera::camera(const camera &other) {
+Camera::Camera(const Camera &other) {
 	view = other.view;
 }
 
-camera::camera(camera &&other) noexcept {
+Camera::Camera(Camera &&other) noexcept {
 	view = std::move(other.view);
 }
 
-camera& camera::operator=(const camera &other) {
-	return *this = camera(other);
+Camera& Camera::operator=(const Camera &other) {
+	return *this = Camera(other);
 }
 
-camera& camera::operator=(camera &&other) noexcept {
+Camera& Camera::operator=(Camera &&other) noexcept {
 	view = std::move(other.view);
 	return *this;
 }
 
-void camera::process_keyboard(CameraMovement direction, const float &deltaTime) {
+void Camera::process_keyboard(CameraMovement direction, const float &deltaTime) {
 	float velocity = MovementSpeed * deltaTime;
 	if (direction == FORWARD)
 		Position += Front * velocity;
@@ -46,7 +46,7 @@ void camera::process_keyboard(CameraMovement direction, const float &deltaTime) 
 		Position += Right * velocity;
 }
 
-void camera::process_mouse_movement(const float &xoffset, const float &yoffset, bool constrainPitch) {
+void Camera::process_mouse_movement(const float &xoffset, const float &yoffset, bool constrainPitch) {
 	Yaw += xoffset * MouseSensitivity;
 	Pitch += yoffset * MouseSensitivity;
 	if (true)
@@ -59,9 +59,9 @@ void camera::process_mouse_movement(const float &xoffset, const float &yoffset, 
 	update();
 }
 
-void camera::process_mouse_movement(const vector2d &offset, bool constrainPitch) {
-	Yaw += offset.x * MouseSensitivity;
-	Pitch += offset.y * MouseSensitivity;
+void Camera::process_mouse_movement(const Vector2d &offset, bool constrainPitch) {
+	Yaw += offset.q * MouseSensitivity;
+	Pitch += offset.w * MouseSensitivity;
 	if (true)
 	{
 		if (Pitch > 89.0f)
@@ -72,7 +72,7 @@ void camera::process_mouse_movement(const vector2d &offset, bool constrainPitch)
 	update();
 }
 
-void camera::process_mouse_scroll(double yoffset) {
+void Camera::process_mouse_scroll(double yoffset) {
 	if (Zoom >= 1.0f && Zoom <= 45.0f)
 		Zoom -= yoffset;
 	if (Zoom <= 1.0f)
@@ -81,15 +81,15 @@ void camera::process_mouse_scroll(double yoffset) {
 		Zoom = 45.0f;
 }
 
-void camera::camera_move(const float &horizontal, const float &vertical, const float &depth) {
+void Camera::camera_move(const float &horizontal, const float &vertical, const float &depth) {
 	view = glm::translate(view, glm::vec3(horizontal, vertical, depth));
 }
 
-void camera::camera_rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat) {
+void Camera::camera_rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat) {
 	view = glm::rotate(view, glm::radians(speed_scale), glm::vec3(horizontal, vertical, turn_flat));
 }
 
-void camera::camera_place(glm::vec3 position, glm::vec3 up, glm::vec3 front, const float &yaw, const float &pitch, const float &zoom) {
+void Camera::camera_place(glm::vec3 position, glm::vec3 up, glm::vec3 front, const float &yaw, const float &pitch, const float &zoom) {
 	Position = position;
 	WorldUp = up;
 	Yaw = yaw;
@@ -97,7 +97,7 @@ void camera::camera_place(glm::vec3 position, glm::vec3 up, glm::vec3 front, con
 	Zoom = zoom;
 }
 
-void camera::update() {
+void Camera::update() {
 	glm::vec3 tmp;
 	tmp.x = cos(glm::radians(Yaw)) * cos(glm::radians(Pitch));
 	tmp.y = sin(glm::radians(Pitch));
@@ -107,7 +107,7 @@ void camera::update() {
 	Up = glm::normalize(glm::cross(Right, Front));
 }
 
-void camera::get_view() {
+void Camera::get_view() {
 	const unsigned int SCR_WIDTH = 800;
 	const unsigned int SCR_HEIGHT = 600;
 	view = glm::lookAt(Position, Position + Front, Up);

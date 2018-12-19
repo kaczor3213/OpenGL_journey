@@ -3,15 +3,15 @@
 
 #include "shape.hpp"
 
-class quad : public shape
+class Quad : public Shape
 {
 public:
-	quad();
-	quad(const quad &other);
-	quad(quad &&other) noexcept;
-	quad& operator=(const quad &other);
-	quad& operator=(quad &&other) noexcept;
-	~quad() {}
+	Quad();
+	Quad(const Quad &other);
+	Quad(Quad &&other) noexcept;
+	Quad& operator=(const Quad &other);
+	Quad& operator=(Quad &&other) noexcept;
+	~Quad() {}
 	virtual void render();
 };
 

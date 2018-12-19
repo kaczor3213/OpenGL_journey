@@ -1,10 +1,10 @@
 #include "../include/triangle.hpp"
 
-triangle::triangle() {
+Triangle::Triangle() {
 	coordinates.resize(3);
 }
 
-triangle::triangle(const triangle &other) {
+Triangle::Triangle(const Triangle &other) {
 	EBO = other.EBO;
 	VBO = other.VBO;
 	VAO = other.VAO;
@@ -13,7 +13,7 @@ triangle::triangle(const triangle &other) {
 	coordinates = other.coordinates;
 }
 
-triangle::triangle(triangle &&other) noexcept {
+Triangle::Triangle(Triangle &&other) noexcept {
 	EBO = std::move(other.EBO);
 	VBO = std::move(other.VBO);
 	VAO = std::move(other.VAO);
@@ -22,11 +22,11 @@ triangle::triangle(triangle &&other) noexcept {
 	coordinates = std::move(other.coordinates);
 }
 
-triangle& triangle::operator=(const triangle &other) {
-	return *this = triangle(other);
+Triangle& Triangle::operator=(const Triangle &other) {
+	return *this = Triangle(other);
 }
 
-triangle& triangle::operator=(triangle &&other) noexcept {
+Triangle& Triangle::operator=(Triangle &&other) noexcept {
 	EBO = std::move(other.EBO);
 	VBO = std::move(other.VBO);
 	VAO = std::move(other.VAO);
@@ -36,13 +36,13 @@ triangle& triangle::operator=(triangle &&other) noexcept {
 	return *this;
 }
 
-void triangle::render() {
+void Triangle::render() {
 	indices = std::vector<unsigned int>{ 0,1,2 };
 	data_parser();
 	buff_handle();
 }
 
-void triangle::draw() {
+void Triangle::draw() {
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");
 	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));

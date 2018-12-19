@@ -3,16 +3,16 @@
 
 #include "shape.hpp"
 
-const color COLOR_YELLOW(255, 255, 0, 255);
-const color COLOR_BLACK(0, 0, 0, 255);
-const color COLOR_RED(255, 0, 0, 255);
-const color COLOR_GREEN(0, 255, 0, 255);
-const color COLOR_BLUE(0, 0, 255, 255);
+const Color COLOR_YELLOW(255, 255, 0, 255);
+const Color COLOR_BLACK(0, 0, 0, 255);
+const Color COLOR_RED(255, 0, 0, 255);
+const Color COLOR_GREEN(0, 255, 0, 255);
+const Color COLOR_BLUE(0, 0, 255, 255);
 
-class cube : public shape {
+class Cube : public Shape {
 public:
-	cube();
-	~cube() {}
+	Cube();
+	~Cube() {}
 	void generate();
 	void render_cube();
 	void draw();

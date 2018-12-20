@@ -13,7 +13,7 @@ Shader::Shader()
 		"uniform mat4 projection;\n"
 		"void main()\n"
 		"{\n"
-		"   gl_Position =  projection * view * transform * vec4(aPos, 1.0);\n"
+		"   gl_Position =  projection * view * transform * vec4(aPos, 1.0f);\n"
 		"   ourColor = aColor;\n"
 		"   TexCoord = vec2(aTexCoord.x, aTexCoord.y);\n"
 		"}\n\0";
@@ -22,10 +22,10 @@ Shader::Shader()
 		"out vec4 FragColor;\n"
 		"in vec3 ourColor;\n"
 		"in vec2 TexCoord;\n"
-		"uniform sampler2D ourTexture;\n"
+		"uniform sampler2D textureID;\n"
 		"void main()\n"
 		"{\n"
-		"   FragColor = texture(ourTexture, TexCoord) * ourColor;\n"
+		"   FragColor = texture(textureID, TexCoord) * vec4(ourColor, 1.0);\n"
 		"}\n\0";
 	
 	compile(vertexShaderSource, fragmentShaderSource);

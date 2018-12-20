@@ -56,7 +56,7 @@ int main()
 	my_quad.coordinates[2].y = -0.5;
 	my_quad.coordinates[2].z = 0.0;
 
-	my_quad.coordinates[3].z = 0.5;
+	my_quad.coordinates[3].x = 0.5;
 	my_quad.coordinates[3].y = 0.5;
 	my_quad.coordinates[3].z = 0.0;
 

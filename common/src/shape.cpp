@@ -109,7 +109,7 @@ void Shape::render() {
 	buff_handle();
 }
 
-void Shape::draw() {	
+void Shape::draw() {
 	texture.activate_textures();
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");
@@ -122,5 +122,6 @@ void Shape::draw() {
 	glUniform1i(texture.textureLoc, 0);
 	glBindVertexArray(VAO);
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
+	//glDrawArrays(GL_TRIANGLES, 0, 3);
 }
 

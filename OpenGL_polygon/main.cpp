@@ -1,3 +1,5 @@
+#define STB_IMAGE_IMPLEMENTATION
+
 #include <iostream>
 #include <glad.h>
 #include <glfw3.h>
@@ -6,7 +8,7 @@
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
 
-#include "../common/include/polygon.hpp"
+#include "../common/include/field.hpp"
 #include "../common/include/input.hpp"
 
 int main()

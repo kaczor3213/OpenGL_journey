@@ -43,6 +43,7 @@ void Triangle::render() {
 }
 
 void Triangle::draw() {
+	texture.activate_textures();
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");
 	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
@@ -50,6 +51,8 @@ void Triangle::draw() {
 	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 	projectionLoc = glGetUniformLocation(shaderProgram, "projection");
 	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+	texture.textureLoc = glGetUniformLocation(shaderProgram, "ourTexture");
+	glUniform1i(texture.textureLoc, 0);
 	glBindVertexArray(VAO);
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
 }

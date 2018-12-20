@@ -6,9 +6,10 @@
 #include "animate.hpp"
 #include "texture.hpp"
 
-class Shape : public Shader, public Texture, public Animate
+class Shape : public Shader, public Animate
 {
 protected:
+	Texture texture;
 	GLuint EBO;
 	GLuint VBO;
 	GLuint VAO;
@@ -18,7 +19,6 @@ protected:
 	virtual void buff_handle();
 public:
 	Vertices<Point> coordinates;
-
 	Shape() : VBO(0), VAO(0), EBO(0) {}
 	Shape(const unsigned &size);
 	Shape(const Shape &other);
@@ -26,8 +26,8 @@ public:
 	Shape& operator=(const Shape &other);
 	Shape& operator=(Shape &&other) noexcept;
 	virtual ~Shape();
-	virtual void set_texture(const Texture &TEXTURE, const float &Q, const float &W);
 	virtual void set_shape_color(const Color &COLOR);
+	virtual void set_texture(const Texture &TEXTURE, const float &S, const float &T);
 	virtual void render();
 	virtual void update() {}
 	virtual void draw();

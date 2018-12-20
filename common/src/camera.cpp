@@ -60,8 +60,8 @@ void Camera::process_mouse_movement(const float &xoffset, const float &yoffset, 
 }
 
 void Camera::process_mouse_movement(const Vector2d &offset, bool constrainPitch) {
-	Yaw += offset.q * MouseSensitivity;
-	Pitch += offset.w * MouseSensitivity;
+	Yaw += offset.s * MouseSensitivity;
+	Pitch += offset.t * MouseSensitivity;
 	if (true)
 	{
 		if (Pitch > 89.0f)

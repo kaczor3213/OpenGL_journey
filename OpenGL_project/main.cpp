@@ -1,7 +1,12 @@
+#define STB_IMAGE_IMPLEMENTATION
+
 #include <iostream>
 #include <glad.h>
 #include <glfw3.h>
+
 #include <glm.hpp>
+#include <gtc/matrix_transform.hpp>
+#include <gtc/type_ptr.hpp>
 
 #include "../common/include/triangle.hpp"
 #include "../common/include/input.hpp"
@@ -33,28 +38,29 @@ int main()
 
 	///tu sie dzieje magia
 	
-	const color COLOR_RED(255, 0, 0, 255);
-	const color COLOR_GREEN(0, 255, 0, 255);
-	const color COLOR_BLUE(0, 0, 255, 255);
+	const Color COLOR_RED(255, 0, 0, 255);
+	const Color COLOR_GREEN(0, 255, 0, 255);
+	const Color COLOR_BLUE(0, 0, 255, 255);
 	
-	triangle my_triangle;
+	Triangle my_triangle;
 
-	my_triangle.coordinates[0].position[0] = -0.5;
-	my_triangle.coordinates[0].position[1] = -0.5;
-	my_triangle.coordinates[0].position[2] = 0.0;
+	my_triangle.coordinates[0].x = -0.5;
+	my_triangle.coordinates[0].y = -0.5;
+	my_triangle.coordinates[0].z = 0.0;
 
-	my_triangle.coordinates[1].position[0] = 0.5;
-	my_triangle.coordinates[1].position[1] = -0.5;
-	my_triangle.coordinates[1].position[2] = 0.0;
+	my_triangle.coordinates[1].x = 0.5;
+	my_triangle.coordinates[1].y = -0.5;
+	my_triangle.coordinates[1].z = 0.0;
 
-	my_triangle.coordinates[2].position[0] = 0.0;
-	my_triangle.coordinates[2].position[1] = 0.5;
-	my_triangle.coordinates[2].position[2] = 0.0;
+	my_triangle.coordinates[2].x = 0.0;
+	my_triangle.coordinates[2].y = 0.5;
+	my_triangle.coordinates[2].z = 0.0;
 
 	my_triangle.coordinates[0].set_color(COLOR_RED);
 	my_triangle.coordinates[1].set_color(COLOR_GREEN);
 	my_triangle.coordinates[2].set_color(COLOR_BLUE);
 
+	my_triangle.set_texture(Texture("dolan.jpg"), 1, 1);
 	
 	my_triangle.render();
 

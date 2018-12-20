@@ -1,4 +1,5 @@
 #include "../include/shape.hpp"
+#include <iostream>
 
 Shape::Shape(const unsigned &size) {
 	indices.resize((size - 2)*3);
@@ -45,7 +46,7 @@ Shape::~Shape() {
 
 void Shape::data_parser()
 {
-	VBO_DATA.resize(9 * coordinates.size());
+	VBO_DATA.resize(8 * coordinates.size());
 	int k = 0;
 	for (int i = 0; i < coordinates.size(); i++)
 	{
@@ -55,13 +56,24 @@ void Shape::data_parser()
 		k++;
 		VBO_DATA[k] = coordinates[i].z;
 		k++;
-		for (int j = 0; j < 4; j++)
+		for (int j = 0; j < 3; j++)
 		{
 			VBO_DATA[k] = coordinates[i].get_color().pigments[j];
 			k++;
 		}
-		VBO_DATA[k] = coordinates[i].q;
-		VBO_DATA[k] = coordinates[i].w;
+		VBO_DATA[k] = coordinates[i].s;
+		k++;
+		VBO_DATA[k] = coordinates[i].t;
+		k++;
+	}
+
+	for (int i = 0; i < coordinates.size(); i++)
+	{
+		for (int j = 0; j < 8; j++)
+		{
+			std::cout << VBO_DATA[i * 8 + j] << "\t";
+		}
+		std::cout << std::endl;
 	}
 }
 
@@ -75,21 +87,21 @@ void Shape::buff_handle()
 	glBufferData(GL_ARRAY_BUFFER, VBO_DATA.size() * sizeof(float), &VBO_DATA[0], GL_STATIC_DRAW);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(unsigned int), &indices[0], GL_STATIC_DRAW);
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)(3 * sizeof(float)));
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
 	glEnableVertexAttribArray(1);
-	glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)(7 * sizeof(float)));
+	glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
 	glEnableVertexAttribArray(2);
 }
-
-//void Shape::set_texture(const Texture &TEXTURE, const float &Q, const float &W) {
-
-//}
 
 void Shape::set_shape_color(const Color &COLOR) {
 	for (int i = 0; i < coordinates.size(); i++)
 		coordinates[i].set_color(COLOR);
+}
+
+void Shape::set_texture(const Texture &TEXTURE, const float &S, const float &T) {
+	texture = TEXTURE;
 }
 
 void Shape::render() {
@@ -97,7 +109,8 @@ void Shape::render() {
 	buff_handle();
 }
 
-void Shape::draw() {
+void Shape::draw() {	
+	texture.activate_textures();
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");
 	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
@@ -105,10 +118,9 @@ void Shape::draw() {
 	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 	projectionLoc = glGetUniformLocation(shaderProgram, "projection");
 	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
-	textureLoc = glGetUniformLocation(shaderProgram, "ourTexture");
-	glUniform1i(textureLoc, 0);
+	texture.textureLoc = glGetUniformLocation(shaderProgram, "ourTexture");
+	glUniform1i(texture.textureLoc, 0);
 	glBindVertexArray(VAO);
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
 }
-
 

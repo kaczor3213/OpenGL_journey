@@ -13,8 +13,8 @@ Point::Point(const std::vector<float> &coordinate_vector, const Color &COLOR, co
 	}
 	else {}
 	color = COLOR;
-	q = texture_vector[0];
-	w = texture_vector[1];
+	s = texture_vector[0];
+	t = texture_vector[1];
 }
 
 Point::Point(const Vector3d &coordinate_vector, const Color &COLOR, const Vector2d &texture_vector) {
@@ -22,8 +22,8 @@ Point::Point(const Vector3d &coordinate_vector, const Color &COLOR, const Vector
 	 y = coordinate_vector.y;
 	 z = coordinate_vector.z;
 	color = COLOR;
-	q = texture_vector.q;
-	w = texture_vector.w;
+	s = texture_vector.s;
+	t = texture_vector.t;
 }
 
 Point::Point(const Point &other) {
@@ -31,8 +31,8 @@ Point::Point(const Point &other) {
 	y = other.y;
 	z = other.z;
 	color = other.color;
-	q =  other.q;
-	w =  other.w;
+	s =  other.s;
+	t =  other.t;
 }
 
 Point::Point(Point &&other) noexcept {
@@ -40,8 +40,8 @@ Point::Point(Point &&other) noexcept {
 	y = std::move(other.y);
 	z = std::move(other.z);
 	color = std::move(other.color);
-	q = std::move(other.q);
-	w = std::move(other.w);
+	s = std::move(other.s);
+	t = std::move(other.t);
 }
 
 Point& Point::operator=(const Point &other) {
@@ -53,8 +53,8 @@ Point& Point::operator=(Point &&other) noexcept {
 	y = std::move(other.y);
 	z = std::move(other.z);
 	color = std::move(other.color);
-	q = std::move(other.q);
-	w = std::move(other.w);
+	s = std::move(other.s);
+	t = std::move(other.t);
 	return *this;
 }
 

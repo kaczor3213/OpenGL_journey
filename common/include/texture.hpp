@@ -20,7 +20,7 @@ public:
 	unsigned textureLoc;
 	Texture() : texture1(0), textureLoc(0), width(0), height(0), nrChannels(0) {}
 	Texture(const std::string &filepath);
-	~Texture() { delete[] textureData; }
+	~Texture() {}
 	void activate_textures();
 };
 

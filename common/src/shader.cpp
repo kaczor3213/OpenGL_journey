@@ -1,8 +1,8 @@
 #include "../include/shader.hpp"
-///dziwny blad delete #25 i #26 linia
+
 Shader::Shader()
 {	
-	const char *vertexShaderSource = "#version 330 core\n"
+	const std::string vertexShaderSource = "#version 330 core\n"
 		"layout (location = 0) in vec3 aPos;\n"
 		"layout (location = 1) in vec3 aColor;\n"
 		"layout (location = 2) in vec2 aTexCoord;\n"
@@ -16,21 +16,19 @@ Shader::Shader()
 		"   gl_Position =  projection * view * transform * vec4(aPos, 1.0f);\n"
 		"   ourColor = aColor;\n"
 		"   TexCoord = vec2(aTexCoord.x, aTexCoord.y);\n"
-		"}\n\0";
+		"}\n";
 
-	const char *fragmentShaderSource = "#version 330 core\n"
+	const std::string fragmentShaderSource = "#version 330 core\n"
 		"out vec4 FragColor;\n"
 		"in vec3 ourColor;\n"
 		"in vec2 TexCoord;\n"
-		"uniform sampler2D textureID;\n"
+		"uniform sampler2D texture1;\n"
 		"void main()\n"
 		"{\n"
-		"   FragColor = texture(textureID, TexCoord) * vec4(ourColor, 1.0);\n"
-		"}\n\0";
+		"   FragColor = texture(texture1, TexCoord) * vec4(ourColor, 1.0);\n"
+		"}\n";
 	
-	compile(vertexShaderSource, fragmentShaderSource);
-	//delete[] vertexShaderSource;
-	//delete[] fragmentShaderSource;
+	compile(vertexShaderSource.c_str(), fragmentShaderSource.c_str());
 }
 
 Shader::Shader(const std::string &vertexpath, const std::string &fragmentpath)
@@ -50,8 +48,8 @@ Shader::Shader(const std::string &vertexpath, const std::string &fragmentpath)
 	const char *c_vertexcode = vertexcode.c_str();
 	const char *c_fragmentcode = fragmentcode.c_str();
 	compile(c_vertexcode, c_fragmentcode);
-	delete c_vertexcode;
-	delete c_fragmentcode;
+	delete[] c_vertexcode;
+	delete[] c_fragmentcode;
 }
 
 

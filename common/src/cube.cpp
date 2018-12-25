@@ -8,6 +8,7 @@ Cube::Cube()
 
 void Cube::generate()
 {
+	//zrob to, ma bolec, ale masz to zrobic lomie
 
 ////////
 

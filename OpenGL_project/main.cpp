@@ -35,8 +35,6 @@ int main()
     }
 
 	glEnable(GL_DEPTH_TEST);
-
-	///tu sie dzieje magia
 	
 	const Color COLOR_RED(255, 0, 0, 255);
 	const Color COLOR_GREEN(0, 255, 0, 255);
@@ -56,11 +54,13 @@ int main()
 	my_triangle.coordinates[2].y = 0.5;
 	my_triangle.coordinates[2].z = 0.0;
 
+	//dodac ustawienie koordynatow dla tekstury
+
 	my_triangle.coordinates[0].set_color(COLOR_RED);
 	my_triangle.coordinates[1].set_color(COLOR_GREEN);
 	my_triangle.coordinates[2].set_color(COLOR_BLUE);
 
-	my_triangle.set_texture(Texture("dolan.jpg"), 1, 1);
+	my_triangle.set_texture(Texture("dolan.jpg"));
 	
 	my_triangle.render();
 

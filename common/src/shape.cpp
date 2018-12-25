@@ -66,7 +66,7 @@ void Shape::data_parser()
 		VBO_DATA[k] = coordinates[i].t;
 		k++;
 	}
-
+	/*
 	for (int i = 0; i < coordinates.size(); i++)
 	{
 		for (int j = 0; j < 8; j++)
@@ -75,6 +75,7 @@ void Shape::data_parser()
 		}
 		std::cout << std::endl;
 	}
+	*/
 }
 
 void Shape::buff_handle()

@@ -27,7 +27,7 @@ public:
 	Shape& operator=(Shape &&other) noexcept;
 	virtual ~Shape();
 	virtual void set_shape_color(const Color &COLOR);
-	virtual void set_texture(const Texture &TEXTURE, const float &S, const float &T);
+	virtual void set_texture(const Texture &TEXTURE);
 	virtual void render();
 	virtual void update() {}
 	virtual void draw();

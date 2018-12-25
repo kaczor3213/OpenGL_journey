@@ -66,10 +66,24 @@ int main()
 	my_quad.coordinates[3].y = 0.5;
 	my_quad.coordinates[3].z = 5.0;
 
+	my_quad.coordinates[0].s = 0.0;
+	my_quad.coordinates[0].t = 1.0;
+
+	my_quad.coordinates[1].s = 0.0;
+	my_quad.coordinates[1].t = 0.0;
+
+	my_quad.coordinates[2].s = 1.0;
+	my_quad.coordinates[2].t = 0.0;
+
+	my_quad.coordinates[3].s = 1.0;
+	my_quad.coordinates[3].t = 1.0;
+
 	my_quad.coordinates[0].set_color(COLOR_GREEN);
 	my_quad.coordinates[1].set_color(COLOR_BLACK);
 	my_quad.coordinates[2].set_color(COLOR_RED);
 	my_quad.coordinates[3].set_color(COLOR_BLUE);
+
+	my_quad.set_texture(Texture("profilduo.png"));
 
 	my_quad.render();
 

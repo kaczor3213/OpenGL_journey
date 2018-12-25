@@ -100,7 +100,7 @@ void Shape::set_shape_color(const Color &COLOR) {
 		coordinates[i].set_color(COLOR);
 }
 
-void Shape::set_texture(const Texture &TEXTURE, const float &S, const float &T) {
+void Shape::set_texture(const Texture &TEXTURE) {
 	texture = TEXTURE;
 }
 

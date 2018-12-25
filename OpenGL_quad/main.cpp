@@ -77,7 +77,7 @@ int main()
 	my_quad.coordinates[2].set_color(COLOR_RED);
 	my_quad.coordinates[3].set_color(COLOR_BLUE);
 
-	my_quad.set_texture(Texture("dolan.jpg"), 1, 1);
+	my_quad.set_texture(Texture("profilduo.png"));
 
 	my_quad.render();
 

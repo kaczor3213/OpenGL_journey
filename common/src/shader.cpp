@@ -15,7 +15,7 @@ Shader::Shader()
 		"{\n"
 		"   gl_Position =  projection * view * transform * vec4(aPos, 1.0f);\n"
 		"   ourColor = aColor;\n"
-		"   TexCoord = vec2(aTexCoord.x, aTexCoord.y);\n"
+		"   TexCoord = aTexCoord;\n"
 		"}\n\0";
 
 	const char *fragmentShaderSource = "#version 330 core\n"

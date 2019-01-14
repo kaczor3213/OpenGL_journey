@@ -52,8 +52,6 @@ int main()
 	my_cube.generate();
 	my_cube.render_cube();
 
-
-
 	while (!glfwWindowShouldClose(window))
 	{
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);

@@ -1,8 +1,13 @@
 #include "../include/texture.hpp"
 
 
+<<<<<<< HEAD
 
 Texture::Texture(const std::string &filepath) {
+=======
+Texture::Texture(const std::string &filepath)
+{
+>>>>>>> 7727d2eeead072a06f9c3f9044ab5ea8a571d63b
 	generate_texture(filepath);
 }
 
@@ -16,7 +21,10 @@ void Texture::generate_texture(const std::string &filepath) {
 	stbi_set_flip_vertically_on_load(true);
 	textureData = stbi_load(filepath.c_str(), &width, &height, &nrChannels, 0);
 	if (textureData) {
-		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, textureData);
+		if (filepath.substr(filepath.find_last_of(".") + 1) == "png")
+			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, textureData);
+		else
+			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, textureData);
 		glGenerateMipmap(GL_TEXTURE_2D);
 	}
 	else	std::cout << "Failed to load texture" << std::endl;

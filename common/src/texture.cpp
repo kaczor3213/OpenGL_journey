@@ -2,13 +2,11 @@
 
 
 
-Texture::Texture(const std::string &filepath)
-{
+Texture::Texture(const std::string &filepath) {
 	generate_texture(filepath);
 }
 
 void Texture::generate_texture(const std::string &filepath) {
-	//inteligentne generowanie, rozroznia png od jpg itd. (kanal ALPHA)
 	glGenTextures(1, &texture1);
 	glBindTexture(GL_TEXTURE_2D, texture1);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);

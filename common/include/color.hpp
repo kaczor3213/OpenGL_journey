@@ -18,6 +18,7 @@ public:
 		const unsigned &GREEN,
 		const unsigned &BLUE,
 		const unsigned &ALPHA);
+	Color(const std::vector<float> &pigmentsSet);
 	Color(const Color &other);
 	Color& operator=(const Color &other);
 	Color(Color &&other) noexcept;

@@ -14,6 +14,7 @@ public:
 	Point();
 	Point(const std::vector<float> &coordinate_vector, const Color &COLOR, const std::vector<float> &texture_vector);
 	Point(const Vector3d &coordinate_vector, const Color &COLOR, const Vector2d &texture_vector);
+	Point(const std::vector<float> &dataSet);
 	Point(const Point &other);
 	Point& operator=(const Point &other);
 	Point(Point &&other) noexcept;

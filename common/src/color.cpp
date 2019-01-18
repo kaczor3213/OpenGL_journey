@@ -17,6 +17,12 @@ Color::Color(const unsigned &RED,
 		exit(-1);
 }
 
+Color::Color(const std::vector<float> &pigmentsSet)
+{
+	pigments = pigmentsSet;
+	buffer.clear();
+}
+
 Color::Color(const Color& other)
 {
 	pigments = other.pigments;

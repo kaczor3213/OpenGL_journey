@@ -40,31 +40,22 @@ int main()
 
 	///tu sie dzieje magia
 
-	
-	const Color COLOR_YELLOW(255, 255, 0, 255);
-	const Color COLOR_BLACK(0, 0, 0, 255);
-	const Color COLOR_RED(255, 0, 0, 255);
-	const Color COLOR_GREEN(0, 255, 0, 255);
-	const Color COLOR_BLUE(0, 0, 255, 255);
-	
-
-	Cube my_cube;
-	my_cube.generate();
-	my_cube.render_cube();
-
-
+	Cube cube;
+	cube.coordinates = Vertices<Point>(load_from_file("cube.txt"));
+	cube.generate();
+	cube.render_cube();
 
 	while (!glfwWindowShouldClose(window))
 	{
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		my_cube.process_keyboard(keyboard_callback(window), 0.005f);
-		my_cube.process_mouse_movement(get_mouse_position(), true);
-		my_cube.process_mouse_scroll(get_scroll_position());
-		my_cube.get_view();
+		cube.process_keyboard(keyboard_callback(window), 0.005f);
+		cube.process_mouse_movement(get_mouse_position(), true);
+		cube.process_mouse_scroll(get_scroll_position());
+		cube.get_view();
 
-		my_cube.draw();
+		cube.draw();
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();

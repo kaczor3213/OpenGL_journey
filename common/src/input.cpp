@@ -59,3 +59,34 @@ const double get_scroll_position() {
 	}
 	return 0.0;
 }
+
+std::vector<Point> load_from_file(std::istream& input) {
+	std::vector<Point> set;
+	Point element;
+	std::vector<float> tmp;
+	float value;
+	while (!input.eof())
+	{
+		for (unsigned i = 0; i < 3; i++)
+		{
+			input >> value;
+			tmp.push_back(value);
+		}
+		for (unsigned i = 0; i < 4; i++)
+		{
+			tmp.push_back(0.f);
+		}
+		element = Point(tmp);
+		set.push_back(element);
+		tmp.clear();
+	}
+	return set;
+}
+
+std::vector<Point> load_from_file(std::string filePath) {
+	std::fstream file;
+	file.open(filePath);
+	if (!file.is_open())
+		throw std::runtime_error("Couldn't open" + filePath + "file!\n");
+	return load_from_file(file);
+}

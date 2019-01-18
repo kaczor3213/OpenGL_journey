@@ -78,7 +78,7 @@ int main()
 	my_quad.coordinates[3].s = 1.0;
 	my_quad.coordinates[3].t = 1.0;
 
-	my_quad.set_texture(Texture("dolan.jpg"));
+	my_quad.set_texture(Texture("profilduo.png"));
 
 	my_quad.render();
 

@@ -8,7 +8,6 @@
 class Point : public Vector2d, public Vector3d
 {
 private:
-	bool check_in_range(const float &value);
 	Color color;
 public:
 	Point();

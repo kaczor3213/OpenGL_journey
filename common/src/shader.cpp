@@ -25,9 +25,9 @@ Shader::Shader()
 		"uniform sampler2D texture1;\n"
 		"void main()\n"
 		"{\n"
-		"   FragColor = texture(texture1, TexCoord) * vec4(ourColor, 1.0);\n"
+		"   FragColor =  texture(texture1, TexCoord) * vec4(ourColor, 1.0);\n"
 		"}\n";
-	
+
 	compile(vertexShaderSource.c_str(), fragmentShaderSource.c_str());
 }
 

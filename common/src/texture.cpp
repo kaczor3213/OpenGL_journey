@@ -1,13 +1,7 @@
 #include "../include/texture.hpp"
 
-
-<<<<<<< HEAD
-
-Texture::Texture(const std::string &filepath) {
-=======
 Texture::Texture(const std::string &filepath)
 {
->>>>>>> 7727d2eeead072a06f9c3f9044ab5ea8a571d63b
 	generate_texture(filepath);
 }
 

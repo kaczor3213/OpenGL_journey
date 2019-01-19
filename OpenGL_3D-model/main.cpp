@@ -88,7 +88,7 @@ int main()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		my_quad.process_keyboard(keyboard_callback(window), 0.005f);
-		my_quad.process_mouse_movement(get_mouse_position(), true);
+		my_quad.process_mouse_movement(get_mouse_position(window), true);
 		my_quad.process_mouse_scroll(get_scroll_position());
 		my_quad.get_view();
 

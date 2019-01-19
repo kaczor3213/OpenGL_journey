@@ -49,6 +49,10 @@ public:
 	void resize(const int &new_size) {
 		c_arr.resize(new_size);
 	}
+
+	void push_back(const T &element) {
+		c_arr.push_back(element);
+	}
 };
 
 #endif

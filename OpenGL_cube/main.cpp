@@ -40,19 +40,15 @@ int main() {
 	///tu sie dzieje magia
 
 	Cube cube;
-	cube.coordinates = Vertices<Point>(load_from_file("../Resources/cube.txt"));
-	cube.generate();
-	cube.render_cube();
+	cube.coordinates = load_from_file("../Resources/cube.txt");
+	cube.render();
 
 	while (!glfwWindowShouldClose(window))
 	{
 		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		cube.process_keyboard(keyboard_callback(window), 0.005f);
-		cube.process_mouse_movement(get_mouse_position(), true);
-		cube.process_mouse_scroll(get_scroll_position());
-		cube.get_view();
+		cube.handle_input(window);
 
 		cube.draw();
 

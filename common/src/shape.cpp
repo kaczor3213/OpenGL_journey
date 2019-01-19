@@ -66,6 +66,7 @@ void Shape::data_parser()
 		VBO_DATA[k] = coordinates[i].t;
 		k++;
 	}
+
 	/*
 	for (int i = 0; i < coordinates.size(); i++)
 	{
@@ -126,3 +127,9 @@ void Shape::draw() {
 	//glDrawArrays(GL_TRIANGLES, 0, 6);
 }
 
+void Shape::handle_input(GLFWwindow *&window) {
+	process_mouse_movement(get_mouse_position(window), true);
+	process_keyboard(keyboard_callback(window), 0.005f);
+	process_mouse_scroll(get_scroll_position());
+	get_view();
+}

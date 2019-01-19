@@ -25,6 +25,10 @@ void ModelTransform::move(const float &horizontal, const float &vertical, const 
 {
 	transform = glm::translate(transform, glm::vec3(horizontal, vertical, depth));
 }
+void ModelTransform::move(const std::vector<float> &coordinates)
+{
+	transform = glm::translate(transform, glm::vec3(coordinates[0], coordinates[1], coordinates[2]));
+}
 void ModelTransform::rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat)
 {
 	transform = glm::rotate(transform, glm::radians(speed_scale), glm::vec3(horizontal, vertical, turn_flat));

@@ -3,7 +3,6 @@
 void init_input(GLFWwindow *&window)
 {
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-	glfwSetCursorPosCallback(window, mouse_callback);
 	glfwSetScrollCallback(window, scroll_callback);
 	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 }
@@ -27,17 +26,12 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 	glViewport(0, 0, width, height);
 }
 
-
-void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
-	CurrentMouseXPos = xpos;
-	CurrentMouseYPos = ypos;
-}
-
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset) {
 	CurrentScrollPos = yoffset;
 }
 
-Vector2d get_mouse_position() {
+Vector2d get_mouse_position(GLFWwindow* window) {
+	glfwGetCursorPos(window, &CurrentMouseXPos, &CurrentMouseYPos);
 	float xoffset = CurrentMouseXPos - LastMouseXPos;
 	float yoffset = LastMouseYPos - CurrentMouseYPos;
 	LastMouseXPos = CurrentMouseXPos;
@@ -83,10 +77,32 @@ std::vector<Point> load_from_file(std::istream& input) {
 	return set;
 }
 
+std::vector<float> load_animation(std::istream& input) {
+	std::vector<float> set;
+	float value;
+	while (!input.eof())
+	{
+		for (unsigned i = 0; i < 3; i++)
+		{
+			input >> value;
+			set.push_back(value);
+		}
+	}
+	return set;
+}
+
 std::vector<Point> load_from_file(std::string filePath) {
 	std::fstream file;
 	file.open(filePath);
 	if (!file.is_open())
 		throw std::runtime_error("Couldn't open" + filePath + "file!\n");
 	return load_from_file(file);
+}
+
+std::vector<float> load_animation(std::string filePath) {
+	std::fstream file;
+	file.open(filePath);
+	if (!file.is_open())
+		throw std::runtime_error("Couldn't open" + filePath + "file!\n");
+	return load_animation(file);
 }

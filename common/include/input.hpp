@@ -22,12 +22,12 @@ static double LastScrollPos = 0;
 
 void init_input(GLFWwindow *&window);
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 CameraMovement keyboard_callback(GLFWwindow *window);
-Vector2d get_mouse_position();
+Vector2d get_mouse_position(GLFWwindow* window);
 const double get_scroll_position();
 std::vector<Point> load_from_file(std::istream& input);
 std::vector<Point> load_from_file(std::string filePath);
-
+std::vector<float> load_animation(std::istream& input);
+std::vector<float> load_animation(std::string filePath);
 #endif

@@ -24,7 +24,7 @@ Point::Point(const std::vector<float> &dataSet) {
 	x = dataSet[0];
 	y = dataSet[1];
 	z = dataSet[2];
-	color = Color(255, 255, 255, 255);
+	color = Color(0, 0, 0, 255);
 	s = 0.f;
 	t = 0.f;
 }

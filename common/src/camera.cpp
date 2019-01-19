@@ -1,5 +1,5 @@
 #include "../include/camera.hpp"
-
+#include <iostream>
 
 Camera::Camera() {
 	projection = glm::mat4(1.0f);
@@ -56,6 +56,7 @@ void Camera::process_mouse_movement(const float &xoffset, const float &yoffset, 
 		if (Pitch < -89.0f)
 			Pitch = -89.0f;
 	}
+	std:
 	update();
 }
 

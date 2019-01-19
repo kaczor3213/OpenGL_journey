@@ -5,6 +5,7 @@
 #include "shader.hpp"
 #include "animate.hpp"
 #include "texture.hpp"
+#include "input.hpp"
 
 class Shape : public Shader, public Animate
 {
@@ -18,7 +19,7 @@ protected:
 	void data_parser();
 	virtual void buff_handle();
 public:
-	Vertices<Point> coordinates;
+	std::vector<Point> coordinates;
 	Shape() : VBO(0), VAO(0), EBO(0) {}
 	Shape(const unsigned &size);
 	Shape(const Shape &other);
@@ -26,6 +27,7 @@ public:
 	Shape& operator=(const Shape &other);
 	Shape& operator=(Shape &&other) noexcept;
 	virtual ~Shape();
+	virtual void handle_input(GLFWwindow *&window);
 	virtual void set_shape_color(const Color &COLOR);
 	virtual void set_texture(const Texture &TEXTURE);
 	virtual void render();

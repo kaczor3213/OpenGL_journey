@@ -1,19 +1,8 @@
 #include "../include/cube.hpp"
-#include <iostream>
 
 Cube::Cube()
 {
 	coordinates.resize(36);
-}
-
-void Cube::generate()
-{
-}
-
-void Cube::render_cube()
-{
-	render();
-	buff_handle();
 }
 
 void Cube::draw()
@@ -25,6 +14,9 @@ void Cube::draw()
 	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 	projectionLoc = glGetUniformLocation(shaderProgram, "projection");
 	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+	texture.textureLoc = glGetUniformLocation(shaderProgram, "ourTexture");
+	glUniform1i(texture.textureLoc, 0);
 	glBindVertexArray(VAO);
 	glDrawArrays(GL_TRIANGLES, 0, 36);
 }
+

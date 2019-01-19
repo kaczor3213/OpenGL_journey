@@ -3,12 +3,11 @@
 
 #include "shape.hpp"
 
+
 class Cube : public Shape {
 public:
 	Cube();
 	~Cube() {}
-	void generate();
-	void render_cube();
 	void draw();
 };
 

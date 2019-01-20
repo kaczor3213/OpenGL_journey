@@ -1,14 +1,12 @@
 #include "../include/input.hpp"
 
-void init_input(GLFWwindow *&window)
-{
+void init_input(GLFWwindow *&window) {
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 	glfwSetScrollCallback(window, scroll_callback);
 	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 }
 
-CameraMovement keyboard_callback(GLFWwindow *window)
-{
+CameraMovement keyboard_callback(GLFWwindow *window) {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
 	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)

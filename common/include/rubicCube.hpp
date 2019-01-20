@@ -1,5 +1,6 @@
 #include <map>
 #include <vector>
+#include <set>
 #include "cube.hpp"
 #include "quad.hpp"
 #include "input.hpp"
@@ -14,39 +15,42 @@ const Color COLOR_BLACK(0, 0, 0, 255);
 
 enum Way {
 	CLOCKWISE,
-	ANTI_CLOCKWISE
+	ANTICLOCKWISE,
+	NOWAY
 };
+
 enum Face {
 	UP,
 	DOWN,
 	RIGHTS,
 	LEFTS,
 	FRONT,
-	BACK
+	BACK,
+	NOFACE
 };
 
 class Side
 {
 public:
-	std::vector<unsigned> cubesIndices;
+	std::set<unsigned> cubesIndices;
 };
 
 class RubicCube : public Shape
 {
 private:
+	std::map<Face, Side> relationGraph;
+	std::vector<Cube> cubes;
+	std::vector<Quad> covers;
 	
-	std::map<Face,Side> relationGraph;
-	
+
 	void set_cubes();
 	void set_inner_covers();
 	void set_colors();
-	
+	void set_relations();
+	void process_rubic_keyboard(std::pair<Face, Way> Mmve, const float &deltaTime);
+	std::pair<Face,Way>rubic_keyboard_callback(GLFWwindow *window);
 
-	void set_sides();
-	Quad my_quad;
-	//void set_relations();
-	std::vector<Cube> cubes;
-	std::vector<Quad> covers;
+	
 public:
 	
 	RubicCube();

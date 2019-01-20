@@ -148,20 +148,20 @@ void RubicCube::set_inner_covers()
 
 	//UP
 	for (unsigned i = 0; i < 4; i++)
-		covers[0].coordinates.push_back(tmp[i]);
+		covers[0].coordinates[i]=tmp[i];
 	//BOTTOM
 	for (unsigned i = 4; i < 8; i++)
-		covers[0].coordinates.push_back(tmp[i]);
+		covers[1].coordinates[i-4] = tmp[i];
 	//FRONT
 	for (unsigned i = 8; i < 12; i++)
-		covers[0].coordinates.push_back(tmp[i]);
+		covers[2].coordinates[i-8] = tmp[i];
 	//BACK
 	for (unsigned i = 12; i < 16; i++)
-		covers[0].coordinates.push_back(tmp[i]);
+		covers[3].coordinates[i-12] = tmp[i];
 	//LEFTS
 	for (unsigned i = 16; i < 20; i++)
-		covers[0].coordinates.push_back(tmp[i]);
+		covers[4].coordinates[i-16] = tmp[i];
 	//RIGHTS
 	for (unsigned i = 20; i < 24; i++)
-		covers[0].coordinates.push_back(tmp[i]);
+		covers[5].coordinates[i-20] = tmp[i];
 }

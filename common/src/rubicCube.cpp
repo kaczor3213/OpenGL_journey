@@ -1,7 +1,6 @@
 #include "../include/rubicCube.hpp"
 
-RubicCube::RubicCube()
-{
+RubicCube::RubicCube() {
 	set_cubes();
 	set_inner_covers();
 	set_colors();
@@ -18,8 +17,7 @@ void RubicCube::set_cubes() {
 	//}
 	std::vector<float> tmp = load_animation("positions.txt");
 	unsigned k = 0;
-	for (unsigned i=0; i<cubes.size();i++)
-	{
+	for (unsigned i=0; i<cubes.size();i++)	{
 		cubes[i].move(tmp[k], tmp[k + 1], tmp[k + 2]);
 		k += 3;
 	}
@@ -32,10 +30,10 @@ void RubicCube::render() {
 		cover.render();
 	for (auto &cube : cubes)
 		cube.render();
-
 }
 
 void RubicCube::draw() {
+	
 	for (auto &cover : covers)
 		cover.draw();
 	for (auto &cube : cubes)
@@ -67,8 +65,7 @@ void RubicCube::handle_input(GLFWwindow *&window) {
 	process_rubic_keyboard(rubic_keyboard_callback(window), 0.005f);
 }
 
-void RubicCube::set_colors()
-{
+void RubicCube::set_colors() {
 	//COVERS
 	for (auto &cover : covers)
 		cover.set_shape_color(COLOR_BLACK);
@@ -134,8 +131,7 @@ void RubicCube::set_colors()
 	}
 }
 
-void RubicCube::set_inner_covers()
-{
+void RubicCube::set_inner_covers() {
 	std::vector<Point> tmp = load_from_file("covers.txt");
 	covers.resize(6);
 	//UP
@@ -158,8 +154,7 @@ void RubicCube::set_inner_covers()
 		covers[5].coordinates[i-20] = tmp[i];
 }
 
-void RubicCube::set_relations()
-{
+void RubicCube::set_relations() {
 	//UP
 	for (unsigned i = 0; i < 9; i++) {
 		relationGraph[UP].cubesIndices.insert(i);
@@ -208,6 +203,8 @@ void RubicCube::set_relations()
 		relationGraph[RIGHTS].cubesIndices.insert(i);
 	}
 }
+
+
 
 std::pair<Face, Way> RubicCube::rubic_keyboard_callback(GLFWwindow *window) {
 	//CLOSE_WINDOW
@@ -259,12 +256,97 @@ std::pair<Face, Way> RubicCube::rubic_keyboard_callback(GLFWwindow *window) {
 	return std::make_pair(NOFACE,NOWAY);
 }
 
+unsigned corelations(const unsigned &ind, const std::map<Face, Side> &relations) {
+	unsigned tmp{};
+	for (const auto side : relations)
+		for (const auto otherInd : side.second.cubesIndices)
+			if (ind == otherInd) tmp++;
+	return tmp;
+}
+
+
+
+void RubicCube::animate_side(std::pair<Face, Way> move) {
+	if (move.second == CLOCKWISE) {
+		//UP+CLOCKWISE
+		if (move.first == UP) {
+			cubes[4].rotate(1.57f, 0.0f, -1.0f, 0.0f);
+			
+
+
+		}
+		//DOWN+CLOCKWISE
+		if (move.first == DOWN) {
+			cubes[21].rotate(1.57f, 0.0f, 1.0f, 0.0f);
+		}
+		//FRONT+CLOCKWISE
+		if (move.first == FRONT) {
+			
+			for (auto indice : relationGraph[FRONT].cubesIndices)
+			{
+				switch (corelations(indice,relationGraph))
+				{
+				case 1:
+					cubes[indice].rotate(1.57f, 0.0f, 0.0f, -1.0f);
+					break;
+				case 2:
+					cubes[indice].rotate(1.57f, 0.0f, 0.0f, -1.0f);
+					break;
+				case 3:
+					cubes[indice].rotate(1.57f, 0.0f, 0.0f, -1.0f);
+					break;
+				}
+			}
+		}
+		//BACK+CLOCKWISE
+		if (move.first == BACK) {
+			cubes[15].rotate(1.57f, 0.0f, 0.0f, 1.0f);
+		}
+		//LEFTS+CLOCKWISE
+		if (move.first == LEFTS) {
+			cubes[12].rotate(1.57f, 1.0f, 0.0f, 0.0f);
+		}
+		//RIGHTS+CLOCKWISE
+		if (move.first == RIGHTS) {
+			cubes[13].rotate(1.57f, -1.0f, 0.0f, 0.0f);
+		}
+	}
+	else {
+		//UP+ANTICLOCKWISE
+		if (move.first == UP) {
+
+		}
+		//DOWN+ANTICLOCKWISE
+		if (move.first == DOWN) {
+
+		}
+		//FRONT+ANTICLOCKWISE
+		if (move.first == FRONT) {
+
+		}
+		//BACK+ANTICLOCKWISE
+		if (move.first == BACK) {
+
+		}
+		//LEFTS+ANTICLOCKWISE
+		if (move.first == LEFTS) {
+
+		}
+		//RIGHTS+ANTICLOCKWISE
+		if (move.first == RIGHTS) {
+
+		}
+	}
+}
+
 void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &deltaTime) {
 	
+	animate_side(move);
 	if (move.first != NOFACE)	{
 		if (move.second == CLOCKWISE) {
 			//UP+CLOCKWISE
 			if (move.first == UP) {
+				
 				std::set<unsigned> UL;
 				std::set<unsigned> UB;
 				std::set<unsigned> UR;

@@ -34,7 +34,9 @@ public:
 	virtual void roll(const float& angle);
 	virtual void yaw(const float& angle);
 	virtual void pitch(const float& angle);
-	virtual void moveByPoint(const glm::vec3& t_point,float angle);
+	virtual void move_by_x(const glm::vec3& t_point,float angle);
+	virtual void move_by_y(const glm::vec3& t_point,float angle);
+	virtual void move_by_z(const glm::vec3& t_point, float angle);
 	virtual void transformation();
 	virtual void scale(const float &x_scale_parameter, const float &y_scale_parameter, const float &z_scale_parameter);
 	virtual void scale_whole(const float &scale_parameter);

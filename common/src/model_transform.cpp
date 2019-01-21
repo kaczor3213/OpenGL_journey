@@ -52,10 +52,26 @@ void ModelTransform::roll(const float& angle) {
 	m_rotation = glm::rotate(m_rotation, angle, Z_AXIS);
 }
 
-void ModelTransform::moveByPoint(const glm::vec3& t_point, float angle) {
+void ModelTransform::move_by_x(const glm::vec3& t_point, float angle) {
 	sum += angle;
 	float radius = glm::length(t_point - vCurrentPosition);
-	glm::vec3 newPosition(t_point.x + cos(sum +1.57) * radius, t_point.y + sin(sum + 1.57) * radius,t_point.z);
+	glm::vec3 newPosition(t_point.x , t_point.y + sin(sum) * radius, t_point.z + cos(sum) * radius);
+	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
+	vCurrentPosition = newPosition;
+}
+
+void ModelTransform::move_by_y(const glm::vec3& t_point, float angle) {
+	sum += angle;
+	float radius = glm::length(t_point - vCurrentPosition);
+	glm::vec3 newPosition(t_point.x + cos(sum) * radius, t_point.y, t_point.z + sin(sum) * radius);
+	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
+	vCurrentPosition = newPosition;
+}
+
+void ModelTransform::move_by_z(const glm::vec3& t_point, float angle) {
+	sum += angle;
+	float radius = glm::length(t_point - vCurrentPosition);
+	glm::vec3 newPosition(t_point.x + cos(sum) * radius, t_point.y + sin(sum) * radius,t_point.z);
 	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
 	vCurrentPosition = newPosition;
 }

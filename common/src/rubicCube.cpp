@@ -204,8 +204,6 @@ void RubicCube::set_relations() {
 	}
 }
 
-
-
 std::pair<Face, Way> RubicCube::rubic_keyboard_callback(GLFWwindow *window) {
 	//CLOSE_WINDOW
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
@@ -228,10 +226,9 @@ std::pair<Face, Way> RubicCube::rubic_keyboard_callback(GLFWwindow *window) {
 	//RIGHTS+CLOCKWISE
 	if (glfwGetKey(window, GLFW_KEY_KP_6) == GLFW_PRESS)
 		return std::make_pair(RIGHTS, CLOCKWISE);
-
 	//UP+ANTICLOCKWISE
 	if (glfwGetKey(window, GLFW_KEY_KP_8) == GLFW_PRESS &&
-		glfwGetKey(window, GLFW_KEY_KP_0) == GLFW_PRESS)
+		glfwGetKey(window, GLFW_KEY_KP_0)== GLFW_PRESS)
 		return std::make_pair(UP, ANTICLOCKWISE);
 	//DOWN+ANTICLOCKWISE
 	if (glfwGetKey(window, GLFW_KEY_KP_2) == GLFW_PRESS &&
@@ -239,7 +236,7 @@ std::pair<Face, Way> RubicCube::rubic_keyboard_callback(GLFWwindow *window) {
 		return std::make_pair(DOWN, ANTICLOCKWISE);
 	//FRONT+ANTICLOCKWISE
 	if (glfwGetKey(window, GLFW_KEY_KP_7) == GLFW_PRESS &&
-		glfwGetKey(window, GLFW_KEY_KP_0) == GLFW_PRESS)
+		glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS)
 		return std::make_pair(FRONT, ANTICLOCKWISE);
 	//BACK+ANTICLOCKWISE
 	if (glfwGetKey(window, GLFW_KEY_KP_1) == GLFW_PRESS &&
@@ -269,76 +266,120 @@ void RubicCube::twick_rotation() {
 }
 
 void RubicCube::animate_side(std::pair<Face, Way> move) {
-	if (move.second == CLOCKWISE) {
+	float t;
+	move.second == CLOCKWISE ? t = 1.0f : t = -1.0f;
 		//UP+CLOCKWISE
-		if (move.first == UP) {
-			cubes[4].yaw(0.01f);
-			
-
-
-		}
-		//DOWN+CLOCKWISE
-		if (move.first == DOWN) {
-			cubes[21].yaw(-0.01f);
-		}
-		//FRONT+CLOCKWISE
-		if (move.first == FRONT) {
-			
-			for (auto indice : relationGraph[FRONT].cubesIndices)
+	if (move.first == UP) {
+		for (auto indice : relationGraph[UP].cubesIndices) {
+			switch (corelations(indice, relationGraph))
 			{
-				switch (corelations(indice,relationGraph))
-				{
-				case 1:
-					cubes[indice].roll(0.01f);
-					break;
-				case 2:
-					cubes[indice].roll(0.01f);
-					cubes[indice].moveByPoint( glm::vec3(0.0f, 0.0f, 1.1f), 0.01f);
-					break;
-				case 3:
-					cubes[indice].roll(0.01f);
-					cubes[indice].moveByPoint(glm::vec3(0.0f, 0.0f, 1.1f), 0.01f);
-					break;
-				}
+			case 1:
+				cubes[indice].yaw(-0.01f*t);
+				break;
+			case 2:
+				cubes[indice].yaw(-0.01f*t);
+				cubes[indice].move_by_y(glm::vec3(0.0f, 1.1f, 0.0f), 0.01f*t);
+				break;
+			case 3:
+				cubes[indice].yaw(-0.01f*t);
+				cubes[indice].move_by_y(glm::vec3(0.0f, 1.1f, 0.0f), 0.01f*t);
+				break;
 			}
 		}
-		//BACK+CLOCKWISE
-		if (move.first == BACK) {
-		//	cubes[15].rotate(1.57f, 0.0f, 0.0f, 1.0f);
-		}
-		//LEFTS+CLOCKWISE
-		if (move.first == LEFTS) {
-			//cubes[12].rotate(1.57f, 1.0f, 0.0f, 0.0f);
-		}
-		//RIGHTS+CLOCKWISE
-		if (move.first == RIGHTS) {
-			//cubes[13].rotate(1.57f, -1.0f, 0.0f, 0.0f);
+	}
+	//DOWN+CLOCKWISE
+	if (move.first == DOWN) {
+		for (auto indice : relationGraph[DOWN].cubesIndices) {
+			switch (corelations(indice, relationGraph))
+			{
+			case 1:
+				cubes[indice].yaw(0.01f*t);
+				break;
+			case 2:
+				cubes[indice].yaw(0.01f*t);
+				cubes[indice].move_by_y(glm::vec3(0.0f, -1.1f, 0.0f), -0.01f*t);
+				break;
+			case 3:
+				cubes[indice].yaw(0.01f*t);
+				cubes[indice].move_by_y(glm::vec3(0.0f, -1.1f, 0.0f), -0.01f*t);
+				break;
+			}
 		}
 	}
-	else {
-		//UP+ANTICLOCKWISE
-		if (move.first == UP) {
-
+	//FRONT+CLOCKWISE
+	if (move.first == FRONT) {
+		for (auto indice : relationGraph[FRONT].cubesIndices) {
+			switch (corelations(indice, relationGraph))
+			{
+			case 1:
+				cubes[indice].roll(0.01f*t);
+				break;
+			case 2:
+				cubes[indice].roll(0.01f*t);
+				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, 1.1f), 0.01f*t);
+				break;
+			case 3:
+				cubes[indice].roll(0.01f*t);
+				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, 1.1f), 0.01f*t);
+				break;
+			}
 		}
-		//DOWN+ANTICLOCKWISE
-		if (move.first == DOWN) {
-
+	}
+	//BACK+CLOCKWISE
+	if (move.first == BACK) {
+		for (auto indice : relationGraph[BACK].cubesIndices) {
+			switch (corelations(indice, relationGraph))
+			{
+			case 1:
+				cubes[indice].roll(-0.01f*t);
+				break;
+			case 2:
+				cubes[indice].roll(-0.01f*t);
+				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, -1.1f), -0.01f*t);
+				break;
+			case 3:
+				cubes[indice].roll(-0.01f*t);
+				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, -1.1f), -0.01f*t);
+				break;
+			}
 		}
-		//FRONT+ANTICLOCKWISE
-		if (move.first == FRONT) {
-
+	}
+	//LEFTS+CLOCKWISE
+	if (move.first == LEFTS) {
+		for (auto indice : relationGraph[LEFTS].cubesIndices) {
+			switch (corelations(indice, relationGraph))
+			{
+			case 1:
+				cubes[indice].pitch(0.01f*t);
+				break;
+			case 2:
+				cubes[indice].pitch(0.01f*t);
+				cubes[indice].move_by_x(glm::vec3(-1.1f, 0.0f, 0.0f), -0.01f*t);
+				break;
+			case 3:
+				cubes[indice].pitch(0.01f*t);
+				cubes[indice].move_by_x(glm::vec3(-1.1f, 0.0f, 0.0f), -0.01f*t);
+				break;
+			}
 		}
-		//BACK+ANTICLOCKWISE
-		if (move.first == BACK) {
-
-		}
-		//LEFTS+ANTICLOCKWISE
-		if (move.first == LEFTS) {
-
-		}
-		//RIGHTS+ANTICLOCKWISE
-		if (move.first == RIGHTS) {
-
+	}
+	//RIGHTS+CLOCKWISE
+	if (move.first == RIGHTS) {
+		for (auto indice : relationGraph[RIGHTS].cubesIndices) {
+			switch (corelations(indice, relationGraph))
+			{
+			case 1:
+				cubes[indice].pitch(-0.01f*t);
+				break;
+			case 2:
+				cubes[indice].pitch(-0.01f*t);
+				cubes[indice].move_by_x(glm::vec3(1.1f, 0.0f, 0.0f), 0.01f*t);
+				break;
+			case 3:
+				cubes[indice].pitch(-0.01f*t);
+				cubes[indice].move_by_x(glm::vec3(1.1f, 0.0f, 0.0f), 0.01f*t);
+				break;
+			}
 		}
 	}
 }

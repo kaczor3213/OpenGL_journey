@@ -84,14 +84,11 @@ int main()
 
 	while (!glfwWindowShouldClose(window))
 	{
-		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
+		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		my_quad.process_keyboard(keyboard_callback(window), 0.005f);
-		my_quad.process_mouse_movement(get_mouse_position(window), true);
-		my_quad.process_mouse_scroll(get_scroll_position());
-		my_quad.get_view();
 
+		my_quad.handle_input(window);
 		my_quad.draw();
 		
 		glfwSwapBuffers(window);

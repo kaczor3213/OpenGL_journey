@@ -47,10 +47,11 @@ private:
 	void set_inner_covers();
 	void set_colors();
 	void set_relations();
+	void twick_rotation();
 	void animate_side(std::pair<Face, Way> move);
 	void process_rubic_keyboard(std::pair<Face, Way> move, const float &deltaTime);
 	std::pair<Face,Way>rubic_keyboard_callback(GLFWwindow *window);
-
+	
 	
 public:
 	

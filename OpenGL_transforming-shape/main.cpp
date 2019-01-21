@@ -96,8 +96,8 @@ int main()
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		my_polygon.move(0.001f, 0.0f, 0.0f);
-		my_polygon.rotate(0.1f,0.0f,0.0f,1.0f);
-		my_polygon.scale_whole(0.999f);
+		my_polygon.roll(1.0f);
+		//my_polygon.scale_whole(0.999f);
 		
 		my_polygon.draw();
 

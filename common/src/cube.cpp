@@ -7,6 +7,7 @@ Cube::Cube()
 
 void Cube::draw()
 {
+	transformation();
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");
 	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));

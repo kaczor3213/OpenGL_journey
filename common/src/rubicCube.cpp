@@ -264,20 +264,22 @@ unsigned corelations(const unsigned &ind, const std::map<Face, Side> &relations)
 	return tmp;
 }
 
-
+void RubicCube::twick_rotation() {
+	//cubes[].moveByPoint(glm::vec3(0.0f, 0.0f, 1.1f), -0.0275);
+}
 
 void RubicCube::animate_side(std::pair<Face, Way> move) {
 	if (move.second == CLOCKWISE) {
 		//UP+CLOCKWISE
 		if (move.first == UP) {
-			cubes[4].rotate(1.57f, 0.0f, -1.0f, 0.0f);
+			cubes[4].yaw(0.01f);
 			
 
 
 		}
 		//DOWN+CLOCKWISE
 		if (move.first == DOWN) {
-			cubes[21].rotate(1.57f, 0.0f, 1.0f, 0.0f);
+			cubes[21].yaw(-0.01f);
 		}
 		//FRONT+CLOCKWISE
 		if (move.first == FRONT) {
@@ -287,28 +289,30 @@ void RubicCube::animate_side(std::pair<Face, Way> move) {
 				switch (corelations(indice,relationGraph))
 				{
 				case 1:
-					cubes[indice].rotate(1.57f, 0.0f, 0.0f, -1.0f);
+					cubes[indice].roll(0.01f);
 					break;
 				case 2:
-					cubes[indice].rotate(1.57f, 0.0f, 0.0f, -1.0f);
+					cubes[indice].roll(0.01f);
+					cubes[indice].moveByPoint( glm::vec3(0.0f, 0.0f, 1.1f), 0.01f);
 					break;
 				case 3:
-					cubes[indice].rotate(1.57f, 0.0f, 0.0f, -1.0f);
+					cubes[indice].roll(0.01f);
+					cubes[indice].moveByPoint(glm::vec3(0.0f, 0.0f, 1.1f), 0.01f);
 					break;
 				}
 			}
 		}
 		//BACK+CLOCKWISE
 		if (move.first == BACK) {
-			cubes[15].rotate(1.57f, 0.0f, 0.0f, 1.0f);
+		//	cubes[15].rotate(1.57f, 0.0f, 0.0f, 1.0f);
 		}
 		//LEFTS+CLOCKWISE
 		if (move.first == LEFTS) {
-			cubes[12].rotate(1.57f, 1.0f, 0.0f, 0.0f);
+			//cubes[12].rotate(1.57f, 1.0f, 0.0f, 0.0f);
 		}
 		//RIGHTS+CLOCKWISE
 		if (move.first == RIGHTS) {
-			cubes[13].rotate(1.57f, -1.0f, 0.0f, 0.0f);
+			//cubes[13].rotate(1.57f, -1.0f, 0.0f, 0.0f);
 		}
 	}
 	else {
@@ -340,7 +344,12 @@ void RubicCube::animate_side(std::pair<Face, Way> move) {
 }
 
 void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &deltaTime) {
-	
+	/*for (auto face : relationGraph) {
+		for (auto indice : face.second.cubesIndices) {
+			std::cout << indice << "\t";
+		}
+		std::cout << "\n";
+	}*/
 	animate_side(move);
 	if (move.first != NOFACE)	{
 		if (move.second == CLOCKWISE) {
@@ -378,12 +387,6 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[RIGHTS].cubesIndices.insert(UR.begin(), UR.end());
 				relationGraph[FRONT].cubesIndices.insert(UF.begin(), UF.end());
 				relationGraph[BACK].cubesIndices.insert(UB.begin(), UB.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
 			}
 			//DOWN+CLOCKWISE
 			if (move.first == DOWN) {
@@ -418,12 +421,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[RIGHTS].cubesIndices.insert(DR.begin(), DR.end());
 				relationGraph[FRONT].cubesIndices.insert(DF.begin(), DF.end());
 				relationGraph[BACK].cubesIndices.insert(DB.begin(), DB.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//FRONT+CLOCKWISE
 			if (move.first == FRONT) {
@@ -458,12 +456,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[UP].cubesIndices.insert(FU.begin(), FU.end());
 				relationGraph[RIGHTS].cubesIndices.insert(FR.begin(), FR.end());
 				relationGraph[DOWN].cubesIndices.insert(FD.begin(), FD.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//BACK+CLOCKWISE
 			if (move.first == BACK) {
@@ -498,12 +491,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[UP].cubesIndices.insert(BU.begin(), BU.end());
 				relationGraph[RIGHTS].cubesIndices.insert(BR.begin(), BR.end());
 				relationGraph[DOWN].cubesIndices.insert(BD.begin(), BD.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//LEFTS+CLOCKWISE
 			if (move.first == LEFTS) {
@@ -538,12 +526,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[FRONT].cubesIndices.insert(LF.begin(), LF.end());
 				relationGraph[DOWN].cubesIndices.insert(LD.begin(), LD.end());
 				relationGraph[BACK].cubesIndices.insert(LB.begin(), LB.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//RIGHTS+CLOCKWISE
 			if (move.first == RIGHTS) {
@@ -578,12 +561,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[FRONT].cubesIndices.insert(RF.begin(), RF.end());
 				relationGraph[DOWN].cubesIndices.insert(RD.begin(), RD.end());
 				relationGraph[BACK].cubesIndices.insert(RB.begin(), RB.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 		}
 		else {///////////////////////////////////////////////////////////////////////
@@ -620,12 +598,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[RIGHTS].cubesIndices.insert(UR.begin(), UR.end());
 				relationGraph[FRONT].cubesIndices.insert(UF.begin(), UF.end());
 				relationGraph[BACK].cubesIndices.insert(UB.begin(), UB.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//DOWN+ANTICLOCKWISE
 			if (move.first == DOWN) {
@@ -660,12 +633,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[RIGHTS].cubesIndices.insert(DR.begin(), DR.end());
 				relationGraph[FRONT].cubesIndices.insert(DF.begin(), DF.end());
 				relationGraph[BACK].cubesIndices.insert(DB.begin(), DB.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//FRONT+ANTICLOCKWISE
 			if (move.first == FRONT) {
@@ -700,12 +668,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[UP].cubesIndices.insert(FU.begin(), FU.end());
 				relationGraph[RIGHTS].cubesIndices.insert(FR.begin(), FR.end());
 				relationGraph[DOWN].cubesIndices.insert(FD.begin(), FD.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//BACK+ANTICLOCKWISE
 			if (move.first == BACK) {
@@ -740,12 +703,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[UP].cubesIndices.insert(BU.begin(), BU.end());
 				relationGraph[RIGHTS].cubesIndices.insert(BR.begin(), BR.end());
 				relationGraph[DOWN].cubesIndices.insert(BD.begin(), BD.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//LEFTS+ANTICLOCKWISE
 			if (move.first == LEFTS) {
@@ -780,12 +738,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[FRONT].cubesIndices.insert(LF.begin(), LF.end());
 				relationGraph[DOWN].cubesIndices.insert(LD.begin(), LD.end());
 				relationGraph[BACK].cubesIndices.insert(LB.begin(), LB.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 			//RIGHTS+ANTICLOCKWISE
 			if (move.first == RIGHTS) {
@@ -820,12 +773,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 				relationGraph[FRONT].cubesIndices.insert(RF.begin(), RF.end());
 				relationGraph[DOWN].cubesIndices.insert(RD.begin(), RD.end());
 				relationGraph[BACK].cubesIndices.insert(RB.begin(), RB.end());
-				for (auto face : relationGraph) {
-					for (auto indice : face.second.cubesIndices) {
-						std::cout << indice << "\t";
-					}
-					std::cout << "\n";
-				}
+				
 			}
 		}
 	}

@@ -37,7 +37,6 @@ int main()
 
 	///tu sie dzieje magia
 
-
 	const Color COLOR_RED(255, 0, 0, 255);
 	const Color COLOR_GREEN(0, 255, 0, 255);
 	const Color COLOR_BLUE(0, 0, 255, 255);
@@ -77,13 +76,14 @@ int main()
 	my_quad.coordinates[2].set_color(COLOR_RED);
 	my_quad.coordinates[3].set_color(COLOR_BLUE);
 
-	my_quad.set_texture(Texture("profilduo.png"));
+	//my_quad.set_texture(Texture("profilduo.png"));
 
 	my_quad.render();
-
+	
+	
 	while (!glfwWindowShouldClose(window))
 	{
-		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
+		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		my_quad.draw();

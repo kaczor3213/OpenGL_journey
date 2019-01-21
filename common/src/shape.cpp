@@ -77,6 +77,7 @@ void Shape::data_parser()
 		std::cout << std::endl;
 	}
 	*/
+
 }
 
 void Shape::buff_handle()
@@ -112,6 +113,7 @@ void Shape::render() {
 }
 
 void Shape::draw() {
+	transformation();
 	texture.activate_textures();
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");
@@ -124,7 +126,6 @@ void Shape::draw() {
 	glUniform1i(texture.textureLoc, 0);
 	glBindVertexArray(VAO);
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
-	//glDrawArrays(GL_TRIANGLES, 0, 6);
 }
 
 void Shape::handle_input(GLFWwindow *&window) {

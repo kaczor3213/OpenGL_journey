@@ -67,8 +67,6 @@ int main()
 	my_triangle.coordinates[0].set_color(COLOR_RED);
 	my_triangle.coordinates[1].set_color(COLOR_GREEN);
 	my_triangle.coordinates[2].set_color(COLOR_BLUE);
-
-	my_triangle.set_texture(Texture("profilduo.png"));
 	
 	my_triangle.render();
 
@@ -76,6 +74,7 @@ int main()
     {
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
 
 		my_triangle.draw();
 

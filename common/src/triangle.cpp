@@ -43,6 +43,7 @@ void Triangle::render() {
 }
 
 void Triangle::draw() {
+	transformation();
 	texture.activate_textures();
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");

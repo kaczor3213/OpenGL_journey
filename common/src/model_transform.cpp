@@ -1,11 +1,9 @@
 #include "../include/model_transform.hpp"
 #include <iostream>
-#include <cmath>
-#include <ctime>
 
 ModelTransform::ModelTransform()
 {
-	sum = 0;
+	sum = phaseX = phaseY = phaseZ = 0;
 	vCurrentPosition = glm::vec3(0.0f);
 	m_position = glm::mat4(1.0f);
 	m_rotation = glm::mat4(1.0f);
@@ -37,7 +35,34 @@ void ModelTransform::move(const float &horizontal, const float &vertical, const 
 	vMove = glm::vec3(horizontal, vertical, depth);
 	vCurrentPosition += vMove;
 	m_position = glm::translate(m_position, vMove);
+	calc_phase_by_x();
+	calc_phase_by_y();
+	calc_phase_by_z();
 	std::cout << vCurrentPosition.x << "\t" << vCurrentPosition.y << "\t" << vCurrentPosition.z << "\n";
+}
+
+void ModelTransform::calc_phase_by_x()
+{
+	phaseX = asin(vCurrentPosition.y / sqrt(vCurrentPosition.z*vCurrentPosition.z + vCurrentPosition.y*vCurrentPosition.y));
+	if (vCurrentPosition.z < 0 && vCurrentPosition.y < 0) phaseX -= M_PI / 2;
+	if (vCurrentPosition.z < 0 && vCurrentPosition.y > 0) phaseX += M_PI / 2;
+	if (vCurrentPosition.z < 0 && vCurrentPosition.y == 0) phaseX = M_PI;
+}
+
+void ModelTransform::calc_phase_by_y()
+{
+	phaseY = asin(vCurrentPosition.z / sqrt(vCurrentPosition.x*vCurrentPosition.x + vCurrentPosition.z*vCurrentPosition.z));
+	if (vCurrentPosition.x < 0 && vCurrentPosition.z < 0) phaseY -= M_PI / 2;
+	if (vCurrentPosition.x < 0 && vCurrentPosition.z > 0) phaseY += M_PI / 2;
+	if (vCurrentPosition.x < 0 && vCurrentPosition.z == 0) phaseY = M_PI;
+}
+
+void ModelTransform::calc_phase_by_z()
+{
+	phaseZ = asin(vCurrentPosition.y / sqrt(vCurrentPosition.x*vCurrentPosition.x + vCurrentPosition.y*vCurrentPosition.y));
+	if (vCurrentPosition.x < 0 && vCurrentPosition.y < 0) phaseZ -= M_PI / 2;
+	if (vCurrentPosition.x < 0 && vCurrentPosition.y > 0) phaseZ += M_PI / 2;
+	if (vCurrentPosition.x < 0 && vCurrentPosition.y == 0) phaseZ = M_PI;
 }
 
 void ModelTransform::pitch(const float& angle) {
@@ -55,7 +80,7 @@ void ModelTransform::roll(const float& angle) {
 void ModelTransform::move_by_x(const glm::vec3& t_point, float angle) {
 	sum += angle;
 	float radius = glm::length(t_point - vCurrentPosition);
-	glm::vec3 newPosition(t_point.x , t_point.y + sin(sum) * radius, t_point.z + cos(sum) * radius);
+	glm::vec3 newPosition(t_point.x , t_point.y + sin(sum + phaseX)* radius, t_point.z + cos(sum + phaseX) * radius);
 	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
 	vCurrentPosition = newPosition;
 }
@@ -63,7 +88,7 @@ void ModelTransform::move_by_x(const glm::vec3& t_point, float angle) {
 void ModelTransform::move_by_y(const glm::vec3& t_point, float angle) {
 	sum += angle;
 	float radius = glm::length(t_point - vCurrentPosition);
-	glm::vec3 newPosition(t_point.x + cos(sum) * radius, t_point.y, t_point.z + sin(sum) * radius);
+	glm::vec3 newPosition(t_point.x + cos(sum + phaseY) * radius, t_point.y, t_point.z + sin(sum + phaseY) * radius);
 	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
 	vCurrentPosition = newPosition;
 }
@@ -71,7 +96,7 @@ void ModelTransform::move_by_y(const glm::vec3& t_point, float angle) {
 void ModelTransform::move_by_z(const glm::vec3& t_point, float angle) {
 	sum += angle;
 	float radius = glm::length(t_point - vCurrentPosition);
-	glm::vec3 newPosition(t_point.x + cos(sum) * radius, t_point.y + sin(sum) * radius,t_point.z);
+	glm::vec3 newPosition(t_point.x + cos(sum + phaseZ) * radius, t_point.y + sin(sum + phaseZ) * radius,t_point.z);
 	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
 	vCurrentPosition = newPosition;
 }

@@ -7,7 +7,9 @@
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
 #include <vector>
+#include <cmath>
 
+# define M_PI	3.141592653
 #define X_AXIS	(glm::vec3(1, 0, 0))
 #define Y_AXIS	(glm::vec3(0, 1, 0))
 #define Z_AXIS	(glm::vec3(0, 0, 1))
@@ -15,6 +17,9 @@
 class ModelTransform
 {
 protected:
+	float phaseX;
+	float phaseY;
+	float phaseZ;
 	float sum;
 	glm::mat4 transform;
 	glm::mat4 m_rotation;
@@ -22,8 +27,10 @@ protected:
 	glm::vec3 vMove;
 	glm::vec3 vCurrentPosition;
 	unsigned transformLoc;
+	void calc_phase_by_x();
+	void calc_phase_by_y();
+	void calc_phase_by_z();
 public:
-	
 	ModelTransform();
 	ModelTransform(const ModelTransform &other);
 	ModelTransform(ModelTransform &&other) noexcept;

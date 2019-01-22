@@ -42,7 +42,6 @@ private:
 	std::vector<Cube> cubes;
 	std::vector<Quad> covers;
 	
-
 	void set_cubes();
 	void set_inner_covers();
 	void set_colors();
@@ -52,14 +51,10 @@ private:
 	void process_rubic_keyboard(std::pair<Face, Way> move, const float &deltaTime);
 	std::pair<Face,Way>rubic_keyboard_callback(GLFWwindow *window);
 	
-	
 public:
-	
 	RubicCube();
 	void render();
 	void draw();
 	void handle_input(GLFWwindow *&window);
-	//void rotate_face(Face,Way);
 	//void rotate_RubicCube();
-	//void animate();
 };

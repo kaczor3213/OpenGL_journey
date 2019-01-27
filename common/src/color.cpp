@@ -1,6 +1,6 @@
 #include "../include/color.hpp"
 
-color::color(const unsigned &RED,
+Color::Color(const unsigned &RED,
 	const unsigned &GREEN,
 	const unsigned &BLUE,
 	const unsigned &ALPHA)
@@ -17,25 +17,31 @@ color::color(const unsigned &RED,
 		exit(-1);
 }
 
-color::color(const color& other)
+Color::Color(const std::vector<float> &pigmentsSet)
+{
+	pigments = pigmentsSet;
+	buffer.clear();
+}
+
+Color::Color(const Color& other)
 {
 	pigments = other.pigments;
 	buffer.clear();
 }
 
-color& color::operator=(const color &other)
+Color& Color::operator=(const Color &other)
 {
-	return *this = color(other);
+	return *this = Color(other);
 }
 
-color::color(color &&other) noexcept
+Color::Color(Color &&other) noexcept
 {
 	pigments = other.pigments;
 	buffer.clear();
 	other.pigments.clear();
 }
 
-color& color::operator=(color &&other) noexcept
+Color& Color::operator=(Color &&other) noexcept
 {
 	buffer.clear();
 	std::swap(pigments, other.pigments);
@@ -43,19 +49,19 @@ color& color::operator=(color &&other) noexcept
 	return *this;
 }
 
-color::~color()
+Color::~Color()
 {
 	pigments.clear();
 	buffer.clear();
 }
 
-bool color::check_range(const unsigned &VALUE)
+bool Color::check_range(const unsigned &VALUE)
 {
 	if (0 <= VALUE && VALUE <= 255) return true;
 	else return false;
 }
 
-void color::set_color(const unsigned &RED,
+void Color::set_color(const unsigned &RED,
 	const unsigned &GREEN,
 	const unsigned &BLUE,
 	const unsigned &ALPHA)

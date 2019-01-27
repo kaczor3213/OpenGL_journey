@@ -1,10 +1,10 @@
-#include "../include/polygon.hpp"
+#include "../include/field.hpp"
 
-polygon::polygon(const unsigned &size) {
+Field::Field(const unsigned &size) {
 	coordinates.resize(size);
 }
 
-polygon::polygon(const polygon &other) {
+Field::Field(const Field &other) {
 	EBO = other.EBO;
 	VBO = other.VBO;
 	VAO = other.VAO;
@@ -13,8 +13,7 @@ polygon::polygon(const polygon &other) {
 	coordinates = other.coordinates;
 }
 
-polygon::polygon(polygon &&other) noexcept {
-
+Field::Field(Field &&other) noexcept {
 	EBO = std::move(other.EBO);
 	VBO = std::move(other.VBO);
 	VAO = std::move(other.VAO);
@@ -23,11 +22,11 @@ polygon::polygon(polygon &&other) noexcept {
 	coordinates = std::move(other.coordinates);
 }
 
-polygon& polygon::operator=(const polygon &other) {
-	return *this = polygon(other);
+Field& Field::operator=(const Field &other) {
+	return *this = Field(other);
 }
 
-polygon& polygon::operator=(polygon &&other) noexcept {
+Field& Field::operator=(Field &&other) noexcept {
 	EBO = std::move(other.EBO);
 	VBO = std::move(other.VBO);
 	VAO = std::move(other.VAO);
@@ -37,20 +36,20 @@ polygon& polygon::operator=(polygon &&other) noexcept {
 	return *this;
 }
 
-void polygon::resize(const unsigned &size) {
+void Field::resize(const unsigned &size) {
 	coordinates.resize(size);
 	update();
 }
 
-float polygon::cross_product(const int &f_v, const int &s_v, const int &r_p)
+float Field::cross_product(const int &f_v, const int &s_v, const int &r_p)
 {
-	return  (coordinates[f_v].position[0] - coordinates[r_p].position[0]) *
-		(coordinates[s_v].position[1] - coordinates[r_p].position[1]) -
-		(coordinates[s_v].position[0] - coordinates[r_p].position[0]) *
-		(coordinates[f_v].position[1] - coordinates[r_p].position[1]);
+	return  (coordinates[f_v].x - coordinates[r_p].x) *
+		(coordinates[s_v].y - coordinates[r_p].y) -
+		(coordinates[s_v].x - coordinates[r_p].x) *
+		(coordinates[f_v].y - coordinates[r_p].y);
 }
 
-void polygon::render()
+void Field::render()
 {
 	/*
 	std::vector<float> t;
@@ -80,11 +79,10 @@ void polygon::render()
 			if (i >= tmp.size()) i = 0;
 		}
 		if (
-			(
-			(coordinates[angle[0]].position[0] - coordinates[angle[1]].position[0]) *
-			(coordinates[angle[2]].position[1] - coordinates[angle[1]].position[1]) -
-			(coordinates[angle[2]].position[0] - coordinates[angle[1]].position[0]) *
-			(coordinates[angle[0]].position[1] - coordinates[angle[1]].position[1])) < 0
+			((coordinates[angle[0]].x - coordinates[angle[0]].x) *
+			(coordinates[angle[2]].y - coordinates[angle[2]].y) -
+			(coordinates[angle[2]].x - coordinates[angle[0]].x) *
+			(coordinates[angle[0]].y - coordinates[angle[2]].y)) < 0
 			)
 		{
 			for (auto x : angle)
@@ -105,7 +103,7 @@ void polygon::render()
 	buff_handle();
 }
 
-void polygon::update()
+void Field::update()
 {
 	bool not_done{ true };
 	int i = 0, count = 0;
@@ -129,10 +127,10 @@ void polygon::update()
 
 		}
 		if (
-			((coordinates[angle[0]].position[0] - coordinates[angle[1]].position[0]) *
-			(coordinates[angle[2]].position[1] - coordinates[angle[1]].position[1]) -
-			(coordinates[angle[2]].position[0] - coordinates[angle[1]].position[0]) *
-			(coordinates[angle[0]].position[1] - coordinates[angle[1]].position[1])) < 0
+			((coordinates[angle[0]].x - coordinates[angle[0]].x) *
+			(coordinates[angle[2]].y - coordinates[angle[2]].y) -
+			(coordinates[angle[2]].x - coordinates[angle[0]].x) *
+			(coordinates[angle[0]].y - coordinates[angle[2]].y)) < 0
 			)
 		{
 			for (auto x : angle)

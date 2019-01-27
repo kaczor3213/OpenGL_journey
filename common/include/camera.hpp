@@ -15,7 +15,7 @@ const float ZOOM = 45.0f;
 
 enum CameraMovement { FORWARD, BACKWARD, LEFT, RIGHT, NONE };
 
-class camera
+class Camera
 {
 private:
 	glm::vec3 Position;
@@ -36,12 +36,12 @@ protected:
 	unsigned projectionLoc;
 	glm::mat4 projection;
 public:
-	camera();
-	camera(const camera &other);
-	camera(camera &&other) noexcept;
-	camera& operator=(const camera &other);
-	camera& operator=(camera &&other) noexcept;
-	~camera() {}
+	Camera();
+	Camera(const Camera &other);
+	Camera(Camera &&other) noexcept;
+	Camera& operator=(const Camera &other);
+	Camera& operator=(Camera &&other) noexcept;
+	~Camera() {}
 	void get_view();
 	void update();
 	virtual void camera_move(const float &horizontal, const float &vertical, const float &depth);
@@ -51,7 +51,7 @@ public:
 
 	virtual void process_keyboard(CameraMovement direction, const float &deltaTime);
 	virtual void process_mouse_movement(const float &xoffset, const float &yoffset, bool constrainPitch);
-	virtual void process_mouse_movement(const vector2d &offset, bool constrainPitch);
+	virtual void process_mouse_movement(const Vector2d &offset, bool constrainPitch);
 	virtual void process_mouse_scroll(double yoffset);
 };
 

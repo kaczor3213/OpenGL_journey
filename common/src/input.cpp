@@ -1,15 +1,12 @@
 #include "../include/input.hpp"
 
-void init_input(GLFWwindow *&window)
-{
+void init_input(GLFWwindow *&window) {
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-	glfwSetCursorPosCallback(window, mouse_callback);
 	glfwSetScrollCallback(window, scroll_callback);
 	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 }
 
-CameraMovement keyboard_callback(GLFWwindow *window)
-{
+CameraMovement keyboard_callback(GLFWwindow *window) {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
 	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
@@ -27,22 +24,17 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 	glViewport(0, 0, width, height);
 }
 
-
-void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
-	CurrentMouseXPos = xpos;
-	CurrentMouseYPos = ypos;
-}
-
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset) {
 	CurrentScrollPos = yoffset;
 }
 
-vector2d get_mouse_position() {
+Vector2d get_mouse_position(GLFWwindow* window) {
+	glfwGetCursorPos(window, &CurrentMouseXPos, &CurrentMouseYPos);
 	float xoffset = CurrentMouseXPos - LastMouseXPos;
 	float yoffset = LastMouseYPos - CurrentMouseYPos;
 	LastMouseXPos = CurrentMouseXPos;
 	LastMouseYPos = CurrentMouseYPos;
-	vector2d tmp(xoffset, yoffset);
+	Vector2d tmp(xoffset, yoffset);
 	return tmp;
 }
 
@@ -58,4 +50,57 @@ const double get_scroll_position() {
 		return -1.0;
 	}
 	return 0.0;
+}
+
+std::vector<Point> load_from_file(std::istream& input) {
+	std::vector<Point> set;
+	Point element;
+	std::vector<float> tmp;
+	float value;
+	while (!input.eof())
+	{
+		for (unsigned i = 0; i < 3; i++)
+		{
+			input >> value;
+			tmp.push_back(value);
+		}
+		for (unsigned i = 0; i < 4; i++)
+		{
+			tmp.push_back(0.f);
+		}
+		element = Point(tmp);
+		set.push_back(element);
+		tmp.clear();
+	}
+	return set;
+}
+
+std::vector<float> load_animation(std::istream& input) {
+	std::vector<float> set;
+	float value;
+	while (!input.eof())
+	{
+		for (unsigned i = 0; i < 3; i++)
+		{
+			input >> value;
+			set.push_back(value);
+		}
+	}
+	return set;
+}
+
+std::vector<Point> load_from_file(std::string filePath) {
+	std::fstream file;
+	file.open(filePath);
+	if (!file.is_open())
+		throw std::runtime_error("Couldn't open" + filePath + "file!\n");
+	return load_from_file(file);
+}
+
+std::vector<float> load_animation(std::string filePath) {
+	std::fstream file;
+	file.open(filePath);
+	if (!file.is_open())
+		throw std::runtime_error("Couldn't open" + filePath + "file!\n");
+	return load_animation(file);
 }

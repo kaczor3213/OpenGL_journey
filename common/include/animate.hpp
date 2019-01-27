@@ -4,10 +4,10 @@
 #include "../include/model_transform.hpp"
 #include "../include/camera.hpp"
 
-class animate : public model_transform, public camera
+class Animate : public ModelTransform, public Camera
 {
 public:
-	animate() {}
-	~animate() {}
+	Animate() {}
+	~Animate() {}
 };
 #endif

@@ -1,10 +1,10 @@
 #include "../include/quad.hpp"
 
-quad::quad() {
+Quad::Quad() {
 	coordinates.resize(4);
 }
 
-quad::quad(const quad &other) {
+Quad::Quad(const Quad &other) {
 	EBO = other.EBO;
 	VBO = other.VBO;
 	VAO = other.VAO;
@@ -13,7 +13,7 @@ quad::quad(const quad &other) {
 	coordinates = other.coordinates;
 }
 
-quad::quad(quad &&other) noexcept {
+Quad::Quad(Quad &&other) noexcept {
 	EBO = std::move(other.EBO);
 	VBO = std::move(other.VBO);
 	VAO = std::move(other.VAO);
@@ -22,11 +22,11 @@ quad::quad(quad &&other) noexcept {
 	coordinates = std::move(other.coordinates);
 }
 
-quad& quad::operator=(const quad &other) {
-	return *this = quad(other);
+Quad& Quad::operator=(const Quad &other) {
+	return *this = Quad(other);
 }
 
-quad& quad::operator=(quad &&other) noexcept {
+Quad& Quad::operator=(Quad &&other) noexcept {
 	EBO = std::move(other.EBO);
 	VBO = std::move(other.VBO);
 	VAO = std::move(other.VAO);
@@ -36,7 +36,7 @@ quad& quad::operator=(quad &&other) noexcept {
 	return *this;
 }
 
-void quad::render() {
+void Quad::render() {
 	indices = std::vector<unsigned int>{ 0,1,2,0,2,3 };
 	data_parser();
 	buff_handle();

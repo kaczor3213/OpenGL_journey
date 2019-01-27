@@ -3,15 +3,15 @@
 
 #include "shape.hpp"
 
-class triangle : public shape
+class Triangle : public Shape
 {
 public:
-	triangle();
-    triangle(const triangle &other);
-    triangle(triangle &&other) noexcept;
-    triangle& operator=(const triangle &other);
-    triangle& operator=(triangle &&other) noexcept;
-	~triangle() {}
+	Triangle();
+    Triangle(const Triangle &other);
+    Triangle(Triangle &&other) noexcept;
+    Triangle& operator=(const Triangle &other);
+    Triangle& operator=(Triangle &&other) noexcept;
+	~Triangle() {}
 	virtual void render();
 	virtual void draw();
 };

@@ -1,39 +1,123 @@
 #include "../include/model_transform.hpp"
+#include <iostream>
 
-model_transform::model_transform()
+ModelTransform::ModelTransform()
 {
-	transform = glm::mat4(1.0f);
+	sum = cycle = phaseX = phaseY = phaseZ = 0.0f;
+	vCurrentPosition = glm::vec3(0.0f);
+	m_position = glm::mat4(1.0f);
+	m_rotation = glm::mat4(1.0f);
 }
-model_transform::model_transform(const model_transform &other)
+
+ModelTransform::ModelTransform(const ModelTransform &other)
 {
 	transform = other.transform;
 }
-model_transform::model_transform(model_transform &&other) noexcept
+
+ModelTransform::ModelTransform(ModelTransform &&other) noexcept
 {
 	transform = std::move(other.transform);
 }
-model_transform& model_transform::operator=(const model_transform &other)
+
+ModelTransform& ModelTransform::operator=(const ModelTransform &other)
 {
-	return *this = model_transform(other);
+	return *this = ModelTransform(other);
 }
-model_transform& model_transform::operator=(model_transform &&other) noexcept
+
+ModelTransform& ModelTransform::operator=(ModelTransform &&other) noexcept
 {
 	transform = std::move(other.transform);
 	return *this;
 }
-void model_transform::move(const float &horizontal, const float &vertical, const float &depth)
+
+void ModelTransform::move(const float &horizontal, const float &vertical, const float &depth)
 {
-	transform = glm::translate(transform, glm::vec3(horizontal, vertical, depth));
+	vMove = glm::vec3(horizontal, vertical, depth);
+	vCurrentPosition += vMove;
+	m_position = glm::translate(m_position, vMove);
+	calc_phase_by_x();
+	calc_phase_by_y();
+	calc_phase_by_z();
 }
-void model_transform::rotate(const float& speed_scale, const float &horizontal, const float &vertical, const float &turn_flat)
+
+void ModelTransform::calc_phase_by_x()
 {
-	transform = glm::rotate(transform, glm::radians(speed_scale), glm::vec3(horizontal, vertical, turn_flat));
+	phaseX = asin(vCurrentPosition.y / sqrt(vCurrentPosition.z*vCurrentPosition.z + vCurrentPosition.y*vCurrentPosition.y));
+	if (vCurrentPosition.z < 0 && vCurrentPosition.y < 0) phaseX -= M_PI / 2;
+	if (vCurrentPosition.z < 0 && vCurrentPosition.y > 0) phaseX += M_PI / 2;
+	if (vCurrentPosition.z < 0 && vCurrentPosition.y == 0) phaseX = M_PI;
 }
-void model_transform::scale(const float &x_scale_parameter, const float &y_scale_parameter, const float &z_scale_parameter)
+
+void ModelTransform::calc_phase_by_y()
 {
+	phaseY = asin(vCurrentPosition.z / sqrt(vCurrentPosition.x*vCurrentPosition.x + vCurrentPosition.z*vCurrentPosition.z));
+	if (vCurrentPosition.x < 0 && vCurrentPosition.z < 0) phaseY += M_PI ;
+	if (vCurrentPosition.x < 0 && vCurrentPosition.z > 0) phaseY += M_PI / 2;
+	if (vCurrentPosition.x < 0 && vCurrentPosition.z == 0) phaseY = M_PI;
+}
+
+void ModelTransform::calc_phase_by_z()
+{
+	phaseZ = asin(vCurrentPosition.y / sqrt(vCurrentPosition.x*vCurrentPosition.x + vCurrentPosition.y*vCurrentPosition.y));
+	if (vCurrentPosition.x < 0 && vCurrentPosition.y < 0) phaseZ -= M_PI / 2;
+	if (vCurrentPosition.x < 0 && vCurrentPosition.y > 0) phaseZ += M_PI / 2;
+	if (vCurrentPosition.x < 0 && vCurrentPosition.y == 0) phaseZ = M_PI;
+}
+
+void ModelTransform::pitch(const float& degrees) {
+	cycle += degrees;
+	m_rotation = glm::rotate(m_rotation, glm::radians(degrees), X_AXIS);
+}
+
+void ModelTransform::yaw(const float& degrees) {
+	cycle += degrees;
+	m_rotation = glm::rotate(m_rotation, glm::radians(degrees), Y_AXIS);
+}
+
+void ModelTransform::roll(const float& degrees) {
+	cycle += degrees;
+	std::cout << cycle << "\n";
+	m_rotation = glm::rotate(m_rotation, glm::radians(degrees), Z_AXIS);
+}
+
+void ModelTransform::move_by_x(const glm::vec3& t_point, float degrees) {
+	sum += glm::radians(degrees);
+	float radius = glm::length(t_point - vCurrentPosition);
+	glm::vec3 newPosition(t_point.x , t_point.y + sin(sum + phaseX)* radius, t_point.z + cos(sum + phaseX) * radius);
+	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
+	vCurrentPosition = newPosition;
+	calc_phase_by_y();
+	calc_phase_by_z();
+}
+
+void ModelTransform::move_by_y(const glm::vec3& t_point, float degrees) {
+	sum += glm::radians(degrees);
+	float radius = glm::length(t_point - vCurrentPosition);
+	glm::vec3 newPosition(t_point.x + cos(sum + phaseY) * radius, t_point.y, t_point.z + sin(sum + phaseY) * radius);
+	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
+	vCurrentPosition = newPosition;
+	calc_phase_by_x();
+	calc_phase_by_z();
+}
+
+void ModelTransform::move_by_z(const glm::vec3& t_point, float degrees) {
+	sum += glm::radians(degrees);
+	float radius = glm::length(t_point - vCurrentPosition);
+	glm::vec3 newPosition(t_point.x + cos(sum + phaseZ) * radius, t_point.y + sin(sum + phaseZ) * radius,t_point.z);
+	m_position = glm::translate(m_position, newPosition - vCurrentPosition);
+	vCurrentPosition = newPosition;
+	calc_phase_by_x();
+	calc_phase_by_y();
+}
+
+void ModelTransform::transformation() {
+	transform = glm::mat4(1.0f);
+	transform = m_position * m_rotation;
+}
+
+void ModelTransform::scale(const float &x_scale_parameter, const float &y_scale_parameter, const float &z_scale_parameter) {
 	transform = glm::scale(transform, glm::vec3(x_scale_parameter, y_scale_parameter, z_scale_parameter));
 }
-void model_transform::scale_whole(const float &scale_parameter)
-{
+void ModelTransform::scale_whole(const float &scale_parameter) {
 	transform = glm::scale(transform, glm::vec3(scale_parameter, scale_parameter, scale_parameter));
 }

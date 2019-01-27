@@ -4,41 +4,55 @@
 #include "point.hpp"
 
 template <typename T>
-class vertices
+class Vertices
 {
 private:
     std::vector<T> c_arr;
 public:
-	vertices() { 
+	Vertices() { 
 		c_arr.resize(3);
 	}
-	vertices(const std::vector<T> &arr) {
+
+	Vertices(const std::vector<T> &arr) {
 		c_arr = arr;
 	}
-    vertices(const vertices &other) : c_arr(other.c_arr) {}
-    vertices& operator=(const vertices &other) {
-        return *this=vertices(other);
+
+    Vertices(const Vertices &other) : c_arr(other.c_arr) {}
+
+    Vertices& operator=(const Vertices &other) {
+        return *this=Vertices(other);
     }
-    vertices(vertices &&other) noexcept {
+
+    Vertices(Vertices &&other) noexcept {
         c_arr = std::move(other.c_arr);
     }
-    vertices& operator=(vertices &&other) noexcept {
+
+    Vertices& operator=(Vertices &&other) noexcept {
         c_arr = std::move(other.c_arr);
         return *this;
     }
-    ~vertices() {}
+
+    ~Vertices() {}
+
     int size() {
         return c_arr.size();
     }
+
     T& operator[](const int &index) {
         return c_arr[index];
     }
+
     T operator[](const int &index) const {
         return c_arr[index];
     }
-	void resize(const int &new_size)
-	{
+
+	void resize(const int &new_size) {
 		c_arr.resize(new_size);
 	}
+
+	void push_back(const T &element) {
+		c_arr.push_back(element);
+	}
 };
-#endif // !VERTICES_HPP
+
+#endif

@@ -6,23 +6,24 @@
 #include <string>
 #include <algorithm>
 
-class color
+class Color
 {
 private:
 	std::stringstream buffer;
 	bool check_range(const unsigned &VALUE);
 public:
 	std::vector <float> pigments;
-	color () {}
-	color(const unsigned &RED,
+	Color () {}
+	Color(const unsigned &RED,
 		const unsigned &GREEN,
 		const unsigned &BLUE,
 		const unsigned &ALPHA);
-	color(const color &other);
-	color& operator=(const color &other);
-	color(color &&other) noexcept;
-	color& operator=(color &&other) noexcept;
-	~color();
+	Color(const std::vector<float> &pigmentsSet);
+	Color(const Color &other);
+	Color& operator=(const Color &other);
+	Color(Color &&other) noexcept;
+	Color& operator=(Color &&other) noexcept;
+	~Color();
 	void set_color(const unsigned &RED,
 		const unsigned &GREEN,
 		const unsigned &BLUE,

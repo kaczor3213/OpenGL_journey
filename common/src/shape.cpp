@@ -1,11 +1,12 @@
 #include "../include/shape.hpp"
+#include <iostream>
 
-shape::shape(const unsigned &size) {
+Shape::Shape(const unsigned &size) {
 	indices.resize((size - 2)*3);
 	coordinates.resize(size);
 }
 
-shape::shape(const shape &other) {
+Shape::Shape(const Shape &other) {
 	EBO = other.EBO;
 	VBO = other.VBO;
 	VAO = other.VAO;
@@ -14,7 +15,7 @@ shape::shape(const shape &other) {
 	coordinates = other.coordinates;
 }
 
-shape::shape(shape &&other) noexcept {
+Shape::Shape(Shape &&other) noexcept {
 	EBO = std::move(other.EBO);
 	VBO = std::move(other.VBO);
 	VAO = std::move(other.VAO);
@@ -23,11 +24,11 @@ shape::shape(shape &&other) noexcept {
 	coordinates = std::move(other.coordinates);
 }
 
-shape& shape::operator=(const shape &other) {
-	return *this = shape(other);
+Shape& Shape::operator=(const Shape &other) {
+	return *this = Shape(other);
 }
 
-shape& shape::operator=(shape &&other) noexcept {
+Shape& Shape::operator=(Shape &&other) noexcept {
 	EBO = std::move(other.EBO);
 	VBO = std::move(other.VBO);
 	VAO = std::move(other.VAO);
@@ -37,32 +38,49 @@ shape& shape::operator=(shape &&other) noexcept {
 	return *this;
 }
 
-shape::~shape() {
+Shape::~Shape() {
 	glDeleteVertexArrays(1, &VAO);
 	glDeleteBuffers(1, &VBO);
 	glDeleteBuffers(1, &EBO);
 }
 
-void shape::data_parser()
+void Shape::data_parser()
 {
-	VBO_DATA.resize(7 * coordinates.size());
+	VBO_DATA.resize(8 * coordinates.size());
 	int k = 0;
 	for (int i = 0; i < coordinates.size(); i++)
 	{
+		VBO_DATA[k] = coordinates[i].x;
+		k++;
+		VBO_DATA[k] = coordinates[i].y;
+		k++;
+		VBO_DATA[k] = coordinates[i].z;
+		k++;
 		for (int j = 0; j < 3; j++)
-		{
-			VBO_DATA[k] = coordinates[i].position[j];
-			k++;
-		}
-		for (int j = 0; j < 4; j++)
 		{
 			VBO_DATA[k] = coordinates[i].get_color().pigments[j];
 			k++;
 		}
+		VBO_DATA[k] = coordinates[i].s;
+		k++;
+		VBO_DATA[k] = coordinates[i].t;
+		k++;
 	}
+
+	/*
+	for (int i = 0; i < coordinates.size(); i++)
+	{
+		for (int j = 0; j < 8; j++)
+		{
+			std::cout << VBO_DATA[i * 8 + j] << "\t";
+		}
+		std::cout << std::endl;
+	}
+	*/
+
 }
 
-void shape::buff_handle()
+void Shape::buff_handle()
 {
 	glGenVertexArrays(1, &VAO);
 	glGenBuffers(1, &VBO);
@@ -72,18 +90,31 @@ void shape::buff_handle()
 	glBufferData(GL_ARRAY_BUFFER, VBO_DATA.size() * sizeof(float), &VBO_DATA[0], GL_STATIC_DRAW);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(unsigned int), &indices[0], GL_STATIC_DRAW);
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(float), (void*)(3 * sizeof(float)));
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
 	glEnableVertexAttribArray(1);
+	glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
+	glEnableVertexAttribArray(2);
 }
 
-void shape::render() {
+void Shape::set_shape_color(const Color &COLOR) {
+	for (int i = 0; i < coordinates.size(); i++)
+		coordinates[i].set_color(COLOR);
+}
+
+void Shape::set_texture(const Texture &TEXTURE) {
+	texture = TEXTURE;
+}
+
+void Shape::render() {
 	data_parser();
 	buff_handle();
 }
 
-void shape::draw() {
+void Shape::draw() {
+	transformation();
+	texture.activate_textures();
 	run();
 	transformLoc = glGetUniformLocation(shaderProgram, "transform");
 	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
@@ -91,8 +122,15 @@ void shape::draw() {
 	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 	projectionLoc = glGetUniformLocation(shaderProgram, "projection");
 	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+	texture.textureLoc = glGetUniformLocation(shaderProgram, "ourTexture");
+	glUniform1i(texture.textureLoc, 0);
 	glBindVertexArray(VAO);
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indices.size()), GL_UNSIGNED_INT, 0);
 }
 
-
+void Shape::handle_input(GLFWwindow *&window) {
+	process_mouse_movement(get_mouse_position(window), true);
+	process_keyboard(keyboard_callback(window), 0.005f);
+	process_mouse_scroll(get_scroll_position());
+	get_view();
+}

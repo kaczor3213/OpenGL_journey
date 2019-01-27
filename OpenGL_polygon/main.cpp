@@ -1,3 +1,5 @@
+#define STB_IMAGE_IMPLEMENTATION
+
 #include <iostream>
 #include <glad.h>
 #include <glfw3.h>
@@ -6,7 +8,7 @@
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
 
-#include "../common/include/polygon.hpp"
+#include "../common/include/field.hpp"
 #include "../common/include/input.hpp"
 
 int main()
@@ -35,46 +37,45 @@ int main()
 
 	///tu sie dzieje magia
 
-	const color COLOR_YELLOW(255, 255, 0, 255);
-	const color COLOR_BLACK(0, 0, 0, 255);
-	const color COLOR_RED(255, 0, 0, 255);
-	const color COLOR_GREEN(0, 255, 0, 255);
-	const color COLOR_BLUE(0, 0, 255, 255);
+	const Color COLOR_YELLOW(255, 255, 0, 255);
+	const Color COLOR_BLACK(0, 0, 0, 255);
+	const Color COLOR_RED(255, 0, 0, 255);
+	const Color COLOR_GREEN(0, 255, 0, 255);
+	const Color COLOR_BLUE(0, 0, 255, 255);
 
-	polygon my_polygon(8);
+	Field my_polygon(8);
 
-	my_polygon.coordinates[0].position[0] = -0.5;
-	my_polygon.coordinates[0].position[1] = -0.5;
-	my_polygon.coordinates[0].position[2] = 0.0;
+	my_polygon.coordinates[0].x = -0.5;
+	my_polygon.coordinates[0].y = -0.5;
+	my_polygon.coordinates[0].z = 0.0;
 
+	my_polygon.coordinates[1].x = -0.2;
+	my_polygon.coordinates[1].y = -0.2;
+	my_polygon.coordinates[1].z = 0.0;
 
-	my_polygon.coordinates[1].position[0] = -0.2;
-	my_polygon.coordinates[1].position[1] = -0.2;
-	my_polygon.coordinates[1].position[2] = 0.0;
+	my_polygon.coordinates[2].x = 0.2;
+	my_polygon.coordinates[2].y = -0.2;
+	my_polygon.coordinates[2].z = 0.0;
 
-	my_polygon.coordinates[2].position[0] = 0.2;
-	my_polygon.coordinates[2].position[1] = -0.2;
-	my_polygon.coordinates[2].position[2] = 0.0;
+	my_polygon.coordinates[3].x = 0.5;
+	my_polygon.coordinates[3].y = -0.5;
+	my_polygon.coordinates[3].z = 0.0;
 
-	my_polygon.coordinates[3].position[0] = 0.5;
-	my_polygon.coordinates[3].position[1] = -0.5;
-	my_polygon.coordinates[3].position[2] = 0.0;
+	my_polygon.coordinates[4].x = 0.5;
+	my_polygon.coordinates[4].y = 0.5;
+	my_polygon.coordinates[4].z = 0.0;
 
-	my_polygon.coordinates[4].position[0] = 0.5;
-	my_polygon.coordinates[4].position[1] = 0.5;
-	my_polygon.coordinates[4].position[2] = 0.0;
+	my_polygon.coordinates[5].x = 0.0;
+	my_polygon.coordinates[5].y = 0.2;
+	my_polygon.coordinates[5].z = 0.0;
 
-	my_polygon.coordinates[5].position[0] = 0.0;
-	my_polygon.coordinates[5].position[1] = 0.2;
-	my_polygon.coordinates[5].position[2] = 0.0;
+	my_polygon.coordinates[6].x = -0.5;
+	my_polygon.coordinates[6].y = 0.5;
+	my_polygon.coordinates[6].z = 0.0;
 
-	my_polygon.coordinates[6].position[0] = -0.5;
-	my_polygon.coordinates[6].position[1] = 0.5;
-	my_polygon.coordinates[6].position[2] = 0.0;
-
-	my_polygon.coordinates[7].position[0] = -0.9;
-	my_polygon.coordinates[7].position[1] = 0.0;
-	my_polygon.coordinates[7].position[2] = 0.0;
+	my_polygon.coordinates[7].x = -0.9;
+	my_polygon.coordinates[7].y = 0.0;
+	my_polygon.coordinates[7].z = 0.0;
 
 	my_polygon.coordinates[0].set_color(COLOR_GREEN);
 	my_polygon.coordinates[1].set_color(COLOR_BLACK);
@@ -89,7 +90,7 @@ int main()
 
 	while (!glfwWindowShouldClose(window))
 	{
-		glClearColor(0.5f, 0.4f, 0.3f, 1.0f);
+		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		my_polygon.draw();

@@ -1,6 +1,8 @@
 #include <map>
 #include <vector>
 #include <set>
+#include <chrono>
+#include <thread>
 #include "cube.hpp"
 #include "quad.hpp"
 #include "input.hpp"
@@ -41,20 +43,19 @@ private:
 	std::map<Face, Side> relationGraph;
 	std::vector<Cube> cubes;
 	std::vector<Quad> covers;
-	
+	float cycle;
 	void set_cubes();
 	void set_inner_covers();
 	void set_colors();
 	void set_relations();
-	void twick_rotation();
 	void animate_side(std::pair<Face, Way> move);
-	void process_rubic_keyboard(std::pair<Face, Way> move, const float &deltaTime);
+	void process_rubic_keyboard(std::pair<Face, Way> move);
 	std::pair<Face,Way>rubic_keyboard_callback(GLFWwindow *window);
 	
 public:
 	RubicCube();
 	void render();
+	void run(GLFWwindow *&window);
 	void draw();
 	void handle_input(GLFWwindow *&window);
-	//void rotate_RubicCube();
 };

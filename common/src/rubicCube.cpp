@@ -11,10 +11,6 @@ void RubicCube::set_cubes() {
 	cubes.resize(26);
 	for (auto &cube : cubes)
 		cube.coordinates = load_from_file("cube.txt");
-	//for (const auto &cube : cubes) {
-	//	coordinates.reserve(coordinates.size() + cube.coordinates.size());
-	//	coordinates.insert(std::end(coordinates), std::begin(cube.coordinates), std::end(cube.coordinates));
-	//}
 	std::vector<float> tmp = load_animation("positions.txt");
 	unsigned k = 0;
 	for (unsigned i=0; i<cubes.size();i++)	{
@@ -32,37 +28,41 @@ void RubicCube::render() {
 		cube.render();
 }
 
-void RubicCube::draw() {
+void RubicCube::run(GLFWwindow *&window) {
+	std::pair<Face, Way> move = rubic_keyboard_callback(window);
 	
+	handle_input(window);
+	for (auto &cover : covers)
+		cover.handle_input(window);
+	for (auto &cube : cubes)
+		cube.handle_input(window);
+	cycle = 0;
+	while(cycle<90) {
+		cycle++;
+		animate_side(move);
+		draw();
+		//std::this_thread::sleep_for(std::chrono::nanoseconds(8));
+	}
+		
+	process_rubic_keyboard(move);
+}
+
+void RubicCube::draw() {
 	for (auto &cover : covers)
 		cover.draw();
 	for (auto &cube : cubes)
 		cube.draw();
-	/*
-	run();
-	transformLoc = glGetUniformLocation(shaderProgram, "transform");
-	glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
-	viewLoc = glGetUniformLocation(shaderProgram, "view");
-	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
-	projectionLoc = glGetUniformLocation(shaderProgram, "projection");
-	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
-	texture.textureLoc = glGetUniformLocation(shaderProgram, "ourTexture");
-	glUniform1i(texture.textureLoc, 0);
-	glBindVertexArray(VAO);
-	glDrawArrays(GL_TRIANGLES, 0, 36);
-	*/
 }
 
 void RubicCube::handle_input(GLFWwindow *&window) {
+	glfwSetInputMode(window, GLFW_STICKY_KEYS, 1);
+	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+	glfwSetScrollCallback(window, scroll_callback);
+	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 	process_mouse_movement(get_mouse_position(window), true);
 	process_mouse_scroll(get_scroll_position());
 	process_keyboard(keyboard_callback(window), 0.005f);
 	get_view();
-	for (auto &cover : covers)
-		cover.handle_input(window);
-	for (auto &cube : cubes)
-		cube.handle_input(window);	
-	process_rubic_keyboard(rubic_keyboard_callback(window), 0.005f);
 }
 
 void RubicCube::set_colors() {
@@ -209,22 +209,22 @@ std::pair<Face, Way> RubicCube::rubic_keyboard_callback(GLFWwindow *window) {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
 	//UP+CLOCKWISE
-	if (glfwGetKey(window, GLFW_KEY_KP_8) == GLFW_PRESS)
+	if (glfwGetKey(window, GLFW_KEY_KP_8) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_KP_8) == GLFW_RELEASE)
 		return std::make_pair(UP,CLOCKWISE);
 	//DOWN+CLOCKWISE
-	if (glfwGetKey(window, GLFW_KEY_KP_2) == GLFW_PRESS)
+	if (glfwGetKey(window, GLFW_KEY_KP_2) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_KP_2) == GLFW_RELEASE)
 		return std::make_pair(DOWN, CLOCKWISE);
 	//FRONT+CLOCKWISE
-	if (glfwGetKey(window, GLFW_KEY_KP_7) == GLFW_PRESS)
+	if (glfwGetKey(window, GLFW_KEY_KP_7) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_KP_7) == GLFW_RELEASE)
 		return std::make_pair(FRONT, CLOCKWISE);
 	//BACK+CLOCKWISE
-	if (glfwGetKey(window, GLFW_KEY_KP_1) == GLFW_PRESS)
+	if (glfwGetKey(window, GLFW_KEY_KP_1) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_KP_1) == GLFW_RELEASE)
 		return std::make_pair(BACK, CLOCKWISE);
 	//LEFTS+CLOCKWISE
-	if (glfwGetKey(window, GLFW_KEY_KP_4) == GLFW_PRESS)
+	if (glfwGetKey(window, GLFW_KEY_KP_4) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_KP_4) == GLFW_RELEASE)
 		return std::make_pair(LEFTS, CLOCKWISE);
 	//RIGHTS+CLOCKWISE
-	if (glfwGetKey(window, GLFW_KEY_KP_6) == GLFW_PRESS)
+	if (glfwGetKey(window, GLFW_KEY_KP_6) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_KP_6) == GLFW_RELEASE)
 		return std::make_pair(RIGHTS, CLOCKWISE);
 	//UP+ANTICLOCKWISE
 	if (glfwGetKey(window, GLFW_KEY_KP_8) == GLFW_PRESS &&
@@ -261,28 +261,23 @@ unsigned corelations(const unsigned &ind, const std::map<Face, Side> &relations)
 	return tmp;
 }
 
-void RubicCube::twick_rotation() {
-	//cubes[].moveByPoint(glm::vec3(0.0f, 0.0f, 1.1f), -0.0275);
-}
-
 void RubicCube::animate_side(std::pair<Face, Way> move) {
-	float t;
-	move.second == CLOCKWISE ? t = 1.0f : t = -1.0f;
-		//UP+CLOCKWISE
+	float t=1;
+	//UP+CLOCKWISE
 	if (move.first == UP) {
 		for (auto indice : relationGraph[UP].cubesIndices) {
 			switch (corelations(indice, relationGraph))
 			{
 			case 1:
-				cubes[indice].yaw(-0.01f*t);
+				cubes[indice].yaw(-1.0f*t);
 				break;
 			case 2:
-				cubes[indice].yaw(-0.01f*t);
-				cubes[indice].move_by_y(glm::vec3(0.0f, 1.1f, 0.0f), 0.01f*t);
+				cubes[indice].yaw(-1.0f*t);
+				cubes[indice].move_by_y(glm::vec3(0.0f, 1.1f, 0.0f), 1.0f*t);
 				break;
 			case 3:
-				cubes[indice].yaw(-0.01f*t);
-				cubes[indice].move_by_y(glm::vec3(0.0f, 1.1f, 0.0f), 0.01f*t);
+				cubes[indice].yaw(-1.0f*t);
+				cubes[indice].move_by_y(glm::vec3(0.0f, 1.1f, 0.0f), 1.0f*t);
 				break;
 			}
 		}
@@ -293,15 +288,15 @@ void RubicCube::animate_side(std::pair<Face, Way> move) {
 			switch (corelations(indice, relationGraph))
 			{
 			case 1:
-				cubes[indice].yaw(0.01f*t);
+				cubes[indice].yaw(1.0f*t);
 				break;
 			case 2:
-				cubes[indice].yaw(0.01f*t);
-				cubes[indice].move_by_y(glm::vec3(0.0f, -1.1f, 0.0f), -0.01f*t);
+				cubes[indice].yaw(1.0f*t);
+				cubes[indice].move_by_y(glm::vec3(0.0f, -1.1f, 0.0f), -1.0f*t);
 				break;
 			case 3:
-				cubes[indice].yaw(0.01f*t);
-				cubes[indice].move_by_y(glm::vec3(0.0f, -1.1f, 0.0f), -0.01f*t);
+				cubes[indice].yaw(1.0f*t);
+				cubes[indice].move_by_y(glm::vec3(0.0f, -1.1f, 0.0f), -1.0f*t);
 				break;
 			}
 		}
@@ -312,15 +307,15 @@ void RubicCube::animate_side(std::pair<Face, Way> move) {
 			switch (corelations(indice, relationGraph))
 			{
 			case 1:
-				cubes[indice].roll(0.01f*t);
+				cubes[indice].roll(-1.0f*t);
 				break;
 			case 2:
-				cubes[indice].roll(0.01f*t);
-				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, 1.1f), 0.01f*t);
+				cubes[indice].roll(-1.0f*t);
+				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, 1.1f), -1.0f*t);
 				break;
 			case 3:
-				cubes[indice].roll(0.01f*t);
-				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, 1.1f), 0.01f*t);
+				cubes[indice].roll(-1.0f*t);
+				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, 1.1f), -1.0f*t);
 				break;
 			}
 		}
@@ -331,15 +326,15 @@ void RubicCube::animate_side(std::pair<Face, Way> move) {
 			switch (corelations(indice, relationGraph))
 			{
 			case 1:
-				cubes[indice].roll(-0.01f*t);
+				cubes[indice].roll(-1.0f*t);
 				break;
 			case 2:
-				cubes[indice].roll(-0.01f*t);
-				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, -1.1f), -0.01f*t);
+				cubes[indice].roll(-1.0f*t);
+				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, -1.1f), -1.0f*t);
 				break;
 			case 3:
-				cubes[indice].roll(-0.01f*t);
-				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, -1.1f), -0.01f*t);
+				cubes[indice].roll(-1.0f*t);
+				cubes[indice].move_by_z(glm::vec3(0.0f, 0.0f, -1.1f), -1.0f*t);
 				break;
 			}
 		}
@@ -350,15 +345,15 @@ void RubicCube::animate_side(std::pair<Face, Way> move) {
 			switch (corelations(indice, relationGraph))
 			{
 			case 1:
-				cubes[indice].pitch(0.01f*t);
+				cubes[indice].pitch(1.0f*t);
 				break;
 			case 2:
-				cubes[indice].pitch(0.01f*t);
-				cubes[indice].move_by_x(glm::vec3(-1.1f, 0.0f, 0.0f), -0.01f*t);
+				cubes[indice].pitch(1.0f*t);
+				cubes[indice].move_by_x(glm::vec3(-1.1f, 0.0f, 0.0f), -1.0f*t);
 				break;
 			case 3:
-				cubes[indice].pitch(0.01f*t);
-				cubes[indice].move_by_x(glm::vec3(-1.1f, 0.0f, 0.0f), -0.01f*t);
+				cubes[indice].pitch(1.0f*t);
+				cubes[indice].move_by_x(glm::vec3(-1.1f, 0.0f, 0.0f), -1.0f*t);
 				break;
 			}
 		}
@@ -369,34 +364,33 @@ void RubicCube::animate_side(std::pair<Face, Way> move) {
 			switch (corelations(indice, relationGraph))
 			{
 			case 1:
-				cubes[indice].pitch(-0.01f*t);
+				cubes[indice].pitch(-1.0f*t);
 				break;
 			case 2:
-				cubes[indice].pitch(-0.01f*t);
-				cubes[indice].move_by_x(glm::vec3(1.1f, 0.0f, 0.0f), 0.01f*t);
+				cubes[indice].pitch(-1.0f*t);
+				cubes[indice].move_by_x(glm::vec3(1.1f, 0.0f, 0.0f), 1.0f*t);
 				break;
 			case 3:
-				cubes[indice].pitch(-0.01f*t);
-				cubes[indice].move_by_x(glm::vec3(1.1f, 0.0f, 0.0f), 0.01f*t);
+				cubes[indice].pitch(-1.0f*t);
+				cubes[indice].move_by_x(glm::vec3(1.1f, 0.0f, 0.0f), 1.0f*t);
 				break;
 			}
 		}
 	}
 }
 
-void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &deltaTime) {
+void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move) {
 	/*for (auto face : relationGraph) {
 		for (auto indice : face.second.cubesIndices) {
 			std::cout << indice << "\t";
 		}
 		std::cout << "\n";
-	}*/
-	animate_side(move);
+	}*/	
 	if (move.first != NOFACE)	{
 		if (move.second == CLOCKWISE) {
 			//UP+CLOCKWISE
 			if (move.first == UP) {
-				
+				cubes[4].cycle = 0.0f;
 				std::set<unsigned> UL;
 				std::set<unsigned> UB;
 				std::set<unsigned> UR;
@@ -466,6 +460,7 @@ void RubicCube::process_rubic_keyboard(std::pair<Face, Way> move, const float &d
 			}
 			//FRONT+CLOCKWISE
 			if (move.first == FRONT) {
+				
 				std::set<unsigned> FL;
 				std::set<unsigned> FU;
 				std::set<unsigned> FR;

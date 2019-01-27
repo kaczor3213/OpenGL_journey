@@ -1,5 +1,6 @@
 #define STB_IMAGE_IMPLEMENTATION
 
+
 #include <iostream>
 #include <glad.h>
 #include <glfw3.h>
@@ -9,7 +10,7 @@
 #include <gtc/type_ptr.hpp>
 
 #include "../common/include/rubicCube.hpp"
-#include "../common/include/input.hpp"
+
 
 int main()
 {
@@ -36,22 +37,19 @@ int main()
 	}
 	glEnable(GL_DEPTH_TEST);
 
-	init_input(window);
 
 	///tu sie dzieje magia
 
 	RubicCube rubic;
 	rubic.render();
 
-
 	while (!glfwWindowShouldClose(window))
 	{
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		rubic.handle_input(window);
-		rubic.draw();
-
+		rubic.run(window);
+		
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}

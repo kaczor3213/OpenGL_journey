@@ -31,6 +31,7 @@ protected:
 	void calc_phase_by_y();
 	void calc_phase_by_z();
 public:
+	float cycle;
 	ModelTransform();
 	ModelTransform(const ModelTransform &other);
 	ModelTransform(ModelTransform &&other) noexcept;
@@ -38,12 +39,12 @@ public:
 	ModelTransform& operator=(ModelTransform &&other) noexcept;
 	~ModelTransform() {}
 	virtual void move(const float &horizontal, const float &vertical, const float &depth);
-	virtual void roll(const float& angle);
-	virtual void yaw(const float& angle);
-	virtual void pitch(const float& angle);
-	virtual void move_by_x(const glm::vec3& t_point,float angle);
-	virtual void move_by_y(const glm::vec3& t_point,float angle);
-	virtual void move_by_z(const glm::vec3& t_point, float angle);
+	virtual void roll(const float& degrees);
+	virtual void yaw(const float& degrees);
+	virtual void pitch(const float& degrees);
+	virtual void move_by_x(const glm::vec3& t_point, float degrees);
+	virtual void move_by_y(const glm::vec3& t_point, float degrees);
+	virtual void move_by_z(const glm::vec3& t_point, float degrees);
 	virtual void transformation();
 	virtual void scale(const float &x_scale_parameter, const float &y_scale_parameter, const float &z_scale_parameter);
 	virtual void scale_whole(const float &scale_parameter);
